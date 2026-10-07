@@ -1,0 +1,60 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Download and play the Braviestale Windows demo.">
+  <title>Braviestale — Windows Demo</title>
+  <style>
+    :root { --ink:#221b18; --muted:#6d5d55; --paper:#fbf4e8; --card:#fffaf2; --gold:#d99a35; --red:#9b3d32; --line:#e7d7bf; }
+    * { box-sizing:border-box; }
+    body { margin:0; color:var(--ink); background: radial-gradient(circle at 15% 0%, #fff 0 12%, transparent 34%), linear-gradient(135deg,#f2e2c6,#fbf4e8 45%,#e6c88f); font: 16px/1.6 Georgia, 'Times New Roman', serif; }
+    .wrap { width:min(1080px, calc(100% - 32px)); margin:auto; }
+    header { padding:26px 0; display:flex; justify-content:space-between; align-items:center; gap:20px; }
+    .brand { font-weight:800; letter-spacing:.08em; text-transform:uppercase; }
+    nav a { color:var(--ink); margin-left:18px; text-decoration:none; font-weight:700; }
+    main { padding:56px 0 80px; }
+    .hero { display:grid; grid-template-columns:1.15fr .85fr; gap:42px; align-items:center; }
+    .eyebrow { color:var(--red); text-transform:uppercase; letter-spacing:.16em; font-size:.78rem; font-weight:800; }
+    h1 { font-size:clamp(3rem, 8vw, 6.6rem); line-height:.88; margin:12px 0 24px; letter-spacing:-.07em; }
+    .lede { color:var(--muted); font-size:1.25rem; max-width:620px; }
+    .actions { display:flex; flex-wrap:wrap; gap:14px; margin:30px 0 16px; }
+    .button { display:inline-block; padding:15px 22px; border-radius:999px; border:2px solid var(--ink); text-decoration:none; font-weight:800; box-shadow:5px 5px 0 var(--ink); transition:transform .16s, box-shadow .16s; }
+    .button:hover, .button:focus-visible { transform:translate(3px,3px); box-shadow:2px 2px 0 var(--ink); }
+    .primary { background:var(--gold); }
+    .secondary { background:var(--card); }
+    .note { color:var(--muted); font-size:.92rem; }
+    .seal { min-height:360px; background:linear-gradient(145deg,#471e1a,#9b3d32 60%,#d99a35); color:#fffaf2; border:12px solid #f7e7ca; outline:2px solid #471e1a; padding:34px; display:grid; place-items:center; text-align:center; transform:rotate(2deg); box-shadow:18px 22px 0 rgba(34,27,24,.16); }
+    .seal-inner { border:1px solid rgba(255,250,242,.55); padding:30px 20px; width:100%; }
+    .seal h2 { font-size:2.3rem; line-height:1; margin:0 0 12px; }
+    .seal p { margin:0; opacity:.86; }
+    section { margin-top:86px; }
+    h2 { font-size:2.4rem; margin:0 0 16px; }
+    .steps { display:grid; grid-template-columns:repeat(3,1fr); gap:16px; }
+    .step, .feedback { background:rgba(255,250,242,.8); border:1px solid var(--line); padding:22px; border-radius:18px; }
+    .num { color:var(--red); font-size:2rem; font-weight:800; }
+    .feedback { display:flex; justify-content:space-between; align-items:center; gap:20px; }
+    footer { padding:28px 0 42px; color:var(--muted); font-size:.9rem; }
+    @media (max-width:760px) { header { align-items:flex-start; } nav { display:none; } .hero { grid-template-columns:1fr; } .seal { min-height:260px; } .steps { grid-template-columns:1fr; } .feedback { align-items:flex-start; flex-direction:column; } }
+    @media (prefers-reduced-motion:reduce) { .button { transition:none; } }
+  </style>
+</head>
+<body>
+  <header class="wrap"><div class="brand">Braviestale</div><nav><a href="#play">How to play</a><a href="https://github.com/Zabat-code/Braviestale-demo/issues/new/choose">Feedback</a></nav></header>
+  <main class="wrap">
+    <div class="hero">
+      <div>
+        <div class="eyebrow">Windows playable demo · 2026-10-07</div>
+        <h1>Enter the tale.</h1>
+        <p class="lede">A story-driven RPG demo you can download and play in minutes. No GitHub account. No programming tools. Just extract, open, and begin.</p>
+        <div class="actions"><a class="button primary" href="https://github.com/Zabat-code/Braviestale-demo/releases/latest/download/Braviestale-demo-20261007-win.zip">⬇ Download for Windows</a><a class="button secondary" href="https://github.com/Zabat-code/Braviestale-demo/issues/new/choose">Send feedback</a></div>
+        <p class="note">ZIP package · Windows · SHA-256 available in the repository README</p>
+      </div>
+      <div class="seal" aria-label="Braviestale demo emblem"><div class="seal-inner"><h2>Braviestale</h2><p>Playable Demo</p><p>Stories are forged by choice.</p></div></div>
+    </div>
+    <section id="play"><h2>Start playing</h2><div class="steps"><article class="step"><div class="num">01</div><h3>Download</h3><p>Click the gold button above. No account is required.</p></article><article class="step"><div class="num">02</div><h3>Extract</h3><p>Right-click the ZIP file and choose <strong>Extract All…</strong>.</p></article><article class="step"><div class="num">03</div><h3>Open</h3><p>Open the extracted folder and double-click <strong>Braviestale.exe</strong>.</p></article></div></section>
+    <section><div class="feedback"><div><h2>Found a problem?</h2><p>Tell us what happened and help shape the next build.</p></div><a class="button secondary" href="https://github.com/Zabat-code/Braviestale-demo/issues/new/choose">Report an issue</a></div></section>
+  </main>
+  <footer class="wrap">Braviestale demo · Public test build · <a href="https://github.com/Zabat-code/Braviestale-demo">View repository</a></footer>
+</body>
+</html>
