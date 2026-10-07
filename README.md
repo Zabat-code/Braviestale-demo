@@ -4,7 +4,7 @@
 
 <div align="center">
 
-## [⬇️ Download the Windows demo](https://github.com/Zabat-code/Braviestale-demo/releases/latest/download/Braviestale-demo-20261007-win.zip)
+## [⬇️ Download the Windows demo](https://github.com/Zabat-code/Braviestale-demo/releases/latest/download/Braviestale-demo-20261007-v012-win.zip)
 
 **No GitHub account is required.**
 
@@ -18,7 +18,7 @@ The download is a self-contained Windows package. You do **not** need Python, Re
 
 ## Start playing — 3 simple steps
 
-1. Click **[Download the Windows demo](https://github.com/Zabat-code/Braviestale-demo/releases/latest/download/Braviestale-demo-20261007-win.zip)**.
+1. Click **[Download the Windows demo](https://github.com/Zabat-code/Braviestale-demo/releases/latest/download/Braviestale-demo-20261007-v012-win.zip)**.
 2. When the download finishes, right-click the `.zip` file and choose **Extract All…**.
 3. Open the extracted folder and double-click **`Braviestale.exe`**.
 
@@ -33,9 +33,9 @@ If Windows shows a SmartScreen warning, choose **More info → Run anyway** only
 ## Download details
 
 - **Platform:** Windows
-- **Build:** `2026-10-07`
-- **Package:** `Braviestale-demo-20261007-win.zip`
-- **SHA-256:** `cbf6a1fdff88d7c61a668ff98e3f302cb41b9cac0c7a7894080cafebdb6cd958`
+- **Build:** `2026-10-07 · v0.1.2`
+- **Package:** `Braviestale-demo-20261007-v012-win.zip`
+- **SHA-256:** `9a3e1cbf25bce3f89c223f0b6b867bdca371619ce8fb16cff5ca8d54b32cc5ce`
 
 The ZIP is distributed as a **GitHub Release asset** because GitHub does not allow an 800+ MB ZIP to be stored as a normal repository file.
 
