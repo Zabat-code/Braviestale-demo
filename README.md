@@ -28,7 +28,7 @@ If Windows shows a SmartScreen warning, choose **More info → Run anyway** only
 
 - Make sure you extracted the ZIP before launching the game. Do not run the `.exe` from inside the ZIP preview.
 - If the game does not start, restart Windows and try again.
-- For a bug report, use the **[New issue](https://github.com/Zabat-code/Braviestale-demo/issues/new/choose)** button and include what happened, what you expected, and your Windows version.
+- For a bug report, use the **[Feedback form](https://docs.google.com/forms/d/1zlJ3Kmif0oL7CGwoQfYrqyVuAhP5IyDl5G7-eD8bMSU/viewform)** and include what happened, what you expected, and your Windows version.
 
 ## Download details
 
@@ -48,7 +48,7 @@ Your feedback helps improve the demo. You can report:
 - missing text or visual problems;
 - suggestions about the story and gameplay.
 
-➡️ **[Report a problem or send feedback](https://github.com/Zabat-code/Braviestale-demo/issues/new/choose)**
+➡️ **[Report a problem or send feedback](https://docs.google.com/forms/d/1zlJ3Kmif0oL7CGwoQfYrqyVuAhP5IyDl5G7-eD8bMSU/viewform)**
 
 ## Important note
 
