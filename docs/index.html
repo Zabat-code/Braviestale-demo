@@ -8,176 +8,163 @@
   <style>
     :root {
       --night: #121923;
-      --night-2: #171923;
+      --panel: rgba(23, 25, 35, .93);
+      --wood: rgba(33, 27, 20, .94);
       --ink: #f0eadc;
       --muted: #b9b3a8;
-      --gold: #d8c39a;
-      --gold-bright: #ffd700;
-      --fire: #bc7046;
-      --wood: #211b14;
-      --wood-2: #29231d;
+      --parchment: #d8c39a;
+      --gold: #ffd700;
       --slate: #263343;
       --slate-hover: #405873;
       --line: #8f7a55;
-      --red: #8c4b3f;
+      --fire: #bc7046;
     }
 
     * { box-sizing: border-box; }
-    html { scroll-behavior: smooth; }
+    html, body { min-height: 100%; }
     body {
+      min-height: 100dvh;
       margin: 0;
+      overflow: hidden;
       color: var(--ink);
-      background: var(--night);
+      background:
+        linear-gradient(rgba(18, 25, 35, .5), rgba(18, 25, 35, .5)),
+        url("assets/bg-casa-karmilla.png") center center / cover no-repeat fixed;
       font-family: "DejaVu Sans", Arial, sans-serif;
-      line-height: 1.6;
+      line-height: 1.45;
+    }
+    body::after {
+      content: "";
+      position: fixed;
+      z-index: -1;
+      inset: 0;
+      pointer-events: none;
+      background: radial-gradient(ellipse at center, transparent 35%, rgba(8, 11, 17, .48) 100%);
     }
     a { color: inherit; }
-    .shell { width: min(1180px, calc(100% - 36px)); margin: 0 auto; }
+    .shell { width: min(1220px, calc(100% - 40px)); margin: 0 auto; }
 
-    /* The palette follows the game's current Ren'Py UI: deep dialogue panels,
-       slate navigation buttons, parchment text, and warm wood borders. */
     .topbar {
-      position: absolute;
-      z-index: 3;
-      inset: 0 0 auto;
-      padding: 22px 0;
-      border-bottom: 1px solid rgba(216,195,154,.24);
-      background: rgba(18,25,35,.56);
+      height: 64px;
+      border-bottom: 1px solid rgba(216, 195, 154, .38);
+      background: rgba(18, 25, 35, .88);
       backdrop-filter: blur(8px);
     }
-    .topbar-inner { display: flex; align-items: center; justify-content: space-between; gap: 24px; }
-    .wordmark { letter-spacing: .18em; font-size: .78rem; font-weight: 800; }
-    .wordmark span { color: var(--gold); font-weight: 400; }
+    .topbar-inner { height: 100%; display: flex; align-items: center; justify-content: space-between; gap: 20px; }
+    .wordmark { color: #fff8e8; font-size: .82rem; font-weight: 800; letter-spacing: .18em; text-transform: uppercase; }
+    .wordmark span { color: var(--parchment); font-weight: 400; }
     nav { display: flex; gap: 6px; }
-    nav a, .game-button {
+
+    .game-button, nav a {
       display: inline-flex;
       align-items: center;
       justify-content: center;
-      min-height: 42px;
-      padding: 9px 16px;
-      border: 1px solid rgba(240,234,220,.25);
+      min-height: 38px;
+      padding: 8px 14px;
+      border: 1px solid rgba(240, 234, 220, .34);
       border-radius: 2px;
       background: var(--slate);
       color: var(--ink);
       text-decoration: none;
       font: inherit;
-      font-size: .88rem;
+      font-size: .82rem;
       cursor: pointer;
       transition: background .18s ease, color .18s ease, border-color .18s ease, transform .18s ease;
     }
-    nav a:hover, nav a:focus-visible, .game-button:hover, .game-button:focus-visible {
+    .game-button:hover, .game-button:focus-visible, nav a:hover, nav a:focus-visible {
       background: var(--slate-hover);
-      border-color: var(--gold);
-      color: var(--gold-bright);
+      border-color: var(--parchment);
+      color: var(--gold);
       transform: translateY(-1px);
     }
-    .game-button.primary { border-color: var(--gold); background: #314256; color: #fff; }
+    .game-button.primary { border-color: var(--parchment); background: #314256; color: #fff; }
     .game-button.primary:hover, .game-button.primary:focus-visible { background: #4a6580; }
 
-    .hero {
-      min-height: 760px;
-      position: relative;
-      display: flex;
-      align-items: flex-end;
-      overflow: hidden;
-      background:
-        radial-gradient(ellipse at 18% 65%, rgba(226,117,45,.64) 0 5%, rgba(176,73,40,.28) 18%, transparent 42%),
-        radial-gradient(ellipse at 68% 18%, rgba(120,87,67,.68), transparent 38%),
-        linear-gradient(130deg, #4a3026 0%, #182431 54%, #101724 100%);
+    .page {
+      width: min(1220px, calc(100% - 40px));
+      height: calc(100dvh - 64px);
+      min-height: 620px;
+      margin: 0 auto;
+      padding: clamp(24px, 4vh, 52px) 0 18px;
+      display: grid;
+      grid-template-columns: minmax(0, 1.18fr) minmax(310px, .82fr);
+      grid-template-rows: minmax(0, 1fr) auto;
+      gap: clamp(18px, 3vw, 38px);
     }
-    .hero::before {
-      content: "";
-      position: absolute;
-      inset: 0;
-      opacity: .24;
-      background:
-        repeating-linear-gradient(90deg, transparent 0 88px, rgba(216,195,154,.12) 90px 93px, transparent 96px 170px),
-        repeating-linear-gradient(0deg, transparent 0 120px, rgba(18,25,35,.45) 122px 126px, transparent 128px 240px);
-      mix-blend-mode: overlay;
-    }
-    .hero::after {
-      content: "";
-      position: absolute;
-      inset: auto 0 0;
-      height: 52%;
-      background: linear-gradient(transparent, rgba(18,25,35,.98));
-    }
-    .hero-content { position: relative; z-index: 1; width: 100%; padding: 160px 0 68px; }
-    .eyebrow { color: var(--gold); font-size: .76rem; letter-spacing: .17em; text-transform: uppercase; }
+
+    .hero { align-self: center; min-width: 0; }
+    .eyebrow { color: var(--parchment); font-size: .72rem; letter-spacing: .16em; text-transform: uppercase; }
     h1 {
-      max-width: 750px;
-      margin: 14px 0 16px;
+      margin: 11px 0 14px;
       color: #fff8e8;
       font-family: Georgia, "Times New Roman", serif;
-      font-size: clamp(3.4rem, 9vw, 7.3rem);
+      font-size: clamp(3rem, 7vw, 6.8rem);
       font-weight: 400;
-      line-height: .92;
+      line-height: .95;
       letter-spacing: -.055em;
-      text-shadow: 0 3px 28px rgba(0,0,0,.35);
+      white-space: nowrap;
+      text-shadow: 0 3px 25px rgba(0, 0, 0, .55);
     }
-    .hero-copy { max-width: 670px; color: #ddd6c8; font-size: 1.08rem; }
-    .hero-actions { display: flex; flex-wrap: wrap; gap: 10px; margin-top: 27px; }
+    .hero-copy { max-width: 620px; margin: 0; color: #f2eadb; font-size: clamp(.95rem, 1.35vw, 1.13rem); text-shadow: 0 2px 10px rgba(0,0,0,.55); }
+    .hero-actions { display: flex; flex-wrap: wrap; gap: 9px; margin-top: 20px; }
     .dialogue {
-      max-width: 870px;
-      margin-top: 38px;
-      padding: 18px 22px 19px;
-      border: 1px solid rgba(216,195,154,.66);
-      background: rgba(23,25,35,.88);
-      box-shadow: 0 16px 40px rgba(0,0,0,.24);
+      max-width: 700px;
+      margin-top: 22px;
+      padding: 13px 17px;
+      border: 1px solid rgba(216, 195, 154, .72);
+      background: rgba(23, 25, 35, .9);
+      box-shadow: 0 12px 28px rgba(0, 0, 0, .28);
     }
-    .dialogue-label { display: block; margin-bottom: 4px; color: var(--gold); font-size: .78rem; letter-spacing: .12em; text-transform: uppercase; }
-    .dialogue p { margin: 0; color: #f4dfad; font-family: Georgia, "Times New Roman", serif; font-size: 1.12rem; }
+    .dialogue-label { display: block; margin-bottom: 2px; color: var(--parchment); font-size: .68rem; letter-spacing: .12em; text-transform: uppercase; }
+    .dialogue p { margin: 0; color: #f4dfad; font-family: Georgia, "Times New Roman", serif; font-size: 1rem; }
 
-    main { background: linear-gradient(#121923 0 35%, #17130d 100%); }
-    .section { padding: 84px 0; }
-    .section-heading { display: flex; align-items: end; justify-content: space-between; gap: 24px; margin-bottom: 27px; }
-    h2 { margin: 0; color: var(--gold); font-family: Georgia, "Times New Roman", serif; font-size: clamp(2rem, 4vw, 3.3rem); font-weight: 400; line-height: 1; }
-    .section-heading p { max-width: 410px; margin: 0; color: var(--muted); }
-    .rule { height: 1px; margin: 0 0 28px; background: linear-gradient(90deg, var(--line), transparent); }
-
-    .steps { display: grid; grid-template-columns: repeat(3, 1fr); gap: 14px; }
-    .step {
-      min-height: 220px;
-      padding: 24px;
-      border: 1px solid rgba(143,122,85,.82);
-      background: linear-gradient(145deg, rgba(41,35,29,.96), rgba(33,27,20,.9));
-    }
-    .step-number { color: var(--fire); font-size: .8rem; letter-spacing: .16em; }
-    .step h3 { margin: 26px 0 8px; color: #fff1c7; font-size: 1.15rem; font-weight: 500; }
-    .step p { margin: 0; color: var(--muted); }
-
-    .download-panel {
-      display: grid;
-      grid-template-columns: 1fr auto;
-      align-items: center;
-      gap: 28px;
-      padding: 28px;
+    .info-card {
+      align-self: center;
+      padding: 23px;
       border: 1px solid var(--line);
-      background: #211b14;
-      box-shadow: inset 0 0 0 1px rgba(216,195,154,.08);
+      background: var(--panel);
+      box-shadow: 0 18px 36px rgba(0, 0, 0, .32), inset 0 0 0 1px rgba(216, 195, 154, .08);
     }
-    .download-panel h3 { margin: 0 0 7px; color: #fff1c7; font-size: 1.3rem; font-weight: 500; }
-    .download-panel p { margin: 0; color: var(--muted); }
-    .metadata { display: flex; flex-wrap: wrap; gap: 10px 18px; margin-top: 14px; color: var(--gold); font-size: .78rem; letter-spacing: .05em; text-transform: uppercase; }
+    .card-kicker { color: var(--fire); font-size: .7rem; font-weight: 800; letter-spacing: .16em; text-transform: uppercase; }
+    .info-card h2 { margin: 8px 0 8px; color: var(--parchment); font-family: Georgia, "Times New Roman", serif; font-size: clamp(1.8rem, 3vw, 2.6rem); font-weight: 400; line-height: 1; }
+    .info-card > p { margin: 0 0 18px; color: var(--muted); font-size: .88rem; }
+    .release-box { padding: 12px; border: 1px solid rgba(143, 122, 85, .75); background: var(--wood); }
+    .release-box strong { display: block; color: #fff1c7; font-size: .8rem; font-weight: 500; overflow-wrap: anywhere; }
+    .metadata { display: flex; flex-wrap: wrap; gap: 6px 12px; margin-top: 8px; color: var(--parchment); font-size: .66rem; letter-spacing: .06em; text-transform: uppercase; }
+    .info-card .game-button { width: 100%; margin-top: 14px; }
+    .small-link { display: block; margin-top: 11px; color: var(--muted); font-size: .72rem; text-align: center; }
+    .small-link:hover, .small-link:focus-visible { color: var(--gold); }
 
-    .feedback { display: grid; grid-template-columns: 1fr auto; gap: 26px; align-items: center; padding: 30px 0 0; border-top: 1px solid rgba(216,195,154,.25); }
-    .feedback p { margin: 8px 0 0; color: var(--muted); }
-    footer { padding: 28px 0 45px; border-top: 1px solid rgba(216,195,154,.16); color: #888e98; font-size: .82rem; }
-    footer a { color: var(--gold); }
-
-    @media (max-width: 760px) {
-      .shell { width: min(100% - 26px, 1180px); }
-      .topbar { padding: 15px 0; }
-      nav a { min-height: 36px; padding: 7px 9px; font-size: .76rem; }
-      .hero { min-height: 710px; }
-      .hero-content { padding: 125px 0 42px; }
-      h1 { font-size: clamp(3.1rem, 17vw, 5rem); }
-      .section { padding: 62px 0; }
-      .section-heading, .download-panel, .feedback { grid-template-columns: 1fr; display: grid; align-items: start; }
-      .steps { grid-template-columns: 1fr; }
-      .step { min-height: auto; }
+    .quickstart {
+      grid-column: 1 / -1;
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      gap: 10px;
     }
-    @media (prefers-reduced-motion: reduce) { html { scroll-behavior: auto; } *, *::before, *::after { transition: none !important; } }
+    .step {
+      min-width: 0;
+      padding: 13px 16px;
+      border: 1px solid rgba(143, 122, 85, .8);
+      background: rgba(33, 27, 20, .9);
+    }
+    .step-number { color: var(--fire); font-size: .65rem; letter-spacing: .15em; }
+    .step h3 { margin: 5px 0 2px; color: #fff1c7; font-size: .86rem; font-weight: 500; }
+    .step p { margin: 0; color: var(--muted); font-size: .72rem; }
+    .footer-line { grid-column: 1 / -1; display: flex; justify-content: space-between; gap: 16px; color: #d0c5b4; font-size: .68rem; }
+    .footer-line a { color: var(--parchment); }
+
+    :focus-visible { outline: 2px solid var(--gold); outline-offset: 3px; }
+    @media (max-width: 820px) {
+      body { overflow: auto; }
+      .topbar { height: auto; min-height: 60px; }
+      .topbar-inner { padding: 11px 0; }
+      .page { height: auto; min-height: calc(100dvh - 60px); grid-template-columns: 1fr; padding: 34px 0; }
+      h1 { white-space: normal; font-size: clamp(3rem, 15vw, 5.5rem); }
+      .info-card { align-self: stretch; }
+      .quickstart { grid-template-columns: 1fr; }
+      .footer-line { grid-column: auto; flex-direction: column; }
+    }
+    @media (prefers-reduced-motion: reduce) { *, *::before, *::after { transition: none !important; } }
   </style>
 </head>
 <body>
@@ -188,34 +175,30 @@
     </div>
   </header>
 
-  <section class="hero" aria-labelledby="title">
-    <div class="shell hero-content">
+  <main class="page" id="play">
+    <section class="hero" aria-labelledby="title">
       <div class="eyebrow">A playable story · build 2026.10.07</div>
-      <h1 id="title">Some tales begin<br>by the fire.</h1>
-      <p class="hero-copy">Step into Braviestale: a story-driven RPG demo shaped by warm rooms, uncertain roads, and the choices you make along the way.</p>
+      <h1 id="title">Braviestale</h1>
+      <p class="hero-copy">A story-driven RPG demo shaped by warm rooms, uncertain roads, and the choices you make along the way.</p>
       <div class="hero-actions"><a class="game-button primary" href="https://github.com/Zabat-code/Braviestale-demo/releases/latest/download/Braviestale-demo-20261007-win.zip">Download for Windows</a><a class="game-button" href="https://github.com/Zabat-code/Braviestale-demo/issues/new/choose">Send feedback</a></div>
       <div class="dialogue"><span class="dialogue-label">Karmilla's house · after nightfall</span><p>“Take a seat. The road will still be there when the rain stops.”</p></div>
-    </div>
-  </section>
-
-  <main>
-    <section class="section shell" id="play">
-      <div class="section-heading"><h2>Begin the demo</h2><p>No account, launcher, or development tools required. Just download the room, open the door, and play.</p></div>
-      <div class="rule"></div>
-      <div class="steps">
-        <article class="step"><div class="step-number">01 / DOWNLOAD</div><h3>Take the Windows build</h3><p>Use the button above. The ZIP is hosted as an official GitHub Release asset.</p></article>
-        <article class="step"><div class="step-number">02 / UNPACK</div><h3>Extract the package</h3><p>Right-click the ZIP and choose <strong>Extract All…</strong>. Keep the folder together.</p></article>
-        <article class="step"><div class="step-number">03 / PLAY</div><h3>Open the story</h3><p>Inside the extracted folder, double-click <strong>Braviestale.exe</strong>.</p></article>
-      </div>
     </section>
 
-    <section class="section shell">
-      <div class="download-panel"><div><h3>Braviestale-demo-20261007-win.zip</h3><p>A self-contained Windows demo package. Extract before launching.</p><div class="metadata"><span>Windows</span><span>Build 2026.10.07</span><span>SHA-256 in README</span></div></div><a class="game-button primary" href="https://github.com/Zabat-code/Braviestale-demo/releases/latest/download/Braviestale-demo-20261007-win.zip">Open download</a></div>
-    </section>
+    <aside class="info-card" aria-labelledby="demo-heading">
+      <div class="card-kicker">Playable demo</div>
+      <h2 id="demo-heading">Begin the tale</h2>
+      <p>No account, launcher, or development tools required. Download, extract, and open the story.</p>
+      <div class="release-box"><strong>Braviestale-demo-20261007-win.zip</strong><div class="metadata"><span>Windows</span><span>Build 2026.10.07</span><span>798 MB</span></div></div>
+      <a class="game-button primary" href="https://github.com/Zabat-code/Braviestale-demo/releases/latest/download/Braviestale-demo-20261007-win.zip">Open download</a>
+      <a class="small-link" href="https://github.com/Zabat-code/Braviestale-demo">Repository · SHA-256 · Releases</a>
+    </aside>
 
-    <section class="section shell" style="padding-top:0"><div class="feedback"><div><h2>Found something strange?</h2><p>Tell us what happened. Your notes help shape the next path through Braviestale.</p></div><a class="game-button" href="https://github.com/Zabat-code/Braviestale-demo/issues/new/choose">Report an issue</a></div></section>
+    <section class="quickstart" aria-label="How to play">
+      <article class="step"><div class="step-number">01 / DOWNLOAD</div><h3>Take the Windows build</h3><p>Click the download button. No GitHub account needed.</p></article>
+      <article class="step"><div class="step-number">02 / UNPACK</div><h3>Extract the package</h3><p>Right-click the ZIP and choose <strong>Extract All…</strong>.</p></article>
+      <article class="step"><div class="step-number">03 / PLAY</div><h3>Open the story</h3><p>Double-click <strong>Braviestale.exe</strong> inside the folder.</p></article>
+    </section>
+    <div class="footer-line"><span>Public test build · Windows</span><span><a href="https://github.com/Zabat-code/Braviestale-demo/issues/new/choose">Report an issue</a> · <a href="https://github.com/Zabat-code/Braviestale-demo/releases">All releases</a></span></div>
   </main>
-
-  <footer><div class="shell">Braviestale public demo · <a href="https://github.com/Zabat-code/Braviestale-demo">Repository</a> · <a href="https://github.com/Zabat-code/Braviestale-demo/releases">All releases</a></div></footer>
 </body>
 </html>
