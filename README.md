@@ -1,59 +1,57 @@
-# Braviestale — Windows Demo
+# Braviestale — Public Demo
 
-> **A playable demo for people who want to try Braviestale without installing development tools.**
+> A playable public demo for testing Braviestale on Windows and Linux.
 
-<div align="center">
+## Play the demo
 
-## [⬇️ Download the Windows demo](https://github.com/Zabat-code/Braviestale-demo/releases/latest/download/Braviestale-demo-20261007-v012-win.zip)
+Braviestale is a story-driven RPG made with Ren'Py, combining graphic-novel scenes, exploration, turn-based battles, companions, and relationship-focused conversations.
 
-**No GitHub account is required.**
+The public page contains the game description, screenshots, bilingual ES/EN controls, platform instructions, downloads, and the tester feedback form:
 
-</div>
+**[Open the Braviestale demo page](https://zabat-code.github.io/Braviestale-demo/)**
 
-## What is this?
+No GitHub account is required to download or send feedback.
 
-Braviestale is a story-driven RPG project. This repository contains the public Windows demo build for testing and feedback.
+## Downloads — v0.1.3
 
-The download is a self-contained Windows package. You do **not** need Python, Ren'Py, Git, or a GitHub account to play it.
+### Windows
 
-## Start playing — 3 simple steps
+**[Download the Windows demo](https://github.com/Zabat-code/Braviestale-demo/releases/latest/download/Braviestale-demo-20261007-v013-win.zip)**
 
-1. Click **[Download the Windows demo](https://github.com/Zabat-code/Braviestale-demo/releases/latest/download/Braviestale-demo-20261007-v012-win.zip)**.
-2. When the download finishes, right-click the `.zip` file and choose **Extract All…**.
-3. Open the extracted folder and double-click **`Braviestale.exe`**.
+1. Download the ZIP.
+2. Right-click it and choose **Extract All…**.
+3. Open the extracted folder and launch `Braviestale.exe`.
 
-If Windows shows a SmartScreen warning, choose **More info → Run anyway** only if you downloaded the file from this official repository.
+- Package: `Braviestale-demo-20261007-v013-win.zip`
+- Size: `731,913,656` bytes
+- SHA-256: `33ec24f0bf4aa9172aa71744183b2848ef7e105d53c1c190f924721179890e56`
 
-## If something goes wrong
+### Linux
 
-- Make sure you extracted the ZIP before launching the game. Do not run the `.exe` from inside the ZIP preview.
-- If the game does not start, restart Windows and try again.
-- For a bug report, use the **[Feedback form](https://docs.google.com/forms/d/1zlJ3Kmif0oL7CGwoQfYrqyVuAhP5IyDl5G7-eD8bMSU/viewform)** and include what happened, what you expected, and your Windows version.
+**[Download the Linux demo](https://github.com/Zabat-code/Braviestale-demo/releases/latest/download/Braviestale-demo-20261007-v013-linux64.tar.bz2)**
 
-## Download details
+1. Download the TAR.BZ2 archive.
+2. Extract it.
+3. Follow the launch instructions included with the Linux package.
 
-- **Platform:** Windows
-- **Build:** `2026-10-07 · v0.1.2`
-- **Package:** `Braviestale-demo-20261007-v012-win.zip`
-- **SHA-256:** `9a3e1cbf25bce3f89c223f0b6b867bdca371619ce8fb16cff5ca8d54b32cc5ce`
+- Package: `Braviestale-demo-20261007-v013-linux64.tar.bz2`
+- Size: `724,079,988` bytes
+- SHA-256: `4dc32ea39ef3a5174c6c762c4eaf162454d443652ea8eb2f0cc6fd64e683d8fc`
 
-The ZIP is distributed as a **GitHub Release asset** because GitHub does not allow an 800+ MB ZIP to be stored as a normal repository file.
+Both packages were integrity-checked locally before publication.
 
 ## Feedback
 
-Your feedback helps improve the demo. You can report:
+Tell us what should be fixed or improved in the game through the public form:
 
-- crashes or errors;
-- confusing controls or instructions;
-- missing text or visual problems;
-- suggestions about the story and gameplay.
+**[Send Braviestale feedback](https://docs.google.com/forms/d/1zlJ3Kmif0oL7CGwoQfYrqyVuAhP5IyDl5G7-eD8bMSU/viewform)**
 
-➡️ **[Report a problem or send feedback](https://docs.google.com/forms/d/1zlJ3Kmif0oL7CGwoQfYrqyVuAhP5IyDl5G7-eD8bMSU/viewform)**
+The form accepts anonymous access and asks for the platform, feedback type, description, and an identifying email field.
 
-## Important note
+## Release history
 
-This repository provides the demo build for testing. Source code and redistribution rights are not included unless explicitly stated in a future release.
+- `v0.1.3` — current Windows and Linux demo packages.
+- `v0.1.2` — previous Windows demo.
+- `v0.1.0` — first public Windows demo.
 
-## Español
-
-La demo funciona en Windows y no requiere GitHub ni herramientas de programación. Descarga el ZIP, extráelo con **Extraer todo…** y abre **`Braviestale.exe`**.
+Older releases remain available as historical builds. Source code and redistribution rights are not included unless explicitly stated in a release.
