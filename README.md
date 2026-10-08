@@ -1,108 +1,11 @@
 # Braviestale — Demo pública / Public Demo
 
-> Una demo jugable de Braviestale para Windows y Linux.
 > A playable Braviestale demo for Windows and Linux.
+> Una demo jugable de Braviestale para Windows y Linux.
 
-- [Versión completa en español](#español)
 - [Complete English version](#english)
-- [Página pública / Public page](https://zabat-code.github.io/Braviestale-demo/)
-
----
-
-## Español
-
-### ¿Qué es Braviestale?
-
-Braviestale es un **RPG narrativo creado con Ren'Py**, con escenas de novela gráfica, exploración, combates por turnos, compañeros y conversaciones centradas en las relaciones.
-
-En Braviestale eres Kael. Tu historia comienza en Aldenbrock, entre casas conocidas, una forja y caminos que se adentran en el bosque. Habla con sus habitantes, elige tu arma y reúne un grupo. Habrá combates que exijan pensar en equipo, conversaciones que cambien una relación y momentos en los que querrás quedarte un rato más.
-
-La demo está en español y llega hasta el enfrentamiento con Destigio en Ciudadela, después de los primeros 30 días en la ciudad. Incluye exploración, compañeros, misiones, combates por turnos, diario y guardado.
-
-### Personajes
-
-- **Kael:** un joven de Aldenbrock. Tú eliges su nombre, su arma y cómo responde a las personas que encuentra.
-- **Mira:** una amiga de antes del viaje, atenta e inteligente, capaz de decirte las cosas de frente.
-- **Dorian:** entrena, se equivoca y vuelve a intentarlo. Tras sus bromas hay alguien que quiere estar a la altura de sus amigos.
-- **Wren:** conoce la medicina de campo y prefiere comprobar que todos sigan en pie antes de celebrar una victoria.
-
-### Qué puedes hacer en la demo
-
-- Explorar Aldenbrock y sus caminos.
-- Hablar con los habitantes.
-- Elegir un arma y reunir compañeros.
-- Participar en combates por turnos.
-- Tomar decisiones en conversaciones.
-- Conocer escenas de amistad y romance.
-- Usar el diario y el mapa.
-- Guardar tu progreso.
-- Avanzar hasta el enfrentamiento con Destigio en Ciudadela.
-
-### Descargar la demo — v0.1.3
-
-#### Windows
-
-**[Descargar la demo para Windows](https://github.com/Zabat-code/Braviestale-demo/releases/latest/download/Braviestale-demo-20261007-v013-win.zip)**
-
-1. Descarga el archivo ZIP.
-2. Haz clic derecho sobre el archivo y elige **Extraer todo…**.
-3. Abre la carpeta extraída.
-4. Ejecuta `Braviestale.exe`.
-
-- Archivo: `Braviestale-demo-20261007-v013-win.zip`
-- Tamaño: `731,913,656` bytes
-- SHA-256: `33ec24f0bf4aa9172aa71744183b2848ef7e105d53c1c190f924721179890e56`
-
-#### Linux 64 bits
-
-**[Descargar la demo para Linux](https://github.com/Zabat-code/Braviestale-demo/releases/latest/download/Braviestale-demo-20261007-v013-linux64.tar.bz2)**
-
-1. Descarga el archivo `.tar.bz2`.
-2. Extrae la carpeta.
-3. Abre la carpeta extraída.
-4. Ejecuta `Braviestale.sh`.
-5. Pulsa **Comenzar** y escribe tu nombre.
-
-- Archivo: `Braviestale-demo-20261007-v013-linux64.tar.bz2`
-- Tamaño: `724,079,988` bytes
-- SHA-256: `4dc32ea39ef3a5174c6c762c4eaf162454d443652ea8eb2f0cc6fd64e683d8fc`
-
-Los dos paquetes fueron comprobados localmente antes de publicarse.
-
-### Controles iniciales
-
-- **Clic o Enter:** avanzar los diálogos.
-- **Esc:** abrir el menú.
-- El manual dentro del juego explica los atributos y las primeras acciones.
-
-### Feedback y recomendaciones
-
-No necesitas una cuenta de GitHub para enviar comentarios. Usa el formulario público para reportar errores y recomendar mejoras:
-
-**[Enviar feedback de Braviestale](https://docs.google.com/forms/d/1zlJ3Kmif0oL7CGwoQfYrqyVuAhP5IyDl5G7-eD8bMSU/viewform)**
-
-El formulario pregunta por la plataforma, el tipo de comentario, lo que estabas haciendo cuando ocurrió un problema y un email para identificar el mensaje.
-
-Puedes informar sobre:
-
-- cierres inesperados o errores;
-- instrucciones o controles confusos;
-- problemas visuales o de texto;
-- problemas de combate, exploración o guardado;
-- sugerencias para la historia y el gameplay.
-
-### Información del proyecto
-
-- Motor: Ren'Py.
-- Género: RPG narrativo / novela gráfica.
-- Idioma actual de la demo: español.
-- Plataformas: Windows y Linux 64 bits.
-- Versión actual: `v0.1.3`.
-- [Página pública de la demo](https://zabat-code.github.io/Braviestale-demo/).
-- [Historial de versiones](https://github.com/Zabat-code/Braviestale-demo/releases).
-- [Repositorio y créditos](https://github.com/Zabat-code/Braviestale-demo).
-
-Esta es una versión pública de prueba. Algunas partes pueden seguir en desarrollo y los comentarios de los jugadores se usan para orientar las siguientes mejoras.
+- [Versión completa en español](#español)
+- [Public page / Página pública](https://zabat-code.github.io/Braviestale-demo/)
 
 ---
 
@@ -200,6 +103,103 @@ You can report:
 - [Repository and credits](https://github.com/Zabat-code/Braviestale-demo).
 
 This is a public testing build. Some parts may still be in development, and player feedback is used to guide future improvements.
+
+---
+
+## Español
+
+### ¿Qué es Braviestale?
+
+Braviestale es un **RPG narrativo creado con Ren'Py**, con escenas de novela gráfica, exploración, combates por turnos, compañeros y conversaciones centradas en las relaciones.
+
+En Braviestale eres Kael. Tu historia comienza en Aldenbrock, entre casas conocidas, una forja y caminos que se adentran en el bosque. Habla con sus habitantes, elige tu arma y reúne un grupo. Habrá combates que exijan pensar en equipo, conversaciones que cambien una relación y momentos en los que querrás quedarte un rato más.
+
+La demo está en español y llega hasta el enfrentamiento con Destigio en Ciudadela, después de los primeros 30 días en la ciudad. Incluye exploración, compañeros, misiones, combates por turnos, diario y guardado.
+
+### Personajes
+
+- **Kael:** un joven de Aldenbrock. Tú eliges su nombre, su arma y cómo responde a las personas que encuentra.
+- **Mira:** una amiga de antes del viaje, atenta e inteligente, capaz de decirte las cosas de frente.
+- **Dorian:** entrena, se equivoca y vuelve a intentarlo. Tras sus bromas hay alguien que quiere estar a la altura de sus amigos.
+- **Wren:** conoce la medicina de campo y prefiere comprobar que todos sigan en pie antes de celebrar una victoria.
+
+### Qué puedes hacer en la demo
+
+- Explorar Aldenbrock y sus caminos.
+- Hablar con los habitantes.
+- Elegir un arma y reunir compañeros.
+- Participar en combates por turnos.
+- Tomar decisiones en conversaciones.
+- Conocer escenas de amistad y romance.
+- Usar el diario y el mapa.
+- Guardar tu progreso.
+- Avanzar hasta el enfrentamiento con Destigio en Ciudadela.
+
+### Descargar la demo — v0.1.3
+
+#### Windows
+
+**[Descargar la demo para Windows](https://github.com/Zabat-code/Braviestale-demo/releases/latest/download/Braviestale-demo-20261007-v013-win.zip)**
+
+1. Descarga el archivo ZIP.
+2. Haz clic derecho sobre el archivo y elige **Extraer todo…**.
+3. Abre la carpeta extraída.
+4. Ejecuta `Braviestale.exe`.
+
+- Archivo: `Braviestale-demo-20261007-v013-win.zip`
+- Tamaño: `731,913,656` bytes
+- SHA-256: `33ec24f0bf4aa9172aa71744183b2848ef7e105d53c1c190f924721179890e56`
+
+#### Linux 64 bits
+
+**[Descargar la demo para Linux](https://github.com/Zabat-code/Braviestale-demo/releases/latest/download/Braviestale-demo-20261007-v013-linux64.tar.bz2)**
+
+1. Descarga el archivo `.tar.bz2`.
+2. Extrae la carpeta.
+3. Abre la carpeta extraída.
+4. Ejecuta `Braviestale.sh`.
+5. Pulsa **Comenzar** y escribe tu nombre.
+
+- Archivo: `Braviestale-demo-20261007-v013-linux64.tar.bz2`
+- Tamaño: `724,079,988` bytes
+- SHA-256: `4dc32ea39ef3a5174c6c762c4eaf162454d443652ea8eb2f0cc6fd64e683d8fc`
+
+Los dos paquetes fueron comprobados localmente antes de publicarse.
+
+### Controles iniciales
+
+- **Clic o Enter:** avanzar los diálogos.
+- **Esc:** abrir el menú.
+- El manual dentro del juego explica los atributos y las primeras acciones.
+
+### Feedback y recomendaciones
+
+No necesitas una cuenta de GitHub para enviar comentarios. Usa el formulario público para reportar errores y recomendar mejoras:
+
+**[Enviar feedback de Braviestale](https://docs.google.com/forms/d/1zlJ3Kmif0oL7CGwoQfYrqyVuAhP5IyDl5G7-eD8bMSU/viewform)**
+
+El formulario pregunta por la plataforma, el tipo de comentario, lo que estabas haciendo cuando ocurrió un problema y un email para identificar el mensaje.
+
+Puedes informar sobre:
+
+- cierres inesperados o errores;
+- instrucciones o controles confusos;
+- problemas visuales o de texto;
+- problemas de combate, exploración o guardado;
+- sugerencias para la historia y el gameplay.
+
+### Información del proyecto
+
+- Motor: Ren'Py.
+- Género: RPG narrativo / novela gráfica.
+- Idioma actual de la demo: español.
+- Plataformas: Windows y Linux 64 bits.
+- Versión actual: `v0.1.3`.
+- [Página pública de la demo](https://zabat-code.github.io/Braviestale-demo/).
+- [Historial de versiones](https://github.com/Zabat-code/Braviestale-demo/releases).
+- [Repositorio y créditos](https://github.com/Zabat-code/Braviestale-demo).
+
+Esta es una versión pública de prueba. Algunas partes pueden seguir en desarrollo y los comentarios de los jugadores se usan para orientar las siguientes mejoras.
 
 ---
 
