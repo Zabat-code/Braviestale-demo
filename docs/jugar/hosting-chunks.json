@@ -1,0 +1,27 @@
+{
+  "version": "0.1.6",
+  "game_zip_sha256": "70693f7aa97839a393a86719b71409f074cf08d6d6fc9b2bcd78529e19d65e14",
+  "bytes": 215584694,
+  "parts": [
+    {
+      "url": "game.zip.part000",
+      "bytes": 67108864,
+      "sha256": "b03f1e7aae9144dd68b11c97eda4c89ce9a0d93cbdca263b7d8d7a5fd1979f76"
+    },
+    {
+      "url": "game.zip.part001",
+      "bytes": 67108864,
+      "sha256": "5e41e88476996e33dcaf9cdf2319b0f359e8545f04d045cfc46089242f9eceff"
+    },
+    {
+      "url": "game.zip.part002",
+      "bytes": 67108864,
+      "sha256": "4c9474671a44f962d895a221c7f09c81f0de1e141c13a198e562ab019cec488d"
+    },
+    {
+      "url": "game.zip.part003",
+      "bytes": 14258102,
+      "sha256": "4def114d6670e27d1c86127e3a005959a4968f2c66a75f56c53bc28565ab01e8"
+    }
+  ]
+}

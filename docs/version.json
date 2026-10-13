@@ -1,0 +1,19 @@
+{
+  "version": "0.1.6",
+  "release": "v0.1.6",
+  "date": "2026-10-12",
+  "web": "jugar/",
+  "assets": {
+    "windows": "Braviestale-demo-20261012-v016-win.zip",
+    "linux": "Braviestale-demo-20261012-v016-linux64.tar.bz2",
+    "android": "Braviestale-demo-20261012-v016-android.apk",
+    "web": "Braviestale-demo-20261012-v016-web.zip"
+  },
+  "web_archive": "Braviestale-demo-20261012-v016-web.zip",
+  "sizes_mb": {
+    "windows": 413.9,
+    "linux": 407.3,
+    "android": 438.8,
+    "web": 402.9
+  }
+}

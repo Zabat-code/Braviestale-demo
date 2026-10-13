@@ -210,3 +210,12 @@ Esta es una versión pública de prueba. Algunas partes pueden seguir en desarro
 - `v0.1.0` — first public Windows demo / primera demo pública para Windows.
 
 Older releases remain available as historical builds. Source code and redistribution rights are not included unless explicitly stated in a release.
+
+
+## Demo 0.1.6
+
+Windows, Linux, Android y exportación web: https://github.com/Zabat-code/Braviestale-demo/releases/tag/v0.1.6
+
+Juego web, manual, guía y feedback: https://zabat-code.github.io/Braviestale-demo/
+
+La demo conserva el cierre del hospital. La página usa capturas reales del motor y el diseño aprobado del autor. El archivo web se transmite en partes menores de100MB que reconstruyen game.zip sin cambiar su contenido. Ejecutar tools/prepare_web_hosting.py con el archivo web del release para actualizar el alojamiento.
