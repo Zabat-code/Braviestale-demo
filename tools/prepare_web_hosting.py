@@ -42,7 +42,7 @@ text=text[:start]+'''            // GitHub Pages transport: stream unchanged arc
             } finally { FS.close(f); }'''+text[end:];js.write_text(text)
 p=dest/'index.html';text=p.read_text().replace('<head>','<head>\n<script>window.gameZipChunks='+json.dumps([{'url':x['url'],'bytes':x['bytes']} for x in parts])+';</script>',1);p.write_text(text)
 p=dest/'pwa_catalog.json';data=json.loads(p.read_text());assert 'game.zip' in data['files'];data['files']=[f for f in data['files'] if f!='game.zip']+[x['url'] for x in parts];p.write_text(json.dumps(data))
-p=dest/'service-worker.js';p.write_text(p.read_text().replace("var cacheName = 'braviestale';","var cacheName = 'braviestale-016';"))
+p=dest/'service-worker.js';p.write_text(p.read_text().replace("var cacheName = 'braviestale';", "var cacheName = 'braviestale-" + meta["release"].removeprefix("v").replace(".", "") + "';"))
 # Store checksum evidence, remove only reproducible original transport copy.
 (dest/'hosting-chunks.json').write_text(json.dumps({'version':meta['version'],'game_zip_sha256':original,'bytes':source.stat().st_size,'parts':parts},indent=2));source.unlink()
 for p in [dest/'game.zip.sha256',dest/'index.html.symbols']:

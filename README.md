@@ -1,7 +1,7 @@
 # Braviestale — Demo pública / Public Demo
 
-> A playable Braviestale demo for Windows and Linux.
-> Una demo jugable de Braviestale para Windows y Linux.
+> A playable Braviestale demo for Windows, Linux, Android and web.
+> Una demo jugable de Braviestale para Windows, Linux, Android y web.
 
 - [Complete English version](#english)
 - [Versión completa en español](#español)
@@ -96,7 +96,7 @@ You can report:
 - Engine: Ren'Py.
 - Genre: story-driven RPG / graphic novel.
 - Current demo language: Spanish.
-- Platforms: Windows and Linux 64-bit.
+- Platforms: Windows, Linux64-bit, Android and web.
 - Current version: `v0.1.3`.
 - [Public demo page](https://zabat-code.github.io/Braviestale-demo/).
 - [Release history](https://github.com/Zabat-code/Braviestale-demo/releases).
@@ -193,7 +193,7 @@ Puedes informar sobre:
 - Motor: Ren'Py.
 - Género: RPG narrativo / novela gráfica.
 - Idioma actual de la demo: español.
-- Plataformas: Windows y Linux 64 bits.
+- Plataformas: Windows, Linux64bits, Android y web.
 - Versión actual: `v0.1.3`.
 - [Página pública de la demo](https://zabat-code.github.io/Braviestale-demo/).
 - [Historial de versiones](https://github.com/Zabat-code/Braviestale-demo/releases).
@@ -205,7 +205,8 @@ Esta es una versión pública de prueba. Algunas partes pueden seguir en desarro
 
 ## Release history / Historial de versiones
 
-- `v0.1.3` — current Windows and Linux demo packages / paquetes actuales para Windows y Linux.
+- `v0.1.6` — current four-platform demo / demo actual para cuatro plataformas.
+- `v0.1.3` — historical Windows and Linux packages / paquetes históricos para Windows y Linux.
 - `v0.1.2` — previous Windows demo / demo anterior para Windows.
 - `v0.1.0` — first public Windows demo / primera demo pública para Windows.
 
