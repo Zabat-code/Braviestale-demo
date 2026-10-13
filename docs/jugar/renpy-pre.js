@@ -361,31 +361,20 @@ Module.preRun = Module.preRun || [ ];
     async function loadGameZip() {
 
         try {
-            // GitHub Pages transport: stream unchanged archive in <100 MB parts.
             const parts = window.gameZipChunks || [{url: window.gameZipURL, bytes: 0}];
             gameZipSize = parts.reduce((total, p) => total + p.bytes, 0);
-            const f = FS.open('/game.zip', 'w');
-            try {
-                for (const part of parts) {
-                    const response = await fetch(part.url);
-                    if (!response.ok) throw new Error(part.url + ': ' + response.status);
-                    if (parts.length === 1 && !gameZipSize) gameZipSize = parseInt(response.headers.get('Content-Length'), 10) || 0;
-                    const reader = response.body.getReader();
-                    let partBytes = 0;
-                    while (true) {
-                        const {done, value} = await reader.read();
-                        if (done) break;
-                        FS.write(f, value, 0, value.length);
-                        partBytes += value.length;
-                        gameZipDownloaded += value.length;
-                        updateDownloadProgress();
-                    }
-                    if (part.bytes && partBytes !== part.bytes) throw new Error('Incomplete download: ' + part.url);
-                }
-            } finally { FS.close(f); }
+            await window.downloadGameArchive(FS, parts, window.gameArchiveIdentity,
+                bytes => { gameZipDownloaded = bytes; updateDownloadProgress(); },
+                message => { console.log(message); statusTextDiv.textContent = message; });
 
         } catch (e) {
-            reportError("Could not download game.zip", e);
+            reportError("No se pudo completar la descarga. Pulsa Reintentar: se conservarán las partes terminadas", e);
+            const button = document.createElement("button");
+            button.textContent = "Reintentar descarga";
+            button.style.cssText = "position:fixed;left:50%;bottom:15%;transform:translateX(-50%);z-index:9999;padding:16px 28px;font-size:20px;cursor:pointer";
+            button.onclick = () => window.location.reload();
+            document.body.appendChild(button);
+            throw e;
         }
     }
 
@@ -394,7 +383,7 @@ Module.preRun = Module.preRun || [ ];
 
         loadGameZip().then(() => {
             Module.removeRunDependency('loadGameZip');
-        });
+        }).catch(e => console.error('Game archive not ready', e));
 
     }
 

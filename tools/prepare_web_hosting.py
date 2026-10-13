@@ -49,3 +49,20 @@ for p in [dest/'game.zip.sha256',dest/'index.html.symbols']:
  if p.exists():p.unlink()
 assert max(p.stat().st_size for p in dest.rglob('*') if p.is_file())<100000000
 print('PASS: exact archive split into',len(parts),'parts; all files <100 MB')
+
+# Network resilience is a hosting concern, applied to each new export.
+import re
+shutil_source=root/'tools/archive-transport.js'
+(dest/'archive-transport.js').write_bytes(shutil_source.read_bytes())
+p=dest/'index.html';page=p.read_text();page=page.replace('<head>', '<head>\n<script src="archive-transport.js"></script>',1)
+page=re.sub(r'<script>window.gameZipChunks=.*?</script>', '<script>window.gameArchiveIdentity='+json.dumps(original)+';window.gameZipChunks='+json.dumps(parts)+';</script>', page)
+page=page.replace('src="renpy-pre.js"', 'src="renpy-pre.js?transport=2"');p.write_text(page)
+p=dest/'renpy-pre.js';code=p.read_text();a=code.index('            // GitHub Pages transport:');b=code.index('            } finally { FS.close(f); }',a)+len('            } finally { FS.close(f); }')
+code=code[:a]+"""            const parts = window.gameZipChunks || [{url: window.gameZipURL, bytes: 0}];
+            gameZipSize = parts.reduce((total, p) => total + p.bytes, 0);
+            await window.downloadGameArchive(FS, parts, window.gameArchiveIdentity,
+                bytes => { gameZipDownloaded = bytes; updateDownloadProgress(); },
+                message => { console.log(message); statusTextDiv.textContent = message; });"""+code[b:]
+code=code.replace('reportError("Could not download game.zip", e);', 'reportError("No se pudo completar la descarga. Pulsa Reintentar: se conservarán las partes terminadas", e);\n            const button = document.createElement("button");\n            button.textContent = "Reintentar descarga";\n            button.style.cssText = "position:fixed;left:50%;bottom:15%;transform:translateX(-50%);z-index:9999;padding:16px 28px;font-size:20px;cursor:pointer";\n            button.onclick = () => window.location.reload();\n            document.body.appendChild(button);\n            throw e;')
+code=code.replace("Module.removeRunDependency('loadGameZip');\n        });", "Module.removeRunDependency('loadGameZip');\n        }).catch(e => console.error('Game archive not ready', e));");p.write_text(code)
+p=dest/'pwa_catalog.json';catalog=json.loads(p.read_text());catalog['files'].append('archive-transport.js');p.write_text(json.dumps(catalog))
