@@ -14,8 +14,8 @@ with zipfile.ZipFile(archive) as z:
 source=dest/'game.zip';parts=[];h=hashlib.sha256()
 with source.open('rb') as f:
  index=0
- while data:=f.read(64*1024*1024):
-  name=f'game.zip.part{index:03d}';(dest/name).write_bytes(data);h.update(data);parts.append({'url':name,'bytes':len(data),'sha256':hashlib.sha256(data).hexdigest()});index+=1
+ while data:=f.read(8*1024*1024):
+  name=f'game.zip.8m.part{index:03d}';(dest/name).write_bytes(data);h.update(data);parts.append({'url':name,'bytes':len(data),'sha256':hashlib.sha256(data).hexdigest()});index+=1
 original=hashlib.file_digest(source.open('rb'),'sha256').hexdigest();assert h.hexdigest()==original
 js=dest/'renpy-pre.js';text=js.read_text();start=text.index('            let response = await fetch(window.gameZipURL);');end=text.index('            FS.close(f);',start)+len('            FS.close(f);')
 text=text[:start]+'''            // GitHub Pages transport: stream unchanged archive in <100 MB parts.
