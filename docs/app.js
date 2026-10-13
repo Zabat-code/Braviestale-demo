@@ -13,7 +13,7 @@ audio.addEventListener('pause',()=>audioState(false));
 document.getElementById('pause-audio').addEventListener('click',()=>audio.pause());
 // Al volver a la pestaña, el usuario decide si quiere reanudar la música.
 document.addEventListener('visibilitychange',()=>{if(document.hidden&&!audio.paused)audio.pause();});
-const shots=[{id:'coliseo',title:'Combate · interfaz 0.1.6',note:'Captura preparada con el motor del juego, sin acontecimientos de la historia.',alt:'Kael, Mira y Dorian frente a goblins.'},{id:'forja',title:'Aldenbrock · armas para el grupo',note:'Exploración · captura del juego',alt:'Catálogo de armas de la forja de Aldenbrock, con precios y bonificaciones.'},{id:'bestiario',title:'Diario de campo · Goblin Ratero',note:'Bestiario real · demo 0.1.6',alt:'Boceto y observaciones del Goblin Ratero.'},{id:'mapa',title:'Mapa continental · Aldenbrock',note:'Exploración · captura del juego',alt:'Mapa continental centrado en la plaza, con los caminos visitados de Aldenbrock.'}];
+const shots=[{id:'coliseo',title:'Combate · interfaz 0.1.7',note:'Captura preparada con el motor del juego, sin acontecimientos de la historia.',alt:'Kael, Mira y Dorian frente a goblins.'},{id:'forja',title:'Aldenbrock · armas para el grupo',note:'Exploración · captura del juego',alt:'Catálogo de armas de la forja de Aldenbrock, con precios y bonificaciones.'},{id:'bestiario',title:'Diario de campo · Goblin Ratero',note:'Bestiario real · demo 0.1.7',alt:'Boceto y observaciones del Goblin Ratero.'},{id:'mapa',title:'Mapa continental · Aldenbrock',note:'Exploración · captura del juego',alt:'Mapa continental centrado en la plaza, con los caminos visitados de Aldenbrock.'}];
 let currentShot=0;
 const dialog=document.getElementById('lightbox');
 const dialogImg=document.getElementById('lightbox-image');
@@ -61,7 +61,7 @@ const startGame=document.getElementById('start-game');const gameShell=document.g
 startGame.addEventListener('click',()=>{
  if(document.getElementById('game-frame'))return;
  audio.pause();
- const frame=document.createElement('iframe');frame.id='game-frame';frame.title='Braviestale · demo 0.1.6';frame.src='jugar/';frame.allow='fullscreen; autoplay';frame.setAttribute('allowfullscreen','');
+ const frame=document.createElement('iframe');frame.id='game-frame';frame.title='Braviestale · demo 0.1.7';frame.src='jugar/';frame.allow='fullscreen; autoplay';frame.setAttribute('allowfullscreen','');
  gameShell.replaceChildren(frame);fullscreenGame.disabled=false;startGame.disabled=true;startGame.textContent=tr('Juego iniciado');
  document.getElementById('web-status').textContent=tr('Cargando el juego. Espera al menú Nueva partida; el progreso aparece dentro del reproductor.');
 });

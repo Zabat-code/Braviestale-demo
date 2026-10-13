@@ -15,7 +15,7 @@ source=dest/'game.zip';parts=[];h=hashlib.sha256()
 with source.open('rb') as f:
  index=0
  while data:=f.read(8*1024*1024):
-  name=f'game.zip.8m.part{index:03d}';(dest/name).write_bytes(data);h.update(data);parts.append({'url':name,'bytes':len(data),'sha256':hashlib.sha256(data).hexdigest()});index+=1
+  name=f'game.zip.{meta["release"]}.8m.part{index:03d}';(dest/name).write_bytes(data);h.update(data);parts.append({'url':name,'bytes':len(data),'sha256':hashlib.sha256(data).hexdigest()});index+=1
 original=hashlib.file_digest(source.open('rb'),'sha256').hexdigest();assert h.hexdigest()==original
 js=dest/'renpy-pre.js';text=js.read_text();start=text.index('            let response = await fetch(window.gameZipURL);');end=text.index('            FS.close(f);',start)+len('            FS.close(f);')
 text=text[:start]+'''            // GitHub Pages transport: stream unchanged archive in <100 MB parts.
@@ -56,7 +56,7 @@ shutil_source=root/'tools/archive-transport.js'
 (dest/'archive-transport.js').write_bytes(shutil_source.read_bytes())
 p=dest/'index.html';page=p.read_text();page=page.replace('<head>', '<head>\n<script src="archive-transport.js"></script>',1)
 page=re.sub(r'<script>window.gameZipChunks=.*?</script>', '<script>window.gameArchiveIdentity='+json.dumps(original)+';window.gameZipChunks='+json.dumps(parts)+';</script>', page)
-page=page.replace('src="renpy-pre.js"', 'src="renpy-pre.js?transport=2"');p.write_text(page)
+page=page.replace('src="renpy-pre.js"', 'src="renpy-pre.js?transport=017"');p.write_text(page)
 p=dest/'renpy-pre.js';code=p.read_text();a=code.index('            // GitHub Pages transport:');b=code.index('            } finally { FS.close(f); }',a)+len('            } finally { FS.close(f); }')
 code=code[:a]+"""            const parts = window.gameZipChunks || [{url: window.gameZipURL, bytes: 0}];
             gameZipSize = parts.reduce((total, p) => total + p.bytes, 0);
