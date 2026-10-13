@@ -368,7 +368,7 @@ Module.preRun = Module.preRun || [ ];
                 message => { console.log(message); statusTextDiv.textContent = message; });
 
         } catch (e) {
-            reportError("No se pudo completar la descarga. Pulsa Reintentar: se conservarán las partes terminadas", e);
+            reportError("No se pudo completar la descarga. Pulsa Reintentar para continuar", e);
             const button = document.createElement("button");
             button.textContent = "Reintentar descarga";
             button.style.cssText = "position:fixed;left:50%;bottom:15%;transform:translateX(-50%);z-index:9999;padding:16px 28px;font-size:20px;cursor:pointer";
