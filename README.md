@@ -1,8 +1,8 @@
 # Braviestale — demo pública / public demo v0.1.8
 
-> RPG narrativo gratuito para Windows, Linux, Android y navegador. La partida empieza en Aldenbrock, llega al combate con Destigio en Ciudadela y termina cuando el protagonista despierta en el refugio y se entera de la desaparición de Ysolda. En ese punto se guarda el progreso, pero la demo no continúa la campaña. El juego está en español.
+> RPG narrativo gratuito para Windows, Linux, Android y navegador. La partida empieza en Aldenbrock, llega al combate con Destigio en Ciudadela y termina cuando el protagonista despierta en el refugio y se entera de la desaparición de Ysolda. En ese punto se guarda el progreso, pero la demo no continúa la campaña. Puedes elegir español o inglés y dificultad fácil, normal o difícil al comenzar.
 >
-> A free story-driven RPG demo for Windows, Linux, Android and web. Begin in Aldenbrock, reach the battle with Destigio in the Citadel, and end when the protagonist wakes in the shelter and learns Ysolda has gone missing. The game saves at the ending; the demo does not continue the campaign. In-game language: Spanish.
+> A free story-driven RPG demo for Windows, Linux, Android and web. Begin in Aldenbrock, reach the battle with Destigio in the Citadel, and end when the protagonist wakes in the shelter and learns Ysolda has gone missing. The game saves at the ending; the demo does not continue the campaign. In-game languages: Spanish and English; select Easy, Normal or Hard at the start.
 
 **[Jugar en el navegador / Play in browser](https://zabat-code.github.io/Braviestale-demo/)** · **[Todos los archivos / All downloads](https://github.com/Zabat-code/Braviestale-demo/releases/tag/v0.1.8)** · **[SHA-256 checksums](https://github.com/Zabat-code/Braviestale-demo/releases/download/v0.1.8/SHA256SUMS.txt)**
 
