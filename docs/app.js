@@ -61,7 +61,7 @@ const startGame=document.getElementById('start-game');const gameShell=document.g
 startGame.addEventListener('click',()=>{
  if(document.getElementById('game-frame'))return;
  audio.pause();
- const frame=document.createElement('iframe');frame.id='game-frame';frame.title='Braviestale · demo 0.1.7';frame.src='jugar/';frame.allow='fullscreen; autoplay';frame.setAttribute('allowfullscreen','');
+ const frame=document.createElement('iframe');frame.id='game-frame';frame.title='Braviestale · demo 0.1.8';frame.src='jugar/';frame.allow='fullscreen; autoplay';frame.setAttribute('allowfullscreen','');
  gameShell.replaceChildren(frame);fullscreenGame.disabled=false;startGame.disabled=true;startGame.textContent=tr('Juego iniciado');
  document.getElementById('web-status').textContent=tr('Cargando el juego. Espera al menú Nueva partida; el progreso aparece dentro del reproductor.');
 });
