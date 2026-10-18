@@ -361,20 +361,37 @@ Module.preRun = Module.preRun || [ ];
     async function loadGameZip() {
 
         try {
-            const parts = window.gameZipChunks || [{url: window.gameZipURL, bytes: 0}];
-            gameZipSize = parts.reduce((total, p) => total + p.bytes, 0);
-            await window.downloadGameArchive(FS, parts, window.gameArchiveIdentity,
-                bytes => { gameZipDownloaded = bytes; updateDownloadProgress(); },
-                message => { console.log(message); statusTextDiv.textContent = message; });
+            let response = await fetch(window.gameZipURL);
+
+            if (!response.ok) {
+                reportError("Could not load game.zip: " + response.status + " " + response.statusText);
+            }
+
+            gameZipSize = parseInt(response.headers.get('Content-Length'), 10);
+            if(Number.isNaN(gameZipSize)) gameZipSize = 0;
+
+            let reader = await response.body.getReader();
+
+            let f = FS.open('/game.zip', 'w');
+
+            while (true) {
+
+                let { done, value } = await reader.read();
+
+                if (done) {
+                    break;
+                }
+
+                FS.write(f, value, 0, value.length);
+                gameZipDownloaded += value.length;
+
+                updateDownloadProgress();
+            }
+
+            FS.close(f);
 
         } catch (e) {
-            reportError("No se pudo completar la descarga. Pulsa Reintentar para continuar", e);
-            const button = document.createElement("button");
-            button.textContent = "Reintentar descarga";
-            button.style.cssText = "position:fixed;left:50%;bottom:15%;transform:translateX(-50%);z-index:9999;padding:16px 28px;font-size:20px;cursor:pointer";
-            button.onclick = () => window.location.reload();
-            document.body.appendChild(button);
-            throw e;
+            reportError("Could not download game.zip", e);
         }
     }
 
@@ -383,7 +400,7 @@ Module.preRun = Module.preRun || [ ];
 
         loadGameZip().then(() => {
             Module.removeRunDependency('loadGameZip');
-        }).catch(e => console.error('Game archive not ready', e));
+        });
 
     }
 
