@@ -2,15 +2,28 @@
 Only its transport changes: streamed chunks reproduce game.zip byte for byte.
 """
 from pathlib import Path
-import hashlib,json,zipfile,sys
+import hashlib,json,shutil,zipfile,sys
 root=Path(__file__).resolve().parents[1];meta=json.loads((root/'docs/version.json').read_text());archive=Path(sys.argv[1]);dest=root/'docs/jugar'
 assert archive.name==meta['web_archive']
 if dest.is_symlink():dest.unlink()
-dest.mkdir(exist_ok=True)
+elif dest.exists():shutil.rmtree(dest)
+dest.mkdir(parents=True)
 with zipfile.ZipFile(archive) as z:
- for i in z.infolist():
+ infos=z.infolist()
+ for i in infos:
   p=Path(i.filename);assert not p.is_absolute() and '..' not in p.parts,p
- z.extractall(dest)
+ # Los ZIP de release pueden traer una carpeta raíz con el nombre de la versión.
+ prefixes={i.filename.split('/',1)[0] for i in infos if '/' in i.filename}
+ candidate=next(iter(prefixes))+'/' if len(prefixes)==1 else ''
+ prefix=candidate if candidate and all(i.filename.startswith(candidate) for i in infos if not i.is_dir()) else ''
+ for i in infos:
+  name=i.filename[len(prefix):] if prefix else i.filename
+  if not name:continue
+  target=dest/name
+  if i.is_dir():target.mkdir(parents=True,exist_ok=True)
+  else:
+   target.parent.mkdir(parents=True,exist_ok=True)
+   with z.open(i) as src,target.open('wb') as out:shutil.copyfileobj(src,out)
 source=dest/'game.zip';parts=[];h=hashlib.sha256()
 with source.open('rb') as f:
  index=0

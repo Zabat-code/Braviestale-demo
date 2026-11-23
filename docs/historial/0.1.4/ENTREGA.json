@@ -1,0 +1,51 @@
+{
+  "estado": "PASS",
+  "recursos_identicos_tres_plataformas": true,
+  "paquetes": [
+    {
+      "plataforma": "Windows",
+      "archivo": "<ruta original>/Braviestale-demo-20261010/PC/Braviestale-demo-20261010-v014-win.zip",
+      "bytes": 391455634,
+      "sha256": "a221737e7a9258f8af8312d792564e8969b007196a90ad64fa8118f789a71308",
+      "estado": "PASS",
+      "recursos_juego": 567,
+      "entradas_paquete": 1503
+    },
+    {
+      "plataforma": "Linux",
+      "archivo": "<ruta original>/Braviestale-demo-20261010/PC/Braviestale-demo-20261010-v014-linux64.tar.bz2",
+      "bytes": 384814879,
+      "sha256": "6baaefeb2029112fb145e09c461237cbe7792488e877b3f2af4c127396d6169b",
+      "estado": "PASS",
+      "recursos_juego": 567,
+      "arranque_ejecutable": true
+    },
+    {
+      "plataforma": "Android",
+      "archivo": "<ruta original>/Braviestale-demo-20261010/Android/Braviestale-demo-20261010-v014-android.apk",
+      "bytes": 416146303,
+      "sha256": "2028e7dbfc3a0de4999422a54c14d6e7e46d5d418c624151805ecc7e1e385edc",
+      "estado": "PASS",
+      "recursos_juego": 567,
+      "entradas_paquete": 832
+    }
+  ],
+  "version": "0.1.4",
+  "motor": "RenPy 8.5.3",
+  "recorrido": "Inicio hasta despertar en el hospital/refugio tras el asalto de Ciudadela, seguido de FIN DE LA DEMOSTRACIÓN",
+  "validacion_recursos": {
+    "estado": "PASS",
+    "recursos": 454,
+    "imagenes_sin_perdida": 179,
+    "fondos_ilustraciones": 110,
+    "ssim_minimo": 0.9801595321660114,
+    "ssim_promedio": 0.9882602331354892,
+    "audio_original": 79
+  },
+  "android_firma": "Verificada v1 y v2",
+  "android_min_sdk": 21,
+  "prueba_nativa_windows": "Pendiente",
+  "prueba_dispositivo_android": "Pendiente; ningún dispositivo conectado",
+  "recorrido_hospital": "PASS Luz/Mira y Sombra/Nerea, guardar/cargar final; combates abreviados en prueba aislada",
+  "balance": "No reevaluado"
+}

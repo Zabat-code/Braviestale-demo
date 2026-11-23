@@ -1,0 +1,3303 @@
+{
+  "source": "<ruta original>/btm/jh",
+  "arcos": [
+    "bram_etapa1",
+    "dorian_etapa1",
+    "mira_etapa1",
+    "sable_etapa1",
+    "theron_etapa3"
+  ],
+  "scripts": [
+    "00_audio.rpy",
+    "00_core.rpy",
+    "00_demo_edicion.rpy",
+    "00_design.rpy",
+    "00_dev_flags.rpy",
+    "01_composicion_expresiones.rpy",
+    "01_config.rpy",
+    "02_companeros_expresiones.rpy",
+    "02_dorian_expresiones.rpy",
+    "02_enemigos_revision.rpy",
+    "02_mira_expresiones.rpy",
+    "02_personajes.rpy",
+    "03_tiempo.rpy",
+    "04_nodos_base.rpy",
+    "05_niveles.rpy",
+    "06_afinidad.rpy",
+    "06_progresion_ff4.rpy",
+    "07_habilidades.rpy",
+    "08_armas.rpy",
+    "09_combate.rpy",
+    "10_party.rpy",
+    "11_mochila.rpy",
+    "12_diario.rpy",
+    "12_encargos_equipo.rpy",
+    "13_bestiario.rpy",
+    "13_diario_campo.rpy",
+    "14_estados.rpy",
+    "15_tecnicas_combinadas.rpy",
+    "16_eventos_stats_economia.rpy",
+    "17_magia.rpy",
+    "18_enemigos_economia.rpy",
+    "19_progresion.rpy",
+    "20_dificultad_fatiga.rpy",
+    "20_presentacion_don.rpy",
+    "20_tutorial.rpy",
+    "21_aldenbrock_dialogos.rpy",
+    "22_aldenbrock_nodos.rpy",
+    "23_recursos_manual.rpy",
+    "24_prueba_don_prota.rpy",
+    "24_tutorial_pertenencias.rpy",
+    "25_guardado_jefes.rpy",
+    "26_templos_elementales.rpy",
+    "27_mejoras_arcos.rpy",
+    "28_revision_jugabilidad.rpy",
+    "28_stats_companeros.rpy",
+    "29_avisos_combate.rpy",
+    "29_compras_cantidad.rpy",
+    "29_examen_aldric.rpy",
+    "29_nodos_historia.rpy",
+    "29_progreso_rutas_don.rpy",
+    "29_visual_entrenamiento.rpy",
+    "30_ciudadela_nodos.rpy",
+    "31_ciudadela_dialogos.rpy",
+    "32_ciudadela_reclutas.rpy",
+    "32_irene_gremio.rpy",
+    "33_gremio_minijefes.rpy",
+    "34_misiones_arcos_ciudadela.rpy",
+    "35_ajustes_sin_arte.rpy",
+    "36_ciudadela_vidas_y_misiones.rpy",
+    "37_coliseo_fugitivo.rpy",
+    "38_bardo_memoria.rpy",
+    "39_gremio_rutas_personales.rpy",
+    "43_arte_retornado.rpy",
+    "44_ciudadela_acuarela.rpy",
+    "45_avenida_principal.rpy",
+    "46_asalto_ciudadela.rpy",
+    "47_asalto_escenas.rpy",
+    "48_arte_asalto.rpy",
+    "50_arcos_mira.rpy",
+    "51_arcos_dorian.rpy",
+    "52_arcos_wren.rpy",
+    "53_arcos_theron.rpy",
+    "54_arcos_elyra.rpy",
+    "55_arcos_sable.rpy",
+    "56_arcos_bram.rpy",
+    "57_eventos_secundarios_v2.rpy",
+    "58_revision_aldea.rpy",
+    "59_audio_puente_emocional.rpy",
+    "59_bosque_escalones.rpy",
+    "59_citas_bestiario.rpy",
+    "59_ciudadela_autor.rpy",
+    "59_ciudadela_norte.rpy",
+    "59_colores_dialogo.rpy",
+    "59_combo_puente.rpy",
+    "59_combos_freemium.rpy",
+    "59_cuervos_karmilla.rpy",
+    "59_dialogos_visibles.rpy",
+    "59_ents_tierra.rpy",
+    "59_escolta_silvan.rpy",
+    "59_expresiones_kael.rpy",
+    "59_hacha_hector.rpy",
+    "59_karmilla_auxilio.rpy",
+    "59_mapa_cierres.rpy",
+    "59_orfanato_historias.rpy",
+    "59_reacciones_combate.rpy",
+    "59_revision_playtest.rpy",
+    "59_sable_coliseo.rpy",
+    "59_secuencia_puente.rpy",
+    "59_sprites_armas.rpy",
+    "59_tonicos_nessa.rpy",
+    "59_troll_dorian.rpy",
+    "60_bosque_costa_mina.rpy",
+    "89_bocetos_iniciales.rpy",
+    "89_fondos_horarios.rpy",
+    "90_errores.rpy",
+    "91_integracion_arcos.rpy",
+    "gui.rpy",
+    "guisupport.rpy",
+    "options.rpy",
+    "screens.rpy",
+    "script.rpy"
+  ],
+  "assets": [
+    {
+      "original": "audio/ambience/amb_aldenbrock_day.ogg",
+      "archivo": "audio/ambience/amb_aldenbrock_day.ogg",
+      "bytes_original": 298376,
+      "bytes_demo": 298376,
+      "modo": "original"
+    },
+    {
+      "original": "audio/ambience/amb_aldenbrock_night.ogg",
+      "archivo": "audio/ambience/amb_aldenbrock_night.ogg",
+      "bytes_original": 295986,
+      "bytes_demo": 295986,
+      "modo": "original"
+    },
+    {
+      "original": "audio/ambience/amb_apothecary.ogg",
+      "archivo": "audio/ambience/amb_apothecary.ogg",
+      "bytes_original": 199406,
+      "bytes_demo": 199406,
+      "modo": "original"
+    },
+    {
+      "original": "audio/ambience/amb_forge.ogg",
+      "archivo": "audio/ambience/amb_forge.ogg",
+      "bytes_original": 205589,
+      "bytes_demo": 205589,
+      "modo": "original"
+    },
+    {
+      "original": "audio/ambience/amb_gray_forest.ogg",
+      "archivo": "audio/ambience/amb_gray_forest.ogg",
+      "bytes_original": 301194,
+      "bytes_demo": 301194,
+      "modo": "original"
+    },
+    {
+      "original": "audio/ambience/amb_lluvia_suave-v1.ogg",
+      "archivo": "audio/ambience/amb_lluvia_suave-v1.ogg",
+      "bytes_original": 266345,
+      "bytes_demo": 266345,
+      "modo": "original"
+    },
+    {
+      "original": "audio/ambience/amb_temple.ogg",
+      "archivo": "audio/ambience/amb_temple.ogg",
+      "bytes_original": 197237,
+      "bytes_demo": 197237,
+      "modo": "original"
+    },
+    {
+      "original": "audio/ambience/gotera_karmilla-v1.ogg",
+      "archivo": "audio/ambience/gotera_karmilla-v1.ogg",
+      "bytes_original": 10828,
+      "bytes_demo": 10828,
+      "modo": "original"
+    },
+    {
+      "original": "audio/music/aldenbrock_day.ogg",
+      "archivo": "audio/music/aldenbrock_day.ogg",
+      "bytes_original": 1775441,
+      "bytes_demo": 1775441,
+      "modo": "original"
+    },
+    {
+      "original": "audio/music/aldenbrock_night.ogg",
+      "archivo": "audio/music/aldenbrock_night.ogg",
+      "bytes_original": 2294373,
+      "bytes_demo": 2294373,
+      "modo": "original"
+    },
+    {
+      "original": "audio/music/battle_boss.ogg",
+      "archivo": "audio/music/battle_boss.ogg",
+      "bytes_original": 2436018,
+      "bytes_demo": 2436018,
+      "modo": "original"
+    },
+    {
+      "original": "audio/music/battle_folk.ogg",
+      "archivo": "audio/music/battle_folk.ogg",
+      "bytes_original": 2450830,
+      "bytes_demo": 2450830,
+      "modo": "original"
+    },
+    {
+      "original": "audio/music/battle_unknown.ogg",
+      "archivo": "audio/music/battle_unknown.ogg",
+      "bytes_original": 2323138,
+      "bytes_demo": 2323138,
+      "modo": "original"
+    },
+    {
+      "original": "audio/music/bram_memory.ogg",
+      "archivo": "audio/music/bram_memory.ogg",
+      "bytes_original": 2609568,
+      "bytes_demo": 2609568,
+      "modo": "original"
+    },
+    {
+      "original": "audio/music/bridge_boundary.ogg",
+      "archivo": "audio/music/bridge_boundary.ogg",
+      "bytes_original": 1643929,
+      "bytes_demo": 1643929,
+      "modo": "original"
+    },
+    {
+      "original": "audio/music/citadel_day.ogg",
+      "archivo": "audio/music/citadel_day.ogg",
+      "bytes_original": 2494189,
+      "bytes_demo": 2494189,
+      "modo": "original"
+    },
+    {
+      "original": "audio/music/coliseum_duel.ogg",
+      "archivo": "audio/music/coliseum_duel.ogg",
+      "bytes_original": 2217973,
+      "bytes_demo": 2217973,
+      "modo": "original"
+    },
+    {
+      "original": "audio/music/defeat_sting.ogg",
+      "archivo": "audio/music/defeat_sting.ogg",
+      "bytes_original": 271838,
+      "bytes_demo": 271838,
+      "modo": "original"
+    },
+    {
+      "original": "audio/music/dorian_learning.ogg",
+      "archivo": "audio/music/dorian_learning.ogg",
+      "bytes_original": 2120995,
+      "bytes_demo": 2120995,
+      "modo": "original"
+    },
+    {
+      "original": "audio/music/elyra_old_home.ogg",
+      "archivo": "audio/music/elyra_old_home.ogg",
+      "bytes_original": 2516079,
+      "bytes_demo": 2516079,
+      "modo": "original"
+    },
+    {
+      "original": "audio/music/gift_air.ogg",
+      "archivo": "audio/music/gift_air.ogg",
+      "bytes_original": 261670,
+      "bytes_demo": 261670,
+      "modo": "original"
+    },
+    {
+      "original": "audio/music/gift_earth.ogg",
+      "archivo": "audio/music/gift_earth.ogg",
+      "bytes_original": 284185,
+      "bytes_demo": 284185,
+      "modo": "original"
+    },
+    {
+      "original": "audio/music/gift_fire.ogg",
+      "archivo": "audio/music/gift_fire.ogg",
+      "bytes_original": 257088,
+      "bytes_demo": 257088,
+      "modo": "original"
+    },
+    {
+      "original": "audio/music/gift_light.ogg",
+      "archivo": "audio/music/gift_light.ogg",
+      "bytes_original": 267571,
+      "bytes_demo": 267571,
+      "modo": "original"
+    },
+    {
+      "original": "audio/music/gift_shadow.ogg",
+      "archivo": "audio/music/gift_shadow.ogg",
+      "bytes_original": 284160,
+      "bytes_demo": 284160,
+      "modo": "original"
+    },
+    {
+      "original": "audio/music/gift_water.ogg",
+      "archivo": "audio/music/gift_water.ogg",
+      "bytes_original": 259445,
+      "bytes_demo": 259445,
+      "modo": "original"
+    },
+    {
+      "original": "audio/music/gray_forest.ogg",
+      "archivo": "audio/music/gray_forest.ogg",
+      "bytes_original": 1906157,
+      "bytes_demo": 1906157,
+      "modo": "original"
+    },
+    {
+      "original": "audio/music/guild_irene.ogg",
+      "archivo": "audio/music/guild_irene.ogg",
+      "bytes_original": 1449434,
+      "bytes_demo": 1449434,
+      "modo": "original"
+    },
+    {
+      "original": "audio/music/inn_home.ogg",
+      "archivo": "audio/music/inn_home.ogg",
+      "bytes_original": 1047887,
+      "bytes_demo": 1047887,
+      "modo": "original"
+    },
+    {
+      "original": "audio/music/library_theron.ogg",
+      "archivo": "audio/music/library_theron.ogg",
+      "bytes_original": 2088064,
+      "bytes_demo": 2088064,
+      "modo": "original"
+    },
+    {
+      "original": "audio/music/loss_farewell.ogg",
+      "archivo": "audio/music/loss_farewell.ogg",
+      "bytes_original": 2861337,
+      "bytes_demo": 2861337,
+      "modo": "original"
+    },
+    {
+      "original": "audio/music/main_theme.ogg",
+      "archivo": "audio/music/main_theme.ogg",
+      "bytes_original": 3076058,
+      "bytes_demo": 3076058,
+      "modo": "original"
+    },
+    {
+      "original": "audio/music/mira_water.ogg",
+      "archivo": "audio/music/mira_water.ogg",
+      "bytes_original": 1172710,
+      "bytes_demo": 1172710,
+      "modo": "original"
+    },
+    {
+      "original": "audio/music/monastery_records.ogg",
+      "archivo": "audio/music/monastery_records.ogg",
+      "bytes_original": 2392802,
+      "bytes_demo": 2392802,
+      "modo": "original"
+    },
+    {
+      "original": "audio/music/rest_sting.ogg",
+      "archivo": "audio/music/rest_sting.ogg",
+      "bytes_original": 237384,
+      "bytes_demo": 237384,
+      "modo": "original"
+    },
+    {
+      "original": "audio/music/romance_quiet.ogg",
+      "archivo": "audio/music/romance_quiet.ogg",
+      "bytes_original": 2914492,
+      "bytes_demo": 2914492,
+      "modo": "original"
+    },
+    {
+      "original": "audio/music/sable_stillness.ogg",
+      "archivo": "audio/music/sable_stillness.ogg",
+      "bytes_original": 2091907,
+      "bytes_demo": 2091907,
+      "modo": "original"
+    },
+    {
+      "original": "audio/music/temple_shelter.ogg",
+      "archivo": "audio/music/temple_shelter.ogg",
+      "bytes_original": 2641313,
+      "bytes_demo": 2641313,
+      "modo": "original"
+    },
+    {
+      "original": "audio/music/victory_sting.ogg",
+      "archivo": "audio/music/victory_sting.ogg",
+      "bytes_original": 201854,
+      "bytes_demo": 201854,
+      "modo": "original"
+    },
+    {
+      "original": "audio/music/wren_treatment.ogg",
+      "archivo": "audio/music/wren_treatment.ogg",
+      "bytes_original": 2226333,
+      "bytes_demo": 2226333,
+      "modo": "original"
+    },
+    {
+      "original": "audio/sfx/combat/axe_hit.wav",
+      "archivo": "audio/sfx/combat/axe_hit.wav",
+      "bytes_original": 34604,
+      "bytes_demo": 34604,
+      "modo": "original"
+    },
+    {
+      "original": "audio/sfx/combat/axe_swing.wav",
+      "archivo": "audio/sfx/combat/axe_swing.wav",
+      "bytes_original": 53804,
+      "bytes_demo": 53804,
+      "modo": "original"
+    },
+    {
+      "original": "audio/sfx/combat/critical.wav",
+      "archivo": "audio/sfx/combat/critical.wav",
+      "bytes_original": 34604,
+      "bytes_demo": 34604,
+      "modo": "original"
+    },
+    {
+      "original": "audio/sfx/combat/dodge.wav",
+      "archivo": "audio/sfx/combat/dodge.wav",
+      "bytes_original": 25004,
+      "bytes_demo": 25004,
+      "modo": "original"
+    },
+    {
+      "original": "audio/sfx/combat/guard.wav",
+      "archivo": "audio/sfx/combat/guard.wav",
+      "bytes_original": 21164,
+      "bytes_demo": 21164,
+      "modo": "original"
+    },
+    {
+      "original": "audio/sfx/combat/mace_hit.wav",
+      "archivo": "audio/sfx/combat/mace_hit.wav",
+      "bytes_original": 42284,
+      "bytes_demo": 42284,
+      "modo": "original"
+    },
+    {
+      "original": "audio/sfx/combat/mace_swing.wav",
+      "archivo": "audio/sfx/combat/mace_swing.wav",
+      "bytes_original": 57644,
+      "bytes_demo": 57644,
+      "modo": "original"
+    },
+    {
+      "original": "audio/sfx/combat/spear_hit.wav",
+      "archivo": "audio/sfx/combat/spear_hit.wav",
+      "bytes_original": 21164,
+      "bytes_demo": 21164,
+      "modo": "original"
+    },
+    {
+      "original": "audio/sfx/combat/spear_thrust.wav",
+      "archivo": "audio/sfx/combat/spear_thrust.wav",
+      "bytes_original": 30764,
+      "bytes_demo": 30764,
+      "modo": "original"
+    },
+    {
+      "original": "audio/sfx/combat/sword_hit.wav",
+      "archivo": "audio/sfx/combat/sword_hit.wav",
+      "bytes_original": 26924,
+      "bytes_demo": 26924,
+      "modo": "original"
+    },
+    {
+      "original": "audio/sfx/combat/sword_swing.wav",
+      "archivo": "audio/sfx/combat/sword_swing.wav",
+      "bytes_original": 38444,
+      "bytes_demo": 38444,
+      "modo": "original"
+    },
+    {
+      "original": "audio/sfx/combat/wolf_attack.wav",
+      "archivo": "audio/sfx/combat/wolf_attack.wav",
+      "bytes_original": 57644,
+      "bytes_demo": 57644,
+      "modo": "original"
+    },
+    {
+      "original": "audio/sfx/combat/wolf_growl.wav",
+      "archivo": "audio/sfx/combat/wolf_growl.wav",
+      "bytes_original": 115244,
+      "bytes_demo": 115244,
+      "modo": "original"
+    },
+    {
+      "original": "audio/sfx/combat/wolf_hit.wav",
+      "archivo": "audio/sfx/combat/wolf_hit.wav",
+      "bytes_original": 34604,
+      "bytes_demo": 34604,
+      "modo": "original"
+    },
+    {
+      "original": "audio/sfx/magic/air_cast.wav",
+      "archivo": "audio/sfx/magic/air_cast.wav",
+      "bytes_original": 80684,
+      "bytes_demo": 80684,
+      "modo": "original"
+    },
+    {
+      "original": "audio/sfx/magic/earth_cast.wav",
+      "archivo": "audio/sfx/magic/earth_cast.wav",
+      "bytes_original": 96044,
+      "bytes_demo": 96044,
+      "modo": "original"
+    },
+    {
+      "original": "audio/sfx/magic/fire_cast.wav",
+      "archivo": "audio/sfx/magic/fire_cast.wav",
+      "bytes_original": 86444,
+      "bytes_demo": 86444,
+      "modo": "original"
+    },
+    {
+      "original": "audio/sfx/magic/light_heal.wav",
+      "archivo": "audio/sfx/magic/light_heal.wav",
+      "bytes_original": 103724,
+      "bytes_demo": 103724,
+      "modo": "original"
+    },
+    {
+      "original": "audio/sfx/magic/shadow_cast.wav",
+      "archivo": "audio/sfx/magic/shadow_cast.wav",
+      "bytes_original": 96044,
+      "bytes_demo": 96044,
+      "modo": "original"
+    },
+    {
+      "original": "audio/sfx/magic/water_cast.wav",
+      "archivo": "audio/sfx/magic/water_cast.wav",
+      "bytes_original": 96044,
+      "bytes_demo": 96044,
+      "modo": "original"
+    },
+    {
+      "original": "audio/sfx/system/level_up.wav",
+      "archivo": "audio/sfx/system/level_up.wav",
+      "bytes_original": 134444,
+      "bytes_demo": 134444,
+      "modo": "original"
+    },
+    {
+      "original": "audio/sfx/system/weapon_acquired.wav",
+      "archivo": "audio/sfx/system/weapon_acquired.wav",
+      "bytes_original": 38444,
+      "bytes_demo": 38444,
+      "modo": "original"
+    },
+    {
+      "original": "audio/sfx/ui/ui_cancel.wav",
+      "archivo": "audio/sfx/ui/ui_cancel.wav",
+      "bytes_original": 25004,
+      "bytes_demo": 25004,
+      "modo": "original"
+    },
+    {
+      "original": "audio/sfx/ui/ui_close_menu.wav",
+      "archivo": "audio/sfx/ui/ui_close_menu.wav",
+      "bytes_original": 28844,
+      "bytes_demo": 28844,
+      "modo": "original"
+    },
+    {
+      "original": "audio/sfx/ui/ui_confirm.wav",
+      "archivo": "audio/sfx/ui/ui_confirm.wav",
+      "bytes_original": 30764,
+      "bytes_demo": 30764,
+      "modo": "original"
+    },
+    {
+      "original": "audio/sfx/ui/ui_error.wav",
+      "archivo": "audio/sfx/ui/ui_error.wav",
+      "bytes_original": 38444,
+      "bytes_demo": 38444,
+      "modo": "original"
+    },
+    {
+      "original": "audio/sfx/ui/ui_move.wav",
+      "archivo": "audio/sfx/ui/ui_move.wav",
+      "bytes_original": 11564,
+      "bytes_demo": 11564,
+      "modo": "original"
+    },
+    {
+      "original": "audio/sfx/ui/ui_open_menu.wav",
+      "archivo": "audio/sfx/ui/ui_open_menu.wav",
+      "bytes_original": 30764,
+      "bytes_demo": 30764,
+      "modo": "original"
+    },
+    {
+      "original": "audio/sfx/ui/ui_quest_complete.wav",
+      "archivo": "audio/sfx/ui/ui_quest_complete.wav",
+      "bytes_original": 84524,
+      "bytes_demo": 84524,
+      "modo": "original"
+    },
+    {
+      "original": "audio/sfx/ui/ui_quest_update.wav",
+      "archivo": "audio/sfx/ui/ui_quest_update.wav",
+      "bytes_original": 53804,
+      "bytes_demo": 53804,
+      "modo": "original"
+    },
+    {
+      "original": "audio/sfx/ui/ui_shop_buy.wav",
+      "archivo": "audio/sfx/ui/ui_shop_buy.wav",
+      "bytes_original": 28844,
+      "bytes_demo": 28844,
+      "modo": "original"
+    },
+    {
+      "original": "audio/sfx/ui/ui_shop_sell.wav",
+      "archivo": "audio/sfx/ui/ui_shop_sell.wav",
+      "bytes_original": 19244,
+      "bytes_demo": 19244,
+      "modo": "original"
+    },
+    {
+      "original": "audio/sfx/world/campanas_asalto.wav",
+      "archivo": "audio/sfx/world/campanas_asalto.wav",
+      "bytes_original": 264644,
+      "bytes_demo": 264644,
+      "modo": "original"
+    },
+    {
+      "original": "audio/sfx/world/coins.wav",
+      "archivo": "audio/sfx/world/coins.wav",
+      "bytes_original": 86444,
+      "bytes_demo": 86444,
+      "modo": "original"
+    },
+    {
+      "original": "audio/sfx/world/door_close.wav",
+      "archivo": "audio/sfx/world/door_close.wav",
+      "bytes_original": 34604,
+      "bytes_demo": 34604,
+      "modo": "original"
+    },
+    {
+      "original": "audio/sfx/world/door_open.wav",
+      "archivo": "audio/sfx/world/door_open.wav",
+      "bytes_original": 105644,
+      "bytes_demo": 105644,
+      "modo": "original"
+    },
+    {
+      "original": "audio/sfx/world/page_turn.wav",
+      "archivo": "audio/sfx/world/page_turn.wav",
+      "bytes_original": 67244,
+      "bytes_demo": 67244,
+      "modo": "original"
+    },
+    {
+      "original": "audio/sfx/world/potion_drink.wav",
+      "archivo": "audio/sfx/world/potion_drink.wav",
+      "bytes_original": 61484,
+      "bytes_demo": 61484,
+      "modo": "original"
+    },
+    {
+      "original": "audio/sfx/world/rest_sleep.wav",
+      "archivo": "audio/sfx/world/rest_sleep.wav",
+      "bytes_original": 115244,
+      "bytes_demo": 115244,
+      "modo": "original"
+    },
+    {
+      "original": "data/bocetos_iniciales.json",
+      "archivo": "data/bocetos_iniciales.json",
+      "bytes_original": 3535,
+      "bytes_demo": 3566,
+      "modo": "original"
+    },
+    {
+      "original": "data/enemigos.json",
+      "archivo": "data/enemigos.json",
+      "bytes_original": 30462,
+      "bytes_demo": 12693,
+      "modo": "original"
+    },
+    {
+      "original": "data/progresion_ff4_jh.json",
+      "archivo": "data/progresion_ff4_jh.json",
+      "bytes_original": 191587,
+      "bytes_demo": 191586,
+      "modo": "original"
+    },
+    {
+      "original": "gui/bar/bottom.png",
+      "archivo": "gui/bar/bottom.png",
+      "bytes_original": 838,
+      "bytes_demo": 838,
+      "modo": "original"
+    },
+    {
+      "original": "gui/bar/left.png",
+      "archivo": "gui/bar/left.png",
+      "bytes_original": 522,
+      "bytes_demo": 522,
+      "modo": "original"
+    },
+    {
+      "original": "gui/bar/right.png",
+      "archivo": "gui/bar/right.png",
+      "bytes_original": 522,
+      "bytes_demo": 522,
+      "modo": "original"
+    },
+    {
+      "original": "gui/bar/top.png",
+      "archivo": "gui/bar/top.png",
+      "bytes_original": 838,
+      "bytes_demo": 838,
+      "modo": "original"
+    },
+    {
+      "original": "gui/bubble (copy 1).png",
+      "archivo": "gui/bubble (copy 1).png",
+      "bytes_original": 6886,
+      "bytes_demo": 6886,
+      "modo": "original"
+    },
+    {
+      "original": "gui/bubble.png",
+      "archivo": "gui/bubble.png",
+      "bytes_original": 6886,
+      "bytes_demo": 6886,
+      "modo": "original"
+    },
+    {
+      "original": "gui/button/check_foreground.png",
+      "archivo": "gui/button/check_foreground.png",
+      "bytes_original": 104,
+      "bytes_demo": 104,
+      "modo": "original"
+    },
+    {
+      "original": "gui/button/check_selected_foreground.png",
+      "archivo": "gui/button/check_selected_foreground.png",
+      "bytes_original": 158,
+      "bytes_demo": 158,
+      "modo": "original"
+    },
+    {
+      "original": "gui/button/choice_hover_background.png",
+      "archivo": "gui/button/choice_hover_background.png",
+      "bytes_original": 1751,
+      "bytes_demo": 1751,
+      "modo": "original"
+    },
+    {
+      "original": "gui/button/choice_idle_background.png",
+      "archivo": "gui/button/choice_idle_background.png",
+      "bytes_original": 1777,
+      "bytes_demo": 1777,
+      "modo": "original"
+    },
+    {
+      "original": "gui/button/hover_background.png",
+      "archivo": "gui/button/hover_background.png",
+      "bytes_original": 465,
+      "bytes_demo": 465,
+      "modo": "original"
+    },
+    {
+      "original": "gui/button/idle_background.png",
+      "archivo": "gui/button/idle_background.png",
+      "bytes_original": 465,
+      "bytes_demo": 465,
+      "modo": "original"
+    },
+    {
+      "original": "gui/button/quick_hover_background.png",
+      "archivo": "gui/button/quick_hover_background.png",
+      "bytes_original": 198,
+      "bytes_demo": 198,
+      "modo": "original"
+    },
+    {
+      "original": "gui/button/quick_idle_background.png",
+      "archivo": "gui/button/quick_idle_background.png",
+      "bytes_original": 198,
+      "bytes_demo": 198,
+      "modo": "original"
+    },
+    {
+      "original": "gui/button/radio_foreground.png",
+      "archivo": "gui/button/radio_foreground.png",
+      "bytes_original": 104,
+      "bytes_demo": 104,
+      "modo": "original"
+    },
+    {
+      "original": "gui/button/radio_selected_foreground.png",
+      "archivo": "gui/button/radio_selected_foreground.png",
+      "bytes_original": 158,
+      "bytes_demo": 158,
+      "modo": "original"
+    },
+    {
+      "original": "gui/button/slot_hover_background.png",
+      "archivo": "gui/button/slot_hover_background.png",
+      "bytes_original": 3054,
+      "bytes_demo": 3054,
+      "modo": "original"
+    },
+    {
+      "original": "gui/button/slot_idle_background.png",
+      "archivo": "gui/button/slot_idle_background.png",
+      "bytes_original": 2989,
+      "bytes_demo": 2989,
+      "modo": "original"
+    },
+    {
+      "original": "gui/frame.png",
+      "archivo": "gui/frame.png",
+      "bytes_original": 7255,
+      "bytes_demo": 7255,
+      "modo": "original"
+    },
+    {
+      "original": "gui/game_menu.png",
+      "archivo": "gui/game_menu.png",
+      "bytes_original": 38669,
+      "bytes_demo": 38669,
+      "modo": "original"
+    },
+    {
+      "original": "gui/main_menu.png",
+      "archivo": "gui/main_menu.png",
+      "bytes_original": 38669,
+      "bytes_demo": 38669,
+      "modo": "original"
+    },
+    {
+      "original": "gui/namebox.png",
+      "archivo": "gui/namebox.png",
+      "bytes_original": 503,
+      "bytes_demo": 503,
+      "modo": "original"
+    },
+    {
+      "original": "gui/notify.png",
+      "archivo": "gui/notify.png",
+      "bytes_original": 1889,
+      "bytes_demo": 1889,
+      "modo": "original"
+    },
+    {
+      "original": "gui/nvl.png",
+      "archivo": "gui/nvl.png",
+      "bytes_original": 40383,
+      "bytes_demo": 40383,
+      "modo": "original"
+    },
+    {
+      "original": "gui/overlay/confirm.png",
+      "archivo": "gui/overlay/confirm.png",
+      "bytes_original": 38668,
+      "bytes_demo": 38668,
+      "modo": "original"
+    },
+    {
+      "original": "gui/overlay/game_menu.png",
+      "archivo": "gui/overlay/game_menu.png",
+      "bytes_original": 39462,
+      "bytes_demo": 39462,
+      "modo": "original"
+    },
+    {
+      "original": "gui/overlay/main_menu.png",
+      "archivo": "gui/overlay/main_menu.png",
+      "bytes_original": 39525,
+      "bytes_demo": 39525,
+      "modo": "original"
+    },
+    {
+      "original": "gui/phone/bar/bottom.png",
+      "archivo": "gui/phone/bar/bottom.png",
+      "bytes_original": 838,
+      "bytes_demo": 838,
+      "modo": "original"
+    },
+    {
+      "original": "gui/phone/bar/left.png",
+      "archivo": "gui/phone/bar/left.png",
+      "bytes_original": 522,
+      "bytes_demo": 522,
+      "modo": "original"
+    },
+    {
+      "original": "gui/phone/bar/right.png",
+      "archivo": "gui/phone/bar/right.png",
+      "bytes_original": 522,
+      "bytes_demo": 522,
+      "modo": "original"
+    },
+    {
+      "original": "gui/phone/bar/top.png",
+      "archivo": "gui/phone/bar/top.png",
+      "bytes_original": 838,
+      "bytes_demo": 838,
+      "modo": "original"
+    },
+    {
+      "original": "gui/phone/button/check_foreground.png",
+      "archivo": "gui/phone/button/check_foreground.png",
+      "bytes_original": 111,
+      "bytes_demo": 111,
+      "modo": "original"
+    },
+    {
+      "original": "gui/phone/button/check_selected_foreground.png",
+      "archivo": "gui/phone/button/check_selected_foreground.png",
+      "bytes_original": 176,
+      "bytes_demo": 176,
+      "modo": "original"
+    },
+    {
+      "original": "gui/phone/button/choice_hover_background.png",
+      "archivo": "gui/phone/button/choice_hover_background.png",
+      "bytes_original": 1751,
+      "bytes_demo": 1751,
+      "modo": "original"
+    },
+    {
+      "original": "gui/phone/button/choice_idle_background.png",
+      "archivo": "gui/phone/button/choice_idle_background.png",
+      "bytes_original": 1777,
+      "bytes_demo": 1777,
+      "modo": "original"
+    },
+    {
+      "original": "gui/phone/button/hover_background.png",
+      "archivo": "gui/phone/button/hover_background.png",
+      "bytes_original": 583,
+      "bytes_demo": 583,
+      "modo": "original"
+    },
+    {
+      "original": "gui/phone/button/idle_background.png",
+      "archivo": "gui/phone/button/idle_background.png",
+      "bytes_original": 583,
+      "bytes_demo": 583,
+      "modo": "original"
+    },
+    {
+      "original": "gui/phone/button/radio_foreground.png",
+      "archivo": "gui/phone/button/radio_foreground.png",
+      "bytes_original": 111,
+      "bytes_demo": 111,
+      "modo": "original"
+    },
+    {
+      "original": "gui/phone/button/radio_selected_foreground.png",
+      "archivo": "gui/phone/button/radio_selected_foreground.png",
+      "bytes_original": 176,
+      "bytes_demo": 176,
+      "modo": "original"
+    },
+    {
+      "original": "gui/phone/button/slot_hover_background.png",
+      "archivo": "gui/phone/button/slot_hover_background.png",
+      "bytes_original": 3054,
+      "bytes_demo": 3054,
+      "modo": "original"
+    },
+    {
+      "original": "gui/phone/button/slot_idle_background.png",
+      "archivo": "gui/phone/button/slot_idle_background.png",
+      "bytes_original": 2989,
+      "bytes_demo": 2989,
+      "modo": "original"
+    },
+    {
+      "original": "gui/phone/nvl.png",
+      "archivo": "gui/phone/nvl.png",
+      "bytes_original": 38668,
+      "bytes_demo": 38668,
+      "modo": "original"
+    },
+    {
+      "original": "gui/phone/overlay/game_menu.png",
+      "archivo": "gui/phone/overlay/game_menu.png",
+      "bytes_original": 39477,
+      "bytes_demo": 39477,
+      "modo": "original"
+    },
+    {
+      "original": "gui/phone/overlay/main_menu.png",
+      "archivo": "gui/phone/overlay/main_menu.png",
+      "bytes_original": 39624,
+      "bytes_demo": 39624,
+      "modo": "original"
+    },
+    {
+      "original": "gui/phone/scrollbar/horizontal_hover_bar.png",
+      "archivo": "gui/phone/scrollbar/horizontal_hover_bar.png",
+      "bytes_original": 462,
+      "bytes_demo": 462,
+      "modo": "original"
+    },
+    {
+      "original": "gui/phone/scrollbar/horizontal_hover_thumb.png",
+      "archivo": "gui/phone/scrollbar/horizontal_hover_thumb.png",
+      "bytes_original": 465,
+      "bytes_demo": 465,
+      "modo": "original"
+    },
+    {
+      "original": "gui/phone/scrollbar/horizontal_idle_bar.png",
+      "archivo": "gui/phone/scrollbar/horizontal_idle_bar.png",
+      "bytes_original": 464,
+      "bytes_demo": 464,
+      "modo": "original"
+    },
+    {
+      "original": "gui/phone/scrollbar/horizontal_idle_thumb.png",
+      "archivo": "gui/phone/scrollbar/horizontal_idle_thumb.png",
+      "bytes_original": 464,
+      "bytes_demo": 464,
+      "modo": "original"
+    },
+    {
+      "original": "gui/phone/scrollbar/vertical_hover_bar.png",
+      "archivo": "gui/phone/scrollbar/vertical_hover_bar.png",
+      "bytes_original": 803,
+      "bytes_demo": 803,
+      "modo": "original"
+    },
+    {
+      "original": "gui/phone/scrollbar/vertical_hover_thumb.png",
+      "archivo": "gui/phone/scrollbar/vertical_hover_thumb.png",
+      "bytes_original": 805,
+      "bytes_demo": 805,
+      "modo": "original"
+    },
+    {
+      "original": "gui/phone/scrollbar/vertical_idle_bar.png",
+      "archivo": "gui/phone/scrollbar/vertical_idle_bar.png",
+      "bytes_original": 804,
+      "bytes_demo": 804,
+      "modo": "original"
+    },
+    {
+      "original": "gui/phone/scrollbar/vertical_idle_thumb.png",
+      "archivo": "gui/phone/scrollbar/vertical_idle_thumb.png",
+      "bytes_original": 804,
+      "bytes_demo": 804,
+      "modo": "original"
+    },
+    {
+      "original": "gui/phone/slider/horizontal_hover_bar.png",
+      "archivo": "gui/phone/slider/horizontal_hover_bar.png",
+      "bytes_original": 702,
+      "bytes_demo": 702,
+      "modo": "original"
+    },
+    {
+      "original": "gui/phone/slider/horizontal_hover_thumb.png",
+      "archivo": "gui/phone/slider/horizontal_hover_thumb.png",
+      "bytes_original": 141,
+      "bytes_demo": 141,
+      "modo": "original"
+    },
+    {
+      "original": "gui/phone/slider/horizontal_idle_bar.png",
+      "archivo": "gui/phone/slider/horizontal_idle_bar.png",
+      "bytes_original": 703,
+      "bytes_demo": 703,
+      "modo": "original"
+    },
+    {
+      "original": "gui/phone/slider/horizontal_idle_thumb.png",
+      "archivo": "gui/phone/slider/horizontal_idle_thumb.png",
+      "bytes_original": 140,
+      "bytes_demo": 140,
+      "modo": "original"
+    },
+    {
+      "original": "gui/phone/slider/vertical_hover_bar.png",
+      "archivo": "gui/phone/slider/vertical_hover_bar.png",
+      "bytes_original": 1371,
+      "bytes_demo": 1371,
+      "modo": "original"
+    },
+    {
+      "original": "gui/phone/slider/vertical_hover_thumb.png",
+      "archivo": "gui/phone/slider/vertical_hover_thumb.png",
+      "bytes_original": 146,
+      "bytes_demo": 146,
+      "modo": "original"
+    },
+    {
+      "original": "gui/phone/slider/vertical_idle_bar.png",
+      "archivo": "gui/phone/slider/vertical_idle_bar.png",
+      "bytes_original": 1373,
+      "bytes_demo": 1373,
+      "modo": "original"
+    },
+    {
+      "original": "gui/phone/slider/vertical_idle_thumb.png",
+      "archivo": "gui/phone/slider/vertical_idle_thumb.png",
+      "bytes_original": 145,
+      "bytes_demo": 145,
+      "modo": "original"
+    },
+    {
+      "original": "gui/phone/textbox.png",
+      "archivo": "gui/phone/textbox.png",
+      "bytes_original": 13292,
+      "bytes_demo": 13292,
+      "modo": "original"
+    },
+    {
+      "original": "gui/scrollbar/horizontal_hover_bar.png",
+      "archivo": "gui/scrollbar/horizontal_hover_bar.png",
+      "bytes_original": 462,
+      "bytes_demo": 462,
+      "modo": "original"
+    },
+    {
+      "original": "gui/scrollbar/horizontal_hover_thumb.png",
+      "archivo": "gui/scrollbar/horizontal_hover_thumb.png",
+      "bytes_original": 465,
+      "bytes_demo": 465,
+      "modo": "original"
+    },
+    {
+      "original": "gui/scrollbar/horizontal_idle_bar.png",
+      "archivo": "gui/scrollbar/horizontal_idle_bar.png",
+      "bytes_original": 464,
+      "bytes_demo": 464,
+      "modo": "original"
+    },
+    {
+      "original": "gui/scrollbar/horizontal_idle_thumb.png",
+      "archivo": "gui/scrollbar/horizontal_idle_thumb.png",
+      "bytes_original": 464,
+      "bytes_demo": 464,
+      "modo": "original"
+    },
+    {
+      "original": "gui/scrollbar/vertical_hover_bar.png",
+      "archivo": "gui/scrollbar/vertical_hover_bar.png",
+      "bytes_original": 803,
+      "bytes_demo": 803,
+      "modo": "original"
+    },
+    {
+      "original": "gui/scrollbar/vertical_hover_thumb.png",
+      "archivo": "gui/scrollbar/vertical_hover_thumb.png",
+      "bytes_original": 805,
+      "bytes_demo": 805,
+      "modo": "original"
+    },
+    {
+      "original": "gui/scrollbar/vertical_idle_bar.png",
+      "archivo": "gui/scrollbar/vertical_idle_bar.png",
+      "bytes_original": 804,
+      "bytes_demo": 804,
+      "modo": "original"
+    },
+    {
+      "original": "gui/scrollbar/vertical_idle_thumb.png",
+      "archivo": "gui/scrollbar/vertical_idle_thumb.png",
+      "bytes_original": 804,
+      "bytes_demo": 804,
+      "modo": "original"
+    },
+    {
+      "original": "gui/skip.png",
+      "archivo": "gui/skip.png",
+      "bytes_original": 721,
+      "bytes_demo": 721,
+      "modo": "original"
+    },
+    {
+      "original": "gui/slider/horizontal_hover_bar.png",
+      "archivo": "gui/slider/horizontal_hover_bar.png",
+      "bytes_original": 521,
+      "bytes_demo": 521,
+      "modo": "original"
+    },
+    {
+      "original": "gui/slider/horizontal_hover_thumb.png",
+      "archivo": "gui/slider/horizontal_hover_thumb.png",
+      "bytes_original": 114,
+      "bytes_demo": 114,
+      "modo": "original"
+    },
+    {
+      "original": "gui/slider/horizontal_idle_bar.png",
+      "archivo": "gui/slider/horizontal_idle_bar.png",
+      "bytes_original": 522,
+      "bytes_demo": 522,
+      "modo": "original"
+    },
+    {
+      "original": "gui/slider/horizontal_idle_thumb.png",
+      "archivo": "gui/slider/horizontal_idle_thumb.png",
+      "bytes_original": 114,
+      "bytes_demo": 114,
+      "modo": "original"
+    },
+    {
+      "original": "gui/slider/vertical_hover_bar.png",
+      "archivo": "gui/slider/vertical_hover_bar.png",
+      "bytes_original": 836,
+      "bytes_demo": 836,
+      "modo": "original"
+    },
+    {
+      "original": "gui/slider/vertical_hover_thumb.png",
+      "archivo": "gui/slider/vertical_hover_thumb.png",
+      "bytes_original": 111,
+      "bytes_demo": 111,
+      "modo": "original"
+    },
+    {
+      "original": "gui/slider/vertical_idle_bar.png",
+      "archivo": "gui/slider/vertical_idle_bar.png",
+      "bytes_original": 838,
+      "bytes_demo": 838,
+      "modo": "original"
+    },
+    {
+      "original": "gui/slider/vertical_idle_thumb.png",
+      "archivo": "gui/slider/vertical_idle_thumb.png",
+      "bytes_original": 111,
+      "bytes_demo": 111,
+      "modo": "original"
+    },
+    {
+      "original": "gui/textbox.png",
+      "archivo": "gui/textbox.png",
+      "bytes_original": 10916,
+      "bytes_demo": 10916,
+      "modo": "original"
+    },
+    {
+      "original": "gui/thoughtbubble (copy 1).png",
+      "archivo": "gui/thoughtbubble (copy 1).png",
+      "bytes_original": 4215,
+      "bytes_demo": 4215,
+      "modo": "original"
+    },
+    {
+      "original": "gui/thoughtbubble.png",
+      "archivo": "gui/thoughtbubble.png",
+      "bytes_original": 4215,
+      "bytes_demo": 4215,
+      "modo": "original"
+    },
+    {
+      "original": "gui/window_icon.png",
+      "archivo": "gui/window_icon.png",
+      "bytes_original": 18041,
+      "bytes_demo": 18041,
+      "modo": "original"
+    },
+    {
+      "original": "images/bestiario/bocetos_simples/alraune_medicinal-boceto-simple-v1.png",
+      "archivo": "images/bestiario/bocetos_simples/alraune_medicinal-boceto-simple-v1.webp",
+      "bytes_original": 3154917,
+      "bytes_demo": 2093042,
+      "modo": "WebP sin pérdida, resolución original"
+    },
+    {
+      "original": "images/bestiario/bocetos_simples/arena_dupla-boceto-simple-v1.png",
+      "archivo": "images/bestiario/bocetos_simples/arena_dupla-boceto-simple-v1.webp",
+      "bytes_original": 2519125,
+      "bytes_demo": 1501398,
+      "modo": "WebP sin pérdida, resolución original"
+    },
+    {
+      "original": "images/bestiario/bocetos_simples/arena_novato-boceto-simple-v1.png",
+      "archivo": "images/bestiario/bocetos_simples/arena_novato-boceto-simple-v1.webp",
+      "bytes_original": 2202482,
+      "bytes_demo": 1289798,
+      "modo": "WebP sin pérdida, resolución original"
+    },
+    {
+      "original": "images/bestiario/bocetos_simples/arena_veterano-boceto-simple-v1.png",
+      "archivo": "images/bestiario/bocetos_simples/arena_veterano-boceto-simple-v1.webp",
+      "bytes_original": 2444002,
+      "bytes_demo": 1445688,
+      "modo": "WebP sin pérdida, resolución original"
+    },
+    {
+      "original": "images/bestiario/bocetos_simples/berto-boceto-simple-v1.png",
+      "archivo": "images/bestiario/bocetos_simples/berto-boceto-simple-v1.webp",
+      "bytes_original": 1441904,
+      "bytes_demo": 936634,
+      "modo": "WebP sin pérdida, resolución original"
+    },
+    {
+      "original": "images/bestiario/bocetos_simples/caballero_zombi-boceto-simple-v1.png",
+      "archivo": "images/bestiario/bocetos_simples/caballero_zombi-boceto-simple-v1.webp",
+      "bytes_original": 1673985,
+      "bytes_demo": 1108112,
+      "modo": "WebP sin pérdida, resolución original"
+    },
+    {
+      "original": "images/bestiario/bocetos_simples/ciclope_acorazado-boceto-simple-v1.png",
+      "archivo": "images/bestiario/bocetos_simples/ciclope_acorazado-boceto-simple-v1.webp",
+      "bytes_original": 2715495,
+      "bytes_demo": 1598430,
+      "modo": "WebP sin pérdida, resolución original"
+    },
+    {
+      "original": "images/bestiario/bocetos_simples/coloso_raiz-boceto-simple-v1.png",
+      "archivo": "images/bestiario/bocetos_simples/coloso_raiz-boceto-simple-v1.webp",
+      "bytes_original": 3103583,
+      "bytes_demo": 1901376,
+      "modo": "WebP sin pérdida, resolución original"
+    },
+    {
+      "original": "images/bestiario/bocetos_simples/cuervo_del_bosque-boceto-simple-v1.png",
+      "archivo": "images/bestiario/bocetos_simples/cuervo_del_bosque-boceto-simple-v1.webp",
+      "bytes_original": 1594684,
+      "bytes_demo": 1084310,
+      "modo": "WebP sin pérdida, resolución original"
+    },
+    {
+      "original": "images/bestiario/bocetos_simples/cuervo_karmilla-boceto-simple-v1.png",
+      "archivo": "images/bestiario/bocetos_simples/cuervo_karmilla-boceto-simple-v1.webp",
+      "bytes_original": 1624151,
+      "bytes_demo": 1107894,
+      "modo": "WebP sin pérdida, resolución original"
+    },
+    {
+      "original": "images/bestiario/bocetos_simples/destigio-boceto-simple-v1.png",
+      "archivo": "images/bestiario/bocetos_simples/destigio-boceto-simple-v1.webp",
+      "bytes_original": 2513836,
+      "bytes_demo": 1545172,
+      "modo": "WebP sin pérdida, resolución original"
+    },
+    {
+      "original": "images/bestiario/bocetos_simples/dragon_ceniza-boceto-simple-v1.png",
+      "archivo": "images/bestiario/bocetos_simples/dragon_ceniza-boceto-simple-v1.webp",
+      "bytes_original": 2746079,
+      "bytes_demo": 1656466,
+      "modo": "WebP sin pérdida, resolución original"
+    },
+    {
+      "original": "images/bestiario/bocetos_simples/echidna-boceto-simple-v1.png",
+      "archivo": "images/bestiario/bocetos_simples/echidna-boceto-simple-v1.webp",
+      "bytes_original": 2499766,
+      "bytes_demo": 1488208,
+      "modo": "WebP sin pérdida, resolución original"
+    },
+    {
+      "original": "images/bestiario/bocetos_simples/ent_joven-boceto-simple-v1.png",
+      "archivo": "images/bestiario/bocetos_simples/ent_joven-boceto-simple-v1.webp",
+      "bytes_original": 2509847,
+      "bytes_demo": 1441062,
+      "modo": "WebP sin pérdida, resolución original"
+    },
+    {
+      "original": "images/bestiario/bocetos_simples/forastero-boceto-simple-v1.png",
+      "archivo": "images/bestiario/bocetos_simples/forastero-boceto-simple-v1.webp",
+      "bytes_original": 2411541,
+      "bytes_demo": 1437758,
+      "modo": "WebP sin pérdida, resolución original"
+    },
+    {
+      "original": "images/bestiario/bocetos_simples/goblin_merodeador-boceto-simple-v1.png",
+      "archivo": "images/bestiario/bocetos_simples/goblin_merodeador-boceto-simple-v1.webp",
+      "bytes_original": 2646992,
+      "bytes_demo": 1804780,
+      "modo": "WebP sin pérdida, resolución original"
+    },
+    {
+      "original": "images/bestiario/bocetos_simples/goblin_ratero-boceto-simple-v1.png",
+      "archivo": "images/bestiario/bocetos_simples/goblin_ratero-boceto-simple-v1.webp",
+      "bytes_original": 1929984,
+      "bytes_demo": 1321178,
+      "modo": "WebP sin pérdida, resolución original"
+    },
+    {
+      "original": "images/bestiario/bocetos_simples/gorrak-boceto-simple-v1.png",
+      "archivo": "images/bestiario/bocetos_simples/gorrak-boceto-simple-v1.webp",
+      "bytes_original": 1986991,
+      "bytes_demo": 1351140,
+      "modo": "WebP sin pérdida, resolución original"
+    },
+    {
+      "original": "images/bestiario/bocetos_simples/grifo_tormenta-boceto-simple-v1.png",
+      "archivo": "images/bestiario/bocetos_simples/grifo_tormenta-boceto-simple-v1.webp",
+      "bytes_original": 2849881,
+      "bytes_demo": 1767956,
+      "modo": "WebP sin pérdida, resolución original"
+    },
+    {
+      "original": "images/bestiario/bocetos_simples/guardian_codice-boceto-simple-v1.png",
+      "archivo": "images/bestiario/bocetos_simples/guardian_codice-boceto-simple-v1.webp",
+      "bytes_original": 2625922,
+      "bytes_demo": 1607138,
+      "modo": "WebP sin pérdida, resolución original"
+    },
+    {
+      "original": "images/bestiario/bocetos_simples/jabali_acorazado-boceto-simple-v1.png",
+      "archivo": "images/bestiario/bocetos_simples/jabali_acorazado-boceto-simple-v1.webp",
+      "bytes_original": 2474667,
+      "bytes_demo": 1482858,
+      "modo": "WebP sin pérdida, resolución original"
+    },
+    {
+      "original": "images/bestiario/bocetos_simples/karmilla-boceto-simple-v1.png",
+      "archivo": "images/bestiario/bocetos_simples/karmilla-boceto-simple-v1.webp",
+      "bytes_original": 2426377,
+      "bytes_demo": 1444178,
+      "modo": "WebP sin pérdida, resolución original"
+    },
+    {
+      "original": "images/bestiario/bocetos_simples/karmilla_arpia-boceto-simple-v1.png",
+      "archivo": "images/bestiario/bocetos_simples/karmilla_arpia-boceto-simple-v1.webp",
+      "bytes_original": 3221421,
+      "bytes_demo": 2060962,
+      "modo": "WebP sin pérdida, resolución original"
+    },
+    {
+      "original": "images/bestiario/bocetos_simples/lobo_ceniza-boceto-simple-v1.png",
+      "archivo": "images/bestiario/bocetos_simples/lobo_ceniza-boceto-simple-v1.webp",
+      "bytes_original": 2585853,
+      "bytes_demo": 1545112,
+      "modo": "WebP sin pérdida, resolución original"
+    },
+    {
+      "original": "images/bestiario/bocetos_simples/lobo_lider_huerto-boceto-simple-v1.png",
+      "archivo": "images/bestiario/bocetos_simples/lobo_lider_huerto-boceto-simple-v1.webp",
+      "bytes_original": 2202843,
+      "bytes_demo": 1061356,
+      "modo": "WebP sin pérdida, resolución original"
+    },
+    {
+      "original": "images/bestiario/bocetos_simples/manticora_alfa-boceto-simple-v1.png",
+      "archivo": "images/bestiario/bocetos_simples/manticora_alfa-boceto-simple-v1.webp",
+      "bytes_original": 2113737,
+      "bytes_demo": 1467878,
+      "modo": "WebP sin pérdida, resolución original"
+    },
+    {
+      "original": "images/bestiario/bocetos_simples/sable-boceto-simple-v1.png",
+      "archivo": "images/bestiario/bocetos_simples/sable-boceto-simple-v1.webp",
+      "bytes_original": 2371723,
+      "bytes_demo": 1386374,
+      "modo": "WebP sin pérdida, resolución original"
+    },
+    {
+      "original": "images/bestiario/bocetos_simples/sabueso_brasas-boceto-simple-v1.png",
+      "archivo": "images/bestiario/bocetos_simples/sabueso_brasas-boceto-simple-v1.webp",
+      "bytes_original": 2251557,
+      "bytes_demo": 1566646,
+      "modo": "WebP sin pérdida, resolución original"
+    },
+    {
+      "original": "images/bestiario/bocetos_simples/serpiente_mareal-boceto-simple-v1.png",
+      "archivo": "images/bestiario/bocetos_simples/serpiente_mareal-boceto-simple-v1.webp",
+      "bytes_original": 2668049,
+      "bytes_demo": 1591822,
+      "modo": "WebP sin pérdida, resolución original"
+    },
+    {
+      "original": "images/bestiario/bocetos_simples/sirena_matriarca-boceto-simple-v1.png",
+      "archivo": "images/bestiario/bocetos_simples/sirena_matriarca-boceto-simple-v1.webp",
+      "bytes_original": 2648854,
+      "bytes_demo": 1575534,
+      "modo": "WebP sin pérdida, resolución original"
+    },
+    {
+      "original": "images/bestiario/bocetos_simples/troll_bosque-boceto-simple-v1.png",
+      "archivo": "images/bestiario/bocetos_simples/troll_bosque-boceto-simple-v1.webp",
+      "bytes_original": 3080423,
+      "bytes_demo": 1812220,
+      "modo": "WebP sin pérdida, resolución original"
+    },
+    {
+      "original": "images/bestiario/bocetos_simples/troll_rocas-boceto-simple-v1.png",
+      "archivo": "images/bestiario/bocetos_simples/troll_rocas-boceto-simple-v1.webp",
+      "bytes_original": 3102278,
+      "bytes_demo": 1822500,
+      "modo": "WebP sin pérdida, resolución original"
+    },
+    {
+      "original": "images/bg/bg_avenida_comercial-noche-v1.png",
+      "archivo": "images/bg/bg_avenida_comercial-noche-v1.webp",
+      "bytes_original": 2935349,
+      "bytes_demo": 764404,
+      "modo": "WebP calidad 97, resolución original"
+    },
+    {
+      "original": "images/bg/bg_avenida_comercial-v2.png",
+      "archivo": "images/bg/bg_avenida_comercial-v2.webp",
+      "bytes_original": 2924159,
+      "bytes_demo": 758350,
+      "modo": "WebP calidad 97, resolución original"
+    },
+    {
+      "original": "images/bg/bg_avenida_principal-acuarela-dia-v1.png",
+      "archivo": "images/bg/bg_avenida_principal-acuarela-dia-v1.webp",
+      "bytes_original": 2814973,
+      "bytes_demo": 758132,
+      "modo": "WebP calidad 97, resolución original"
+    },
+    {
+      "original": "images/bg/bg_avenida_principal-acuarela-noche-v1.png",
+      "archivo": "images/bg/bg_avenida_principal-acuarela-noche-v1.webp",
+      "bytes_original": 2782653,
+      "bytes_demo": 750828,
+      "modo": "WebP calidad 97, resolución original"
+    },
+    {
+      "original": "images/bg/bg_barco_camarotes-noche-v1.png",
+      "archivo": "images/bg/bg_barco_camarotes-noche-v1.webp",
+      "bytes_original": 2514926,
+      "bytes_demo": 573264,
+      "modo": "WebP calidad 97, resolución original"
+    },
+    {
+      "original": "images/bg/bg_barco_camarotes-v1.png",
+      "archivo": "images/bg/bg_barco_camarotes-v1.webp",
+      "bytes_original": 2550796,
+      "bytes_demo": 588752,
+      "modo": "WebP calidad 97, resolución original"
+    },
+    {
+      "original": "images/bg/bg_barco_combate-noche-v1.png",
+      "archivo": "images/bg/bg_barco_combate-noche-v1.webp",
+      "bytes_original": 2637302,
+      "bytes_demo": 645154,
+      "modo": "WebP calidad 97, resolución original"
+    },
+    {
+      "original": "images/bg/bg_barco_combate-v1.png",
+      "archivo": "images/bg/bg_barco_combate-v1.webp",
+      "bytes_original": 2760691,
+      "bytes_demo": 697164,
+      "modo": "WebP calidad 97, resolución original"
+    },
+    {
+      "original": "images/bg/bg_barco_proa-noche-v1.png",
+      "archivo": "images/bg/bg_barco_proa-noche-v1.webp",
+      "bytes_original": 2772839,
+      "bytes_demo": 672088,
+      "modo": "WebP calidad 97, resolución original"
+    },
+    {
+      "original": "images/bg/bg_barco_proa-v1.png",
+      "archivo": "images/bg/bg_barco_proa-v1.webp",
+      "bytes_original": 2835089,
+      "bytes_demo": 710778,
+      "modo": "WebP calidad 97, resolución original"
+    },
+    {
+      "original": "images/bg/bg_barrio_refugiados-acuarela-dia-v1.png",
+      "archivo": "images/bg/bg_barrio_refugiados-acuarela-dia-v1.webp",
+      "bytes_original": 2781718,
+      "bytes_demo": 727094,
+      "modo": "WebP calidad 97, resolución original"
+    },
+    {
+      "original": "images/bg/bg_barrio_refugiados-acuarela-noche-v1.png",
+      "archivo": "images/bg/bg_barrio_refugiados-acuarela-noche-v1.webp",
+      "bytes_original": 2746530,
+      "bytes_demo": 718258,
+      "modo": "WebP calidad 97, resolución original"
+    },
+    {
+      "original": "images/bg/bg_biblioteca-acuarela-dia-v1.png",
+      "archivo": "images/bg/bg_biblioteca-acuarela-dia-v1.webp",
+      "bytes_original": 2432634,
+      "bytes_demo": 610760,
+      "modo": "WebP calidad 97, resolución original"
+    },
+    {
+      "original": "images/bg/bg_biblioteca-acuarela-noche-v1.png",
+      "archivo": "images/bg/bg_biblioteca-acuarela-noche-v1.webp",
+      "bytes_original": 2297774,
+      "bytes_demo": 512872,
+      "modo": "WebP calidad 97, resolución original"
+    },
+    {
+      "original": "images/bg/bg_bosque_gris-noche-v1.png",
+      "archivo": "images/bg/bg_bosque_gris-noche-v1.webp",
+      "bytes_original": 3077600,
+      "bytes_demo": 724860,
+      "modo": "WebP calidad 97, resolución original"
+    },
+    {
+      "original": "images/bg/bg_bosque_gris.png",
+      "archivo": "images/bg/bg_bosque_gris.webp",
+      "bytes_original": 3132942,
+      "bytes_demo": 780594,
+      "modo": "WebP calidad 97, resolución original"
+    },
+    {
+      "original": "images/bg/bg_botica-sin-banderas-dia-v1.png",
+      "archivo": "images/bg/bg_botica-sin-banderas-dia-v1.webp",
+      "bytes_original": 2714720,
+      "bytes_demo": 709380,
+      "modo": "WebP calidad 97, resolución original"
+    },
+    {
+      "original": "images/bg/bg_botica-sin-banderas-noche-v1.png",
+      "archivo": "images/bg/bg_botica-sin-banderas-noche-v1.webp",
+      "bytes_original": 2586042,
+      "bytes_demo": 637572,
+      "modo": "WebP calidad 97, resolución original"
+    },
+    {
+      "original": "images/bg/bg_boticaria_interior-noche-v1.png",
+      "archivo": "images/bg/bg_boticaria_interior-noche-v1.webp",
+      "bytes_original": 2628954,
+      "bytes_demo": 661384,
+      "modo": "WebP calidad 97, resolución original"
+    },
+    {
+      "original": "images/bg/bg_boticaria_revision.png",
+      "archivo": "images/bg/bg_boticaria_revision.webp",
+      "bytes_original": 2714396,
+      "bytes_demo": 720110,
+      "modo": "WebP calidad 97, resolución original"
+    },
+    {
+      "original": "images/bg/bg_camino_ciudadela-acuarela-dia-v1.png",
+      "archivo": "images/bg/bg_camino_ciudadela-acuarela-dia-v1.webp",
+      "bytes_original": 2800454,
+      "bytes_demo": 727342,
+      "modo": "WebP calidad 97, resolución original"
+    },
+    {
+      "original": "images/bg/bg_camino_ciudadela-acuarela-noche-v1.png",
+      "archivo": "images/bg/bg_camino_ciudadela-acuarela-noche-v1.webp",
+      "bytes_original": 2728510,
+      "bytes_demo": 704184,
+      "modo": "WebP calidad 97, resolución original"
+    },
+    {
+      "original": "images/bg/bg_casa_dorian-noche-v1.png",
+      "archivo": "images/bg/bg_casa_dorian-noche-v1.webp",
+      "bytes_original": 2466580,
+      "bytes_demo": 561848,
+      "modo": "WebP calidad 97, resolución original"
+    },
+    {
+      "original": "images/bg/bg_casa_dorian.png",
+      "archivo": "images/bg/bg_casa_dorian.webp",
+      "bytes_original": 2650726,
+      "bytes_demo": 650300,
+      "modo": "WebP calidad 97, resolución original"
+    },
+    {
+      "original": "images/bg/bg_casa_karmilla_exterior-acuarela-noche-v1.png",
+      "archivo": "images/bg/bg_casa_karmilla_exterior-acuarela-noche-v1.webp",
+      "bytes_original": 2839643,
+      "bytes_demo": 745264,
+      "modo": "WebP calidad 97, resolución original"
+    },
+    {
+      "original": "images/bg/bg_casa_karmilla_exterior-acuarela-v1.png",
+      "archivo": "images/bg/bg_casa_karmilla_exterior-acuarela-v1.webp",
+      "bytes_original": 3027759,
+      "bytes_demo": 822034,
+      "modo": "WebP calidad 97, resolución original"
+    },
+    {
+      "original": "images/bg/bg_casa_karmilla_interior-acuarela-dia-v1.png",
+      "archivo": "images/bg/bg_casa_karmilla_interior-acuarela-dia-v1.webp",
+      "bytes_original": 2534329,
+      "bytes_demo": 645616,
+      "modo": "WebP calidad 97, resolución original"
+    },
+    {
+      "original": "images/bg/bg_casa_karmilla_interior-acuarela-noche-v1.png",
+      "archivo": "images/bg/bg_casa_karmilla_interior-acuarela-noche-v1.webp",
+      "bytes_original": 2336182,
+      "bytes_demo": 1879314,
+      "modo": "WebP sin pérdida, resolución original"
+    },
+    {
+      "original": "images/bg/bg_casa_mira-noche-v1.png",
+      "archivo": "images/bg/bg_casa_mira-noche-v1.webp",
+      "bytes_original": 2650688,
+      "bytes_demo": 616324,
+      "modo": "WebP calidad 97, resolución original"
+    },
+    {
+      "original": "images/bg/bg_casa_mira.png",
+      "archivo": "images/bg/bg_casa_mira.webp",
+      "bytes_original": 2835977,
+      "bytes_demo": 760646,
+      "modo": "WebP calidad 97, resolución original"
+    },
+    {
+      "original": "images/bg/bg_ciudadela_plaza-destruida-v1.png",
+      "archivo": "images/bg/bg_ciudadela_plaza-destruida-v1.webp",
+      "bytes_original": 2888313,
+      "bytes_demo": 763970,
+      "modo": "WebP calidad 97, resolución original"
+    },
+    {
+      "original": "images/bg/bg_ciudadela_plaza-sin-banderas-dia-v1.png",
+      "archivo": "images/bg/bg_ciudadela_plaza-sin-banderas-dia-v1.webp",
+      "bytes_original": 2442661,
+      "bytes_demo": 593750,
+      "modo": "WebP calidad 97, resolución original"
+    },
+    {
+      "original": "images/bg/bg_ciudadela_plaza-sin-banderas-noche-v1.png",
+      "archivo": "images/bg/bg_ciudadela_plaza-sin-banderas-noche-v1.webp",
+      "bytes_original": 2564246,
+      "bytes_demo": 641454,
+      "modo": "WebP calidad 97, resolución original"
+    },
+    {
+      "original": "images/bg/bg_claro_entrenamiento-noche-v1.png",
+      "archivo": "images/bg/bg_claro_entrenamiento-noche-v1.webp",
+      "bytes_original": 2988141,
+      "bytes_demo": 746308,
+      "modo": "WebP calidad 97, resolución original"
+    },
+    {
+      "original": "images/bg/bg_claro_entrenamiento.png",
+      "archivo": "images/bg/bg_claro_entrenamiento.webp",
+      "bytes_original": 3125255,
+      "bytes_demo": 882298,
+      "modo": "WebP calidad 97, resolución original"
+    },
+    {
+      "original": "images/bg/bg_coliseo-acuarela-dia-v1.png",
+      "archivo": "images/bg/bg_coliseo-acuarela-dia-v1.webp",
+      "bytes_original": 2583240,
+      "bytes_demo": 670952,
+      "modo": "WebP calidad 97, resolución original"
+    },
+    {
+      "original": "images/bg/bg_coliseo-acuarela-noche-v1.png",
+      "archivo": "images/bg/bg_coliseo-acuarela-noche-v1.webp",
+      "bytes_original": 2508640,
+      "bytes_demo": 604288,
+      "modo": "WebP calidad 97, resolución original"
+    },
+    {
+      "original": "images/bg/bg_coliseo_exterior-noche-v1.png",
+      "archivo": "images/bg/bg_coliseo_exterior-noche-v1.webp",
+      "bytes_original": 2716609,
+      "bytes_demo": 684500,
+      "modo": "WebP calidad 97, resolución original"
+    },
+    {
+      "original": "images/bg/bg_coliseo_exterior-v2.png",
+      "archivo": "images/bg/bg_coliseo_exterior-v2.webp",
+      "bytes_original": 2682568,
+      "bytes_demo": 680038,
+      "modo": "WebP calidad 97, resolución original"
+    },
+    {
+      "original": "images/bg/bg_coliseo_revision.png",
+      "archivo": "images/bg/bg_coliseo_revision.webp",
+      "bytes_original": 2909931,
+      "bytes_demo": 805360,
+      "modo": "WebP calidad 97, resolución original"
+    },
+    {
+      "original": "images/bg/bg_combate_bosque.png",
+      "archivo": "images/bg/bg_combate_bosque.webp",
+      "bytes_original": 2978832,
+      "bytes_demo": 783070,
+      "modo": "WebP calidad 97, resolución original"
+    },
+    {
+      "original": "images/bg/bg_combate_ciudadela.png",
+      "archivo": "images/bg/bg_combate_ciudadela.webp",
+      "bytes_original": 2947098,
+      "bytes_demo": 767242,
+      "modo": "WebP calidad 97, resolución original"
+    },
+    {
+      "original": "images/bg/bg_combate_cueva.png",
+      "archivo": "images/bg/bg_combate_cueva.webp",
+      "bytes_original": 2867423,
+      "bytes_demo": 739904,
+      "modo": "WebP calidad 97, resolución original"
+    },
+    {
+      "original": "images/bg/bg_continente_olvidado.png",
+      "archivo": "images/bg/bg_continente_olvidado.webp",
+      "bytes_original": 2944294,
+      "bytes_demo": 758716,
+      "modo": "WebP calidad 97, resolución original"
+    },
+    {
+      "original": "images/bg/bg_costa_barranco-noche-v1.png",
+      "archivo": "images/bg/bg_costa_barranco-noche-v1.webp",
+      "bytes_original": 2903166,
+      "bytes_demo": 712928,
+      "modo": "WebP calidad 97, resolución original"
+    },
+    {
+      "original": "images/bg/bg_costa_barranco-v1.png",
+      "archivo": "images/bg/bg_costa_barranco-v1.webp",
+      "bytes_original": 3024002,
+      "bytes_demo": 2357562,
+      "modo": "WebP sin pérdida, resolución original"
+    },
+    {
+      "original": "images/bg/bg_costa_cabana-noche-v1.png",
+      "archivo": "images/bg/bg_costa_cabana-noche-v1.webp",
+      "bytes_original": 2877713,
+      "bytes_demo": 731488,
+      "modo": "WebP calidad 97, resolución original"
+    },
+    {
+      "original": "images/bg/bg_costa_cabana-v1.png",
+      "archivo": "images/bg/bg_costa_cabana-v1.webp",
+      "bytes_original": 3173098,
+      "bytes_demo": 818500,
+      "modo": "WebP calidad 97, resolución original"
+    },
+    {
+      "original": "images/bg/bg_costa_claro-noche-v1.png",
+      "archivo": "images/bg/bg_costa_claro-noche-v1.webp",
+      "bytes_original": 2934711,
+      "bytes_demo": 717398,
+      "modo": "WebP calidad 97, resolución original"
+    },
+    {
+      "original": "images/bg/bg_costa_claro-v1.png",
+      "archivo": "images/bg/bg_costa_claro-v1.webp",
+      "bytes_original": 2878234,
+      "bytes_demo": 747452,
+      "modo": "WebP calidad 97, resolución original"
+    },
+    {
+      "original": "images/bg/bg_cueva_rocas_minera-v1.png",
+      "archivo": "images/bg/bg_cueva_rocas_minera-v1.webp",
+      "bytes_original": 2722316,
+      "bytes_demo": 655254,
+      "modo": "WebP calidad 97, resolución original"
+    },
+    {
+      "original": "images/bg/bg_escuela_interior-noche-v1.png",
+      "archivo": "images/bg/bg_escuela_interior-noche-v1.webp",
+      "bytes_original": 2536234,
+      "bytes_demo": 593594,
+      "modo": "WebP calidad 97, resolución original"
+    },
+    {
+      "original": "images/bg/bg_escuela_interior.png",
+      "archivo": "images/bg/bg_escuela_interior.webp",
+      "bytes_original": 2661622,
+      "bytes_demo": 675110,
+      "modo": "WebP calidad 97, resolución original"
+    },
+    {
+      "original": "images/bg/bg_forja_interior-noche-v1.png",
+      "archivo": "images/bg/bg_forja_interior-noche-v1.webp",
+      "bytes_original": 2636397,
+      "bytes_demo": 648934,
+      "modo": "WebP calidad 97, resolución original"
+    },
+    {
+      "original": "images/bg/bg_forja_interior.png",
+      "archivo": "images/bg/bg_forja_interior.webp",
+      "bytes_original": 2814549,
+      "bytes_demo": 764260,
+      "modo": "WebP calidad 97, resolución original"
+    },
+    {
+      "original": "images/bg/bg_gremio_aventureros-acuarela-dia-v1.png",
+      "archivo": "images/bg/bg_gremio_aventureros-acuarela-dia-v1.webp",
+      "bytes_original": 2423736,
+      "bytes_demo": 563890,
+      "modo": "WebP calidad 97, resolución original"
+    },
+    {
+      "original": "images/bg/bg_gremio_aventureros-acuarela-noche-v1.png",
+      "archivo": "images/bg/bg_gremio_aventureros-acuarela-noche-v1.webp",
+      "bytes_original": 2204554,
+      "bytes_demo": 489974,
+      "modo": "WebP calidad 97, resolución original"
+    },
+    {
+      "original": "images/bg/bg_habitacion_kael-noche-v1.png",
+      "archivo": "images/bg/bg_habitacion_kael-noche-v1.webp",
+      "bytes_original": 2478375,
+      "bytes_demo": 561154,
+      "modo": "WebP calidad 97, resolución original"
+    },
+    {
+      "original": "images/bg/bg_habitacion_kael.png",
+      "archivo": "images/bg/bg_habitacion_kael.webp",
+      "bytes_original": 2798794,
+      "bytes_demo": 765174,
+      "modo": "WebP calidad 97, resolución original"
+    },
+    {
+      "original": "images/bg/bg_herreria_thrain-acuarela-dia-v1.png",
+      "archivo": "images/bg/bg_herreria_thrain-acuarela-dia-v1.webp",
+      "bytes_original": 2392815,
+      "bytes_demo": 564312,
+      "modo": "WebP calidad 97, resolución original"
+    },
+    {
+      "original": "images/bg/bg_herreria_thrain-acuarela-noche-v1.png",
+      "archivo": "images/bg/bg_herreria_thrain-acuarela-noche-v1.webp",
+      "bytes_original": 2249133,
+      "bytes_demo": 507300,
+      "modo": "WebP calidad 97, resolución original"
+    },
+    {
+      "original": "images/bg/bg_huerto_plantacion-noche-v1.png",
+      "archivo": "images/bg/bg_huerto_plantacion-noche-v1.webp",
+      "bytes_original": 3079188,
+      "bytes_demo": 773430,
+      "modo": "WebP calidad 97, resolución original"
+    },
+    {
+      "original": "images/bg/bg_huerto_plantacion.png",
+      "archivo": "images/bg/bg_huerto_plantacion.webp",
+      "bytes_original": 3193713,
+      "bytes_demo": 891500,
+      "modo": "WebP calidad 97, resolución original"
+    },
+    {
+      "original": "images/bg/bg_mina_entrada-noche-v1.png",
+      "archivo": "images/bg/bg_mina_entrada-noche-v1.webp",
+      "bytes_original": 2622737,
+      "bytes_demo": 647414,
+      "modo": "WebP calidad 97, resolución original"
+    },
+    {
+      "original": "images/bg/bg_mina_entrada-v1.png",
+      "archivo": "images/bg/bg_mina_entrada-v1.webp",
+      "bytes_original": 2869416,
+      "bytes_demo": 744768,
+      "modo": "WebP calidad 97, resolución original"
+    },
+    {
+      "original": "images/bg/bg_mina_refugio-v1.png",
+      "archivo": "images/bg/bg_mina_refugio-v1.webp",
+      "bytes_original": 2837699,
+      "bytes_demo": 729310,
+      "modo": "WebP calidad 97, resolución original"
+    },
+    {
+      "original": "images/bg/bg_mina_tunel_1-v1.png",
+      "archivo": "images/bg/bg_mina_tunel_1-v1.webp",
+      "bytes_original": 2445915,
+      "bytes_demo": 555736,
+      "modo": "WebP calidad 97, resolución original"
+    },
+    {
+      "original": "images/bg/bg_mina_tunel_2-v1.png",
+      "archivo": "images/bg/bg_mina_tunel_2-v1.webp",
+      "bytes_original": 2426493,
+      "bytes_demo": 1896568,
+      "modo": "WebP sin pérdida, resolución original"
+    },
+    {
+      "original": "images/bg/bg_monasterio-acuarela-dia-v1.png",
+      "archivo": "images/bg/bg_monasterio-acuarela-dia-v1.webp",
+      "bytes_original": 2589327,
+      "bytes_demo": 650418,
+      "modo": "WebP calidad 97, resolución original"
+    },
+    {
+      "original": "images/bg/bg_monasterio-acuarela-noche-v1.png",
+      "archivo": "images/bg/bg_monasterio-acuarela-noche-v1.webp",
+      "bytes_original": 2423362,
+      "bytes_demo": 553726,
+      "modo": "WebP calidad 97, resolución original"
+    },
+    {
+      "original": "images/bg/bg_montana_cantera-noche-v1.png",
+      "archivo": "images/bg/bg_montana_cantera-noche-v1.webp",
+      "bytes_original": 2769037,
+      "bytes_demo": 672388,
+      "modo": "WebP calidad 97, resolución original"
+    },
+    {
+      "original": "images/bg/bg_montana_cantera-v1.png",
+      "archivo": "images/bg/bg_montana_cantera-v1.webp",
+      "bytes_original": 2861112,
+      "bytes_demo": 717390,
+      "modo": "WebP calidad 97, resolución original"
+    },
+    {
+      "original": "images/bg/bg_muelle_ballenar-acuarela-dia-v1.png",
+      "archivo": "images/bg/bg_muelle_ballenar-acuarela-dia-v1.webp",
+      "bytes_original": 2693614,
+      "bytes_demo": 715536,
+      "modo": "WebP calidad 97, resolución original"
+    },
+    {
+      "original": "images/bg/bg_muelle_ballenar-acuarela-noche-v1.png",
+      "archivo": "images/bg/bg_muelle_ballenar-acuarela-noche-v1.webp",
+      "bytes_original": 2610463,
+      "bytes_demo": 682500,
+      "modo": "WebP calidad 97, resolución original"
+    },
+    {
+      "original": "images/bg/bg_muralla_ciudadela-acuarela-dia-v1.png",
+      "archivo": "images/bg/bg_muralla_ciudadela-acuarela-dia-v1.webp",
+      "bytes_original": 2572920,
+      "bytes_demo": 639848,
+      "modo": "WebP calidad 97, resolución original"
+    },
+    {
+      "original": "images/bg/bg_muralla_ciudadela-acuarela-noche-v1.png",
+      "archivo": "images/bg/bg_muralla_ciudadela-acuarela-noche-v1.webp",
+      "bytes_original": 2647394,
+      "bytes_demo": 669758,
+      "modo": "WebP calidad 97, resolución original"
+    },
+    {
+      "original": "images/bg/bg_norte_bosque_rocas-noche-v1.png",
+      "archivo": "images/bg/bg_norte_bosque_rocas-noche-v1.webp",
+      "bytes_original": 2932327,
+      "bytes_demo": 726322,
+      "modo": "WebP calidad 97, resolución original"
+    },
+    {
+      "original": "images/bg/bg_norte_bosque_rocas-v1.png",
+      "archivo": "images/bg/bg_norte_bosque_rocas-v1.webp",
+      "bytes_original": 3099358,
+      "bytes_demo": 805512,
+      "modo": "WebP calidad 97, resolución original"
+    },
+    {
+      "original": "images/bg/bg_norte_campamento-noche-v1.png",
+      "archivo": "images/bg/bg_norte_campamento-noche-v1.webp",
+      "bytes_original": 2806453,
+      "bytes_demo": 688900,
+      "modo": "WebP calidad 97, resolución original"
+    },
+    {
+      "original": "images/bg/bg_norte_campamento-v1.png",
+      "archivo": "images/bg/bg_norte_campamento-v1.webp",
+      "bytes_original": 2991084,
+      "bytes_demo": 781740,
+      "modo": "WebP calidad 97, resolución original"
+    },
+    {
+      "original": "images/bg/bg_norte_cresta-noche-v1.png",
+      "archivo": "images/bg/bg_norte_cresta-noche-v1.webp",
+      "bytes_original": 2892585,
+      "bytes_demo": 716488,
+      "modo": "WebP calidad 97, resolución original"
+    },
+    {
+      "original": "images/bg/bg_norte_cresta-v1.png",
+      "archivo": "images/bg/bg_norte_cresta-v1.webp",
+      "bytes_original": 2803167,
+      "bytes_demo": 717304,
+      "modo": "WebP calidad 97, resolución original"
+    },
+    {
+      "original": "images/bg/bg_norte_desfiladero-noche-v1.png",
+      "archivo": "images/bg/bg_norte_desfiladero-noche-v1.webp",
+      "bytes_original": 2743353,
+      "bytes_demo": 661562,
+      "modo": "WebP calidad 97, resolución original"
+    },
+    {
+      "original": "images/bg/bg_norte_desfiladero-v1.png",
+      "archivo": "images/bg/bg_norte_desfiladero-v1.webp",
+      "bytes_original": 2698061,
+      "bytes_demo": 698380,
+      "modo": "WebP calidad 97, resolución original"
+    },
+    {
+      "original": "images/bg/bg_norte_ladera_alta-noche-v1.png",
+      "archivo": "images/bg/bg_norte_ladera_alta-noche-v1.webp",
+      "bytes_original": 2677375,
+      "bytes_demo": 641062,
+      "modo": "WebP calidad 97, resolución original"
+    },
+    {
+      "original": "images/bg/bg_norte_ladera_alta-v1.png",
+      "archivo": "images/bg/bg_norte_ladera_alta-v1.webp",
+      "bytes_original": 2641010,
+      "bytes_demo": 668018,
+      "modo": "WebP calidad 97, resolución original"
+    },
+    {
+      "original": "images/bg/bg_norte_senderos-noche-v1.png",
+      "archivo": "images/bg/bg_norte_senderos-noche-v1.webp",
+      "bytes_original": 2898789,
+      "bytes_demo": 705058,
+      "modo": "WebP calidad 97, resolución original"
+    },
+    {
+      "original": "images/bg/bg_norte_senderos-v1.png",
+      "archivo": "images/bg/bg_norte_senderos-v1.webp",
+      "bytes_original": 2930898,
+      "bytes_demo": 2343708,
+      "modo": "WebP sin pérdida, resolución original"
+    },
+    {
+      "original": "images/bg/bg_orfanato-ciudadela-v1.png",
+      "archivo": "images/bg/bg_orfanato-ciudadela-v1.webp",
+      "bytes_original": 2362915,
+      "bytes_demo": 527820,
+      "modo": "WebP calidad 97, resolución original"
+    },
+    {
+      "original": "images/bg/bg_orfanato-noche-v1.png",
+      "archivo": "images/bg/bg_orfanato-noche-v1.webp",
+      "bytes_original": 2390215,
+      "bytes_demo": 541364,
+      "modo": "WebP calidad 97, resolución original"
+    },
+    {
+      "original": "images/bg/bg_plaza_aldenbrock-noche-v1.png",
+      "archivo": "images/bg/bg_plaza_aldenbrock-noche-v1.webp",
+      "bytes_original": 3074614,
+      "bytes_demo": 765380,
+      "modo": "WebP calidad 97, resolución original"
+    },
+    {
+      "original": "images/bg/bg_plaza_aldenbrock.png",
+      "archivo": "images/bg/bg_plaza_aldenbrock.webp",
+      "bytes_original": 3019293,
+      "bytes_demo": 820954,
+      "modo": "WebP calidad 97, resolución original"
+    },
+    {
+      "original": "images/bg/bg_puente_troll-noche-v1.png",
+      "archivo": "images/bg/bg_puente_troll-noche-v1.webp",
+      "bytes_original": 3022321,
+      "bytes_demo": 734194,
+      "modo": "WebP calidad 97, resolución original"
+    },
+    {
+      "original": "images/bg/bg_puente_troll.png",
+      "archivo": "images/bg/bg_puente_troll.webp",
+      "bytes_original": 3165704,
+      "bytes_demo": 835794,
+      "modo": "WebP calidad 97, resolución original"
+    },
+    {
+      "original": "images/bg/bg_puerta_norte-acuarela-dia-v1.png",
+      "archivo": "images/bg/bg_puerta_norte-acuarela-dia-v1.webp",
+      "bytes_original": 2648283,
+      "bytes_demo": 704432,
+      "modo": "WebP calidad 97, resolución original"
+    },
+    {
+      "original": "images/bg/bg_puerta_norte-acuarela-noche-v1.png",
+      "archivo": "images/bg/bg_puerta_norte-acuarela-noche-v1.webp",
+      "bytes_original": 2706582,
+      "bytes_demo": 684034,
+      "modo": "WebP calidad 97, resolución original"
+    },
+    {
+      "original": "images/bg/bg_puerto_ballenar.png",
+      "archivo": "images/bg/bg_puerto_ballenar.webp",
+      "bytes_original": 3085007,
+      "bytes_demo": 851472,
+      "modo": "WebP calidad 97, resolución original"
+    },
+    {
+      "original": "images/bg/bg_quazelia.png",
+      "archivo": "images/bg/bg_quazelia.webp",
+      "bytes_original": 2921716,
+      "bytes_demo": 821464,
+      "modo": "WebP calidad 97, resolución original"
+    },
+    {
+      "original": "images/bg/bg_subsuelo_roca_mixta-v1.png",
+      "archivo": "images/bg/bg_subsuelo_roca_mixta-v1.webp",
+      "bytes_original": 2923123,
+      "bytes_demo": 699178,
+      "modo": "WebP calidad 97, resolución original"
+    },
+    {
+      "original": "images/bg/bg_subsuelo_roca_ocre-v1.png",
+      "archivo": "images/bg/bg_subsuelo_roca_ocre-v1.webp",
+      "bytes_original": 2947467,
+      "bytes_demo": 740412,
+      "modo": "WebP calidad 97, resolución original"
+    },
+    {
+      "original": "images/bg/bg_taberna-acuarela-dia-v1.png",
+      "archivo": "images/bg/bg_taberna-acuarela-dia-v1.webp",
+      "bytes_original": 2440616,
+      "bytes_demo": 574748,
+      "modo": "WebP calidad 97, resolución original"
+    },
+    {
+      "original": "images/bg/bg_taberna-acuarela-noche-v1.png",
+      "archivo": "images/bg/bg_taberna-acuarela-noche-v1.webp",
+      "bytes_original": 2322952,
+      "bytes_demo": 542276,
+      "modo": "WebP calidad 97, resolución original"
+    },
+    {
+      "original": "images/bg/bg_templo-noche-v1.png",
+      "archivo": "images/bg/bg_templo-noche-v1.webp",
+      "bytes_original": 2736425,
+      "bytes_demo": 670984,
+      "modo": "WebP calidad 97, resolución original"
+    },
+    {
+      "original": "images/bg/bg_templo.png",
+      "archivo": "images/bg/bg_templo.webp",
+      "bytes_original": 2900379,
+      "bytes_demo": 797730,
+      "modo": "WebP calidad 97, resolución original"
+    },
+    {
+      "original": "images/bg/bg_templo_refugio-acuarela-dia-v1.png",
+      "archivo": "images/bg/bg_templo_refugio-acuarela-dia-v1.webp",
+      "bytes_original": 2520699,
+      "bytes_demo": 610986,
+      "modo": "WebP calidad 97, resolución original"
+    },
+    {
+      "original": "images/bg/bg_templo_refugio-acuarela-noche-v1.png",
+      "archivo": "images/bg/bg_templo_refugio-acuarela-noche-v1.webp",
+      "bytes_original": 2423316,
+      "bytes_demo": 567244,
+      "modo": "WebP calidad 97, resolución original"
+    },
+    {
+      "original": "images/enemigos/alraune1.png",
+      "archivo": "images/enemigos/alraune1.webp",
+      "bytes_original": 2757297,
+      "bytes_demo": 1772770,
+      "modo": "WebP sin pérdida, resolución original"
+    },
+    {
+      "original": "images/enemigos/asalto-coloso-v1.png",
+      "archivo": "images/enemigos/asalto-coloso-v1.webp",
+      "bytes_original": 2936683,
+      "bytes_demo": 1902296,
+      "modo": "WebP sin pérdida, resolución original"
+    },
+    {
+      "original": "images/enemigos/asalto-dragon-jinete-v1.png",
+      "archivo": "images/enemigos/asalto-dragon-jinete-v1.webp",
+      "bytes_original": 2546144,
+      "bytes_demo": 1603606,
+      "modo": "WebP sin pérdida, resolución original"
+    },
+    {
+      "original": "images/enemigos/asalto-dragon-v1.png",
+      "archivo": "images/enemigos/asalto-dragon-v1.webp",
+      "bytes_original": 2356433,
+      "bytes_demo": 1483474,
+      "modo": "WebP sin pérdida, resolución original"
+    },
+    {
+      "original": "images/enemigos/asalto-grifo-v1.png",
+      "archivo": "images/enemigos/asalto-grifo-v1.webp",
+      "bytes_original": 2614267,
+      "bytes_demo": 1676960,
+      "modo": "WebP sin pérdida, resolución original"
+    },
+    {
+      "original": "images/enemigos/asalto-sabueso-v1.png",
+      "archivo": "images/enemigos/asalto-sabueso-v1.webp",
+      "bytes_original": 2455206,
+      "bytes_demo": 1629352,
+      "modo": "WebP sin pérdida, resolución original"
+    },
+    {
+      "original": "images/enemigos/asalto-serpiente-v1.png",
+      "archivo": "images/enemigos/asalto-serpiente-v1.webp",
+      "bytes_original": 2442176,
+      "bytes_demo": 1575442,
+      "modo": "WebP sin pérdida, resolución original"
+    },
+    {
+      "original": "images/enemigos/ciclope_mutado1.png",
+      "archivo": "images/enemigos/ciclope_mutado1.webp",
+      "bytes_original": 2309699,
+      "bytes_demo": 1515640,
+      "modo": "WebP sin pérdida, resolución original"
+    },
+    {
+      "original": "images/enemigos/cuervo-bosque-v1.png",
+      "archivo": "images/enemigos/cuervo-bosque-v1.webp",
+      "bytes_original": 2470094,
+      "bytes_demo": 1587160,
+      "modo": "WebP sin pérdida, resolución original"
+    },
+    {
+      "original": "images/enemigos/destigio1.png",
+      "archivo": "images/enemigos/destigio1.webp",
+      "bytes_original": 1647356,
+      "bytes_demo": 1014206,
+      "modo": "WebP sin pérdida, resolución original"
+    },
+    {
+      "original": "images/enemigos/ent_joven1.png",
+      "archivo": "images/enemigos/ent_joven1.webp",
+      "bytes_original": 2108695,
+      "bytes_demo": 1463092,
+      "modo": "WebP sin pérdida, resolución original"
+    },
+    {
+      "original": "images/enemigos/goblin1.png",
+      "archivo": "images/enemigos/goblin1.webp",
+      "bytes_original": 2364328,
+      "bytes_demo": 1479852,
+      "modo": "WebP sin pérdida, resolución original"
+    },
+    {
+      "original": "images/enemigos/gorrak1.png",
+      "archivo": "images/enemigos/gorrak1.webp",
+      "bytes_original": 2452795,
+      "bytes_demo": 1567836,
+      "modo": "WebP sin pérdida, resolución original"
+    },
+    {
+      "original": "images/enemigos/jabali_acorazado1.png",
+      "archivo": "images/enemigos/jabali_acorazado1.webp",
+      "bytes_original": 1867240,
+      "bytes_demo": 1200106,
+      "modo": "WebP sin pérdida, resolución original"
+    },
+    {
+      "original": "images/enemigos/karmilla_alterada.png",
+      "archivo": "images/enemigos/karmilla_alterada.webp",
+      "bytes_original": 3174170,
+      "bytes_demo": 2138008,
+      "modo": "WebP sin pérdida, resolución original"
+    },
+    {
+      "original": "images/enemigos/lobo_salvaje1.png",
+      "archivo": "images/enemigos/lobo_salvaje1.webp",
+      "bytes_original": 1731876,
+      "bytes_demo": 1130622,
+      "modo": "WebP sin pérdida, resolución original"
+    },
+    {
+      "original": "images/enemigos/manticora_costera1.png",
+      "archivo": "images/enemigos/manticora_costera1.webp",
+      "bytes_original": 2216572,
+      "bytes_demo": 1473622,
+      "modo": "WebP sin pérdida, resolución original"
+    },
+    {
+      "original": "images/enemigos/morwena1.png",
+      "archivo": "images/enemigos/morwena1.webp",
+      "bytes_original": 1951707,
+      "bytes_demo": 1265296,
+      "modo": "WebP sin pérdida, resolución original"
+    },
+    {
+      "original": "images/enemigos/occam1.png",
+      "archivo": "images/enemigos/occam1.webp",
+      "bytes_original": 2325955,
+      "bytes_demo": 1509984,
+      "modo": "WebP sin pérdida, resolución original"
+    },
+    {
+      "original": "images/enemigos/orco_pescador1.png",
+      "archivo": "images/enemigos/orco_pescador1.webp",
+      "bytes_original": 1985511,
+      "bytes_demo": 1321570,
+      "modo": "WebP sin pérdida, resolución original"
+    },
+    {
+      "original": "images/enemigos/sirena_errante1.png",
+      "archivo": "images/enemigos/sirena_errante1.webp",
+      "bytes_original": 1992730,
+      "bytes_demo": 1349284,
+      "modo": "WebP sin pérdida, resolución original"
+    },
+    {
+      "original": "images/enemigos/troll1.png",
+      "archivo": "images/enemigos/troll1.webp",
+      "bytes_original": 2488811,
+      "bytes_demo": 1647522,
+      "modo": "WebP sin pérdida, resolución original"
+    },
+    {
+      "original": "images/escenas/puente/puente-0_hacha-v2.png",
+      "archivo": "images/escenas/puente/puente-0_hacha-v2.webp",
+      "bytes_original": 3235351,
+      "bytes_demo": 784576,
+      "modo": "WebP calidad 97, resolución original"
+    },
+    {
+      "original": "images/escenas/puente/puente-1_arbol-v3.png",
+      "archivo": "images/escenas/puente/puente-1_arbol-v3.webp",
+      "bytes_original": 3203555,
+      "bytes_demo": 782326,
+      "modo": "WebP calidad 97, resolución original"
+    },
+    {
+      "original": "images/escenas/puente/puente-2_persecucion-v2.png",
+      "archivo": "images/escenas/puente/puente-2_persecucion-v2.webp",
+      "bytes_original": 3326971,
+      "bytes_demo": 817000,
+      "modo": "WebP calidad 97, resolución original"
+    },
+    {
+      "original": "images/escenas/puente/puente-3_golpe-v2.png",
+      "archivo": "images/escenas/puente/puente-3_golpe-v2.webp",
+      "bytes_original": 3252501,
+      "bytes_demo": 807374,
+      "modo": "WebP calidad 97, resolución original"
+    },
+    {
+      "original": "images/escenas/puente/puente-4_5_manos-v2.png",
+      "archivo": "images/escenas/puente/puente-4_5_manos-v2.webp",
+      "bytes_original": 2956318,
+      "bytes_demo": 689448,
+      "modo": "WebP calidad 97, resolución original"
+    },
+    {
+      "original": "images/escenas/puente/puente-4_caida-v2.png",
+      "archivo": "images/escenas/puente/puente-4_caida-v2.webp",
+      "bytes_original": 3188454,
+      "bytes_demo": 781786,
+      "modo": "WebP calidad 97, resolución original"
+    },
+    {
+      "original": "images/escenas/puente/puente-5_duelo-v2.png",
+      "archivo": "images/escenas/puente/puente-5_duelo-v2.webp",
+      "bytes_original": 2928870,
+      "bytes_demo": 684830,
+      "modo": "WebP calidad 97, resolución original"
+    },
+    {
+      "original": "images/escenas/puente/puente-previa-v2.png",
+      "archivo": "images/escenas/puente/puente-previa-v2.webp",
+      "bytes_original": 3365224,
+      "bytes_demo": 847908,
+      "modo": "WebP calidad 97, resolución original"
+    },
+    {
+      "original": "images/recursos/mochila.png",
+      "archivo": "images/recursos/mochila.webp",
+      "bytes_original": 2049753,
+      "bytes_demo": 1449202,
+      "modo": "WebP sin pérdida, resolución original"
+    },
+    {
+      "original": "images/sprites/aldric1.png",
+      "archivo": "images/sprites/aldric1.webp",
+      "bytes_original": 1735993,
+      "bytes_demo": 1076100,
+      "modo": "WebP sin pérdida, resolución original"
+    },
+    {
+      "original": "images/sprites/bastian-v1.png",
+      "archivo": "images/sprites/bastian-v1.webp",
+      "bytes_original": 1860024,
+      "bytes_demo": 1169632,
+      "modo": "WebP sin pérdida, resolución original"
+    },
+    {
+      "original": "images/sprites/borin-v1.png",
+      "archivo": "images/sprites/borin-v1.webp",
+      "bytes_original": 2063888,
+      "bytes_demo": 1310768,
+      "modo": "WebP sin pérdida, resolución original"
+    },
+    {
+      "original": "images/sprites/celia-v1.png",
+      "archivo": "images/sprites/celia-v1.webp",
+      "bytes_original": 1815660,
+      "bytes_demo": 1109162,
+      "modo": "WebP sin pérdida, resolución original"
+    },
+    {
+      "original": "images/sprites/civil_archivero-v2.png",
+      "archivo": "images/sprites/civil_archivero-v2.webp",
+      "bytes_original": 1826170,
+      "bytes_demo": 1160452,
+      "modo": "WebP sin pérdida, resolución original"
+    },
+    {
+      "original": "images/sprites/civil_artesano-v2.png",
+      "archivo": "images/sprites/civil_artesano-v2.webp",
+      "bytes_original": 2009890,
+      "bytes_demo": 1254020,
+      "modo": "WebP sin pérdida, resolución original"
+    },
+    {
+      "original": "images/sprites/civil_elfa-v2.png",
+      "archivo": "images/sprites/civil_elfa-v2.webp",
+      "bytes_original": 1645251,
+      "bytes_demo": 1006182,
+      "modo": "WebP sin pérdida, resolución original"
+    },
+    {
+      "original": "images/sprites/civil_vecina-v2.png",
+      "archivo": "images/sprites/civil_vecina-v2.webp",
+      "bytes_original": 1662682,
+      "bytes_demo": 1018886,
+      "modo": "WebP sin pérdida, resolución original"
+    },
+    {
+      "original": "images/sprites/combate/armas/kael-impacto-base-v1.png",
+      "archivo": "images/sprites/combate/armas/kael-impacto-base-v1.webp",
+      "bytes_original": 2010427,
+      "bytes_demo": 1245208,
+      "modo": "WebP sin pérdida, resolución original"
+    },
+    {
+      "original": "images/sprites/combate/armas/kael-manolimpia-base-v1.png",
+      "archivo": "images/sprites/combate/armas/kael-manolimpia-base-v1.webp",
+      "bytes_original": 2016853,
+      "bytes_demo": 1251510,
+      "modo": "WebP sin pérdida, resolución original"
+    },
+    {
+      "original": "images/sprites/combate/armas/kael-mazas-base-v1.png",
+      "archivo": "images/sprites/combate/armas/kael-mazas-base-v1.webp",
+      "bytes_original": 1960661,
+      "bytes_demo": 1209198,
+      "modo": "WebP sin pérdida, resolución original"
+    },
+    {
+      "original": "images/sprites/combate/armas/kael-proyectil-base-v1.png",
+      "archivo": "images/sprites/combate/armas/kael-proyectil-base-v1.webp",
+      "bytes_original": 1944985,
+      "bytes_demo": 1211132,
+      "modo": "WebP sin pérdida, resolución original"
+    },
+    {
+      "original": "images/sprites/combate/armas/kael-punzante-base-v1.png",
+      "archivo": "images/sprites/combate/armas/kael-punzante-base-v1.webp",
+      "bytes_original": 1978896,
+      "bytes_demo": 1210174,
+      "modo": "WebP sin pérdida, resolución original"
+    },
+    {
+      "original": "images/sprites/combate/armas/sable-impacto-base-v1.png",
+      "archivo": "images/sprites/combate/armas/sable-impacto-base-v1.webp",
+      "bytes_original": 2127738,
+      "bytes_demo": 1333422,
+      "modo": "WebP sin pérdida, resolución original"
+    },
+    {
+      "original": "images/sprites/combate/armas/sable-manolimpia-base-v1.png",
+      "archivo": "images/sprites/combate/armas/sable-manolimpia-base-v1.webp",
+      "bytes_original": 2170628,
+      "bytes_demo": 1370704,
+      "modo": "WebP sin pérdida, resolución original"
+    },
+    {
+      "original": "images/sprites/combate/armas/sable-mazas-base-v1.png",
+      "archivo": "images/sprites/combate/armas/sable-mazas-base-v1.webp",
+      "bytes_original": 2190492,
+      "bytes_demo": 1383558,
+      "modo": "WebP sin pérdida, resolución original"
+    },
+    {
+      "original": "images/sprites/combate/armas/sable-proyectil-base-v2.png",
+      "archivo": "images/sprites/combate/armas/sable-proyectil-base-v2.webp",
+      "bytes_original": 2162913,
+      "bytes_demo": 1377816,
+      "modo": "WebP sin pérdida, resolución original"
+    },
+    {
+      "original": "images/sprites/combate/armas/sable-punzante-base-v1.png",
+      "archivo": "images/sprites/combate/armas/sable-punzante-base-v1.webp",
+      "bytes_original": 2070947,
+      "bytes_demo": 1284384,
+      "modo": "WebP sin pérdida, resolución original"
+    },
+    {
+      "original": "images/sprites/combate/dorian-ataque-v2.png",
+      "archivo": "images/sprites/combate/dorian-ataque-v2.webp",
+      "bytes_original": 1932880,
+      "bytes_demo": 1221932,
+      "modo": "WebP sin pérdida, resolución original"
+    },
+    {
+      "original": "images/sprites/combate/dorian-base-izquierda-v1.png",
+      "archivo": "images/sprites/combate/dorian-base-izquierda-v1.webp",
+      "bytes_original": 2133925,
+      "bytes_demo": 1367796,
+      "modo": "WebP sin pérdida, resolución original"
+    },
+    {
+      "original": "images/sprites/combate/dorian-dano-v3.png",
+      "archivo": "images/sprites/combate/dorian-dano-v3.webp",
+      "bytes_original": 2110285,
+      "bytes_demo": 1341300,
+      "modo": "WebP sin pérdida, resolución original"
+    },
+    {
+      "original": "images/sprites/combate/dorian-defensa-v2.png",
+      "archivo": "images/sprites/combate/dorian-defensa-v2.webp",
+      "bytes_original": 2078110,
+      "bytes_demo": 1307130,
+      "modo": "WebP sin pérdida, resolución original"
+    },
+    {
+      "original": "images/sprites/combate/elyra-ataque-v1.png",
+      "archivo": "images/sprites/combate/elyra-ataque-v1.webp",
+      "bytes_original": 2205523,
+      "bytes_demo": 1412980,
+      "modo": "WebP sin pérdida, resolución original"
+    },
+    {
+      "original": "images/sprites/combate/elyra-base-v1.png",
+      "archivo": "images/sprites/combate/elyra-base-v1.webp",
+      "bytes_original": 2175821,
+      "bytes_demo": 1376962,
+      "modo": "WebP sin pérdida, resolución original"
+    },
+    {
+      "original": "images/sprites/combate/elyra-dano-v1.png",
+      "archivo": "images/sprites/combate/elyra-dano-v1.webp",
+      "bytes_original": 2176758,
+      "bytes_demo": 1362228,
+      "modo": "WebP sin pérdida, resolución original"
+    },
+    {
+      "original": "images/sprites/combate/elyra-defensa-v1.png",
+      "archivo": "images/sprites/combate/elyra-defensa-v1.webp",
+      "bytes_original": 2200486,
+      "bytes_demo": 1397370,
+      "modo": "WebP sin pérdida, resolución original"
+    },
+    {
+      "original": "images/sprites/combate/kael-ataque-v1.png",
+      "archivo": "images/sprites/combate/kael-ataque-v1.webp",
+      "bytes_original": 1856099,
+      "bytes_demo": 1157458,
+      "modo": "WebP sin pérdida, resolución original"
+    },
+    {
+      "original": "images/sprites/combate/kael-dano-v1.png",
+      "archivo": "images/sprites/combate/kael-dano-v1.webp",
+      "bytes_original": 1849048,
+      "bytes_demo": 1133094,
+      "modo": "WebP sin pérdida, resolución original"
+    },
+    {
+      "original": "images/sprites/combate/kael-defensa-v1.png",
+      "archivo": "images/sprites/combate/kael-defensa-v1.webp",
+      "bytes_original": 1958298,
+      "bytes_demo": 1200986,
+      "modo": "WebP sin pérdida, resolución original"
+    },
+    {
+      "original": "images/sprites/combate/kael-v1.png",
+      "archivo": "images/sprites/combate/kael-v1.webp",
+      "bytes_original": 1943126,
+      "bytes_demo": 1186310,
+      "modo": "WebP sin pérdida, resolución original"
+    },
+    {
+      "original": "images/sprites/combate/mira-ataque-v1.png",
+      "archivo": "images/sprites/combate/mira-ataque-v1.webp",
+      "bytes_original": 2002921,
+      "bytes_demo": 1254604,
+      "modo": "WebP sin pérdida, resolución original"
+    },
+    {
+      "original": "images/sprites/combate/mira-dano-v1.png",
+      "archivo": "images/sprites/combate/mira-dano-v1.webp",
+      "bytes_original": 2003530,
+      "bytes_demo": 1267542,
+      "modo": "WebP sin pérdida, resolución original"
+    },
+    {
+      "original": "images/sprites/combate/mira-defensa-v1.png",
+      "archivo": "images/sprites/combate/mira-defensa-v1.webp",
+      "bytes_original": 1991241,
+      "bytes_demo": 1243512,
+      "modo": "WebP sin pérdida, resolución original"
+    },
+    {
+      "original": "images/sprites/combate/mira-v1.png",
+      "archivo": "images/sprites/combate/mira-v1.webp",
+      "bytes_original": 1925741,
+      "bytes_demo": 1205612,
+      "modo": "WebP sin pérdida, resolución original"
+    },
+    {
+      "original": "images/sprites/combate/sable-ataque-v1.png",
+      "archivo": "images/sprites/combate/sable-ataque-v1.webp",
+      "bytes_original": 2001979,
+      "bytes_demo": 1248054,
+      "modo": "WebP sin pérdida, resolución original"
+    },
+    {
+      "original": "images/sprites/combate/sable-base-v1.png",
+      "archivo": "images/sprites/combate/sable-base-v1.webp",
+      "bytes_original": 2018558,
+      "bytes_demo": 1243918,
+      "modo": "WebP sin pérdida, resolución original"
+    },
+    {
+      "original": "images/sprites/combate/sable-dano-v1.png",
+      "archivo": "images/sprites/combate/sable-dano-v1.webp",
+      "bytes_original": 2091694,
+      "bytes_demo": 1298100,
+      "modo": "WebP sin pérdida, resolución original"
+    },
+    {
+      "original": "images/sprites/combate/sable-defensa-v1.png",
+      "archivo": "images/sprites/combate/sable-defensa-v1.webp",
+      "bytes_original": 1989784,
+      "bytes_demo": 1230514,
+      "modo": "WebP sin pérdida, resolución original"
+    },
+    {
+      "original": "images/sprites/combate/theron-ataque-martillo-v2.png",
+      "archivo": "images/sprites/combate/theron-ataque-martillo-v2.webp",
+      "bytes_original": 1917044,
+      "bytes_demo": 1155506,
+      "modo": "WebP sin pérdida, resolución original"
+    },
+    {
+      "original": "images/sprites/combate/theron-base-martillo-v2.png",
+      "archivo": "images/sprites/combate/theron-base-martillo-v2.webp",
+      "bytes_original": 1893811,
+      "bytes_demo": 1148776,
+      "modo": "WebP sin pérdida, resolución original"
+    },
+    {
+      "original": "images/sprites/combate/theron-dano-martillo-v2.png",
+      "archivo": "images/sprites/combate/theron-dano-martillo-v2.webp",
+      "bytes_original": 1958092,
+      "bytes_demo": 1178750,
+      "modo": "WebP sin pérdida, resolución original"
+    },
+    {
+      "original": "images/sprites/combate/theron-defensa-martillo-v2.png",
+      "archivo": "images/sprites/combate/theron-defensa-martillo-v2.webp",
+      "bytes_original": 1952130,
+      "bytes_demo": 1180828,
+      "modo": "WebP sin pérdida, resolución original"
+    },
+    {
+      "original": "images/sprites/combate/wren-ataque-v1.png",
+      "archivo": "images/sprites/combate/wren-ataque-v1.webp",
+      "bytes_original": 1878284,
+      "bytes_demo": 1172908,
+      "modo": "WebP sin pérdida, resolución original"
+    },
+    {
+      "original": "images/sprites/combate/wren-base-v1.png",
+      "archivo": "images/sprites/combate/wren-base-v1.webp",
+      "bytes_original": 1971458,
+      "bytes_demo": 1242496,
+      "modo": "WebP sin pérdida, resolución original"
+    },
+    {
+      "original": "images/sprites/combate/wren-dano-v1.png",
+      "archivo": "images/sprites/combate/wren-dano-v1.webp",
+      "bytes_original": 1974366,
+      "bytes_demo": 1231134,
+      "modo": "WebP sin pérdida, resolución original"
+    },
+    {
+      "original": "images/sprites/combate/wren-defensa-v1.png",
+      "archivo": "images/sprites/combate/wren-defensa-v1.webp",
+      "bytes_original": 2042525,
+      "bytes_demo": 1277260,
+      "modo": "WebP sin pérdida, resolución original"
+    },
+    {
+      "original": "images/sprites/composicion_expresiones.json",
+      "archivo": "images/sprites/composicion_expresiones.json",
+      "bytes_original": 20535,
+      "bytes_demo": 106,
+      "modo": "original"
+    },
+    {
+      "original": "images/sprites/destigio-asalto-v1.png",
+      "archivo": "images/sprites/destigio-asalto-v1.webp",
+      "bytes_original": 1875148,
+      "bytes_demo": 1155448,
+      "modo": "WebP sin pérdida, resolución original"
+    },
+    {
+      "original": "images/sprites/elric1.png",
+      "archivo": "images/sprites/elric1.webp",
+      "bytes_original": 1977303,
+      "bytes_demo": 1272780,
+      "modo": "WebP sin pérdida, resolución original"
+    },
+    {
+      "original": "images/sprites/expresiones_corregidas/bram/enojado.png",
+      "archivo": "images/sprites/expresiones_corregidas/bram/enojado.webp",
+      "bytes_original": 1681493,
+      "bytes_demo": 1064162,
+      "modo": "WebP sin pérdida, resolución original"
+    },
+    {
+      "original": "images/sprites/expresiones_corregidas/bram/feliz.png",
+      "archivo": "images/sprites/expresiones_corregidas/bram/feliz.webp",
+      "bytes_original": 1681633,
+      "bytes_demo": 1065268,
+      "modo": "WebP sin pérdida, resolución original"
+    },
+    {
+      "original": "images/sprites/expresiones_corregidas/bram/neutral.png",
+      "archivo": "images/sprites/expresiones_corregidas/bram/neutral.webp",
+      "bytes_original": 1681258,
+      "bytes_demo": 1063932,
+      "modo": "WebP sin pérdida, resolución original"
+    },
+    {
+      "original": "images/sprites/expresiones_corregidas/bram/sorprendido.png",
+      "archivo": "images/sprites/expresiones_corregidas/bram/sorprendido.webp",
+      "bytes_original": 1682458,
+      "bytes_demo": 1065188,
+      "modo": "WebP sin pérdida, resolución original"
+    },
+    {
+      "original": "images/sprites/expresiones_corregidas/bram/triste.png",
+      "archivo": "images/sprites/expresiones_corregidas/bram/triste.webp",
+      "bytes_original": 1681654,
+      "bytes_demo": 1064862,
+      "modo": "WebP sin pérdida, resolución original"
+    },
+    {
+      "original": "images/sprites/expresiones_corregidas/dorian/enojado.png",
+      "archivo": "images/sprites/expresiones_corregidas/dorian/enojado.webp",
+      "bytes_original": 1695786,
+      "bytes_demo": 1063280,
+      "modo": "WebP sin pérdida, resolución original"
+    },
+    {
+      "original": "images/sprites/expresiones_corregidas/dorian/feliz.png",
+      "archivo": "images/sprites/expresiones_corregidas/dorian/feliz.webp",
+      "bytes_original": 1695882,
+      "bytes_demo": 1063260,
+      "modo": "WebP sin pérdida, resolución original"
+    },
+    {
+      "original": "images/sprites/expresiones_corregidas/dorian/neutral.png",
+      "archivo": "images/sprites/expresiones_corregidas/dorian/neutral.webp",
+      "bytes_original": 1695133,
+      "bytes_demo": 1062494,
+      "modo": "WebP sin pérdida, resolución original"
+    },
+    {
+      "original": "images/sprites/expresiones_corregidas/dorian/sorprendido.png",
+      "archivo": "images/sprites/expresiones_corregidas/dorian/sorprendido.webp",
+      "bytes_original": 1696371,
+      "bytes_demo": 1063242,
+      "modo": "WebP sin pérdida, resolución original"
+    },
+    {
+      "original": "images/sprites/expresiones_corregidas/dorian/triste.png",
+      "archivo": "images/sprites/expresiones_corregidas/dorian/triste.webp",
+      "bytes_original": 1696001,
+      "bytes_demo": 1064800,
+      "modo": "WebP sin pérdida, resolución original"
+    },
+    {
+      "original": "images/sprites/expresiones_corregidas/elyra/enojado.png",
+      "archivo": "images/sprites/expresiones_corregidas/elyra/enojado.webp",
+      "bytes_original": 1727538,
+      "bytes_demo": 1097404,
+      "modo": "WebP sin pérdida, resolución original"
+    },
+    {
+      "original": "images/sprites/expresiones_corregidas/elyra/feliz.png",
+      "archivo": "images/sprites/expresiones_corregidas/elyra/feliz.webp",
+      "bytes_original": 1727627,
+      "bytes_demo": 1096630,
+      "modo": "WebP sin pérdida, resolución original"
+    },
+    {
+      "original": "images/sprites/expresiones_corregidas/elyra/neutral.png",
+      "archivo": "images/sprites/expresiones_corregidas/elyra/neutral.webp",
+      "bytes_original": 1726876,
+      "bytes_demo": 1096630,
+      "modo": "WebP sin pérdida, resolución original"
+    },
+    {
+      "original": "images/sprites/expresiones_corregidas/elyra/sorprendido.png",
+      "archivo": "images/sprites/expresiones_corregidas/elyra/sorprendido.webp",
+      "bytes_original": 1727383,
+      "bytes_demo": 1098632,
+      "modo": "WebP sin pérdida, resolución original"
+    },
+    {
+      "original": "images/sprites/expresiones_corregidas/elyra/triste.png",
+      "archivo": "images/sprites/expresiones_corregidas/elyra/triste.webp",
+      "bytes_original": 1727350,
+      "bytes_demo": 1100868,
+      "modo": "WebP sin pérdida, resolución original"
+    },
+    {
+      "original": "images/sprites/expresiones_corregidas/mira/enojado.png",
+      "archivo": "images/sprites/expresiones_corregidas/mira/enojado.webp",
+      "bytes_original": 1443733,
+      "bytes_demo": 918044,
+      "modo": "WebP sin pérdida, resolución original"
+    },
+    {
+      "original": "images/sprites/expresiones_corregidas/mira/feliz.png",
+      "archivo": "images/sprites/expresiones_corregidas/mira/feliz.webp",
+      "bytes_original": 1442349,
+      "bytes_demo": 919706,
+      "modo": "WebP sin pérdida, resolución original"
+    },
+    {
+      "original": "images/sprites/expresiones_corregidas/mira/neutral.png",
+      "archivo": "images/sprites/expresiones_corregidas/mira/neutral.webp",
+      "bytes_original": 1442467,
+      "bytes_demo": 920326,
+      "modo": "WebP sin pérdida, resolución original"
+    },
+    {
+      "original": "images/sprites/expresiones_corregidas/mira/sorprendido.png",
+      "archivo": "images/sprites/expresiones_corregidas/mira/sorprendido.webp",
+      "bytes_original": 1443780,
+      "bytes_demo": 920378,
+      "modo": "WebP sin pérdida, resolución original"
+    },
+    {
+      "original": "images/sprites/expresiones_corregidas/mira/triste.png",
+      "archivo": "images/sprites/expresiones_corregidas/mira/triste.webp",
+      "bytes_original": 1443560,
+      "bytes_demo": 920838,
+      "modo": "WebP sin pérdida, resolución original"
+    },
+    {
+      "original": "images/sprites/expresiones_corregidas/sable/enojado.png",
+      "archivo": "images/sprites/expresiones_corregidas/sable/enojado.webp",
+      "bytes_original": 1880524,
+      "bytes_demo": 1194460,
+      "modo": "WebP sin pérdida, resolución original"
+    },
+    {
+      "original": "images/sprites/expresiones_corregidas/sable/feliz.png",
+      "archivo": "images/sprites/expresiones_corregidas/sable/feliz.webp",
+      "bytes_original": 1880831,
+      "bytes_demo": 1195110,
+      "modo": "WebP sin pérdida, resolución original"
+    },
+    {
+      "original": "images/sprites/expresiones_corregidas/sable/neutral.png",
+      "archivo": "images/sprites/expresiones_corregidas/sable/neutral.webp",
+      "bytes_original": 1880218,
+      "bytes_demo": 1194990,
+      "modo": "WebP sin pérdida, resolución original"
+    },
+    {
+      "original": "images/sprites/expresiones_corregidas/sable/sorprendido.png",
+      "archivo": "images/sprites/expresiones_corregidas/sable/sorprendido.webp",
+      "bytes_original": 1880896,
+      "bytes_demo": 1196578,
+      "modo": "WebP sin pérdida, resolución original"
+    },
+    {
+      "original": "images/sprites/expresiones_corregidas/sable/triste.png",
+      "archivo": "images/sprites/expresiones_corregidas/sable/triste.webp",
+      "bytes_original": 1881325,
+      "bytes_demo": 1197298,
+      "modo": "WebP sin pérdida, resolución original"
+    },
+    {
+      "original": "images/sprites/expresiones_corregidas/theron/enojado.png",
+      "archivo": "images/sprites/expresiones_corregidas/theron/enojado.webp",
+      "bytes_original": 1585066,
+      "bytes_demo": 978408,
+      "modo": "WebP sin pérdida, resolución original"
+    },
+    {
+      "original": "images/sprites/expresiones_corregidas/theron/feliz.png",
+      "archivo": "images/sprites/expresiones_corregidas/theron/feliz.webp",
+      "bytes_original": 1584840,
+      "bytes_demo": 978778,
+      "modo": "WebP sin pérdida, resolución original"
+    },
+    {
+      "original": "images/sprites/expresiones_corregidas/theron/neutral.png",
+      "archivo": "images/sprites/expresiones_corregidas/theron/neutral.webp",
+      "bytes_original": 1583987,
+      "bytes_demo": 977578,
+      "modo": "WebP sin pérdida, resolución original"
+    },
+    {
+      "original": "images/sprites/expresiones_corregidas/theron/sorprendido.png",
+      "archivo": "images/sprites/expresiones_corregidas/theron/sorprendido.webp",
+      "bytes_original": 1585308,
+      "bytes_demo": 979254,
+      "modo": "WebP sin pérdida, resolución original"
+    },
+    {
+      "original": "images/sprites/expresiones_corregidas/theron/triste.png",
+      "archivo": "images/sprites/expresiones_corregidas/theron/triste.webp",
+      "bytes_original": 1584876,
+      "bytes_demo": 977716,
+      "modo": "WebP sin pérdida, resolución original"
+    },
+    {
+      "original": "images/sprites/expresiones_corregidas/wren/enojado.png",
+      "archivo": "images/sprites/expresiones_corregidas/wren/enojado.webp",
+      "bytes_original": 1748903,
+      "bytes_demo": 1125642,
+      "modo": "WebP sin pérdida, resolución original"
+    },
+    {
+      "original": "images/sprites/expresiones_corregidas/wren/feliz.png",
+      "archivo": "images/sprites/expresiones_corregidas/wren/feliz.webp",
+      "bytes_original": 1749477,
+      "bytes_demo": 1126028,
+      "modo": "WebP sin pérdida, resolución original"
+    },
+    {
+      "original": "images/sprites/expresiones_corregidas/wren/neutral.png",
+      "archivo": "images/sprites/expresiones_corregidas/wren/neutral.webp",
+      "bytes_original": 1748527,
+      "bytes_demo": 1125496,
+      "modo": "WebP sin pérdida, resolución original"
+    },
+    {
+      "original": "images/sprites/expresiones_corregidas/wren/sorprendido.png",
+      "archivo": "images/sprites/expresiones_corregidas/wren/sorprendido.webp",
+      "bytes_original": 1749275,
+      "bytes_demo": 1126280,
+      "modo": "WebP sin pérdida, resolución original"
+    },
+    {
+      "original": "images/sprites/expresiones_corregidas/wren/triste.png",
+      "archivo": "images/sprites/expresiones_corregidas/wren/triste.webp",
+      "bytes_original": 1749146,
+      "bytes_demo": 1125840,
+      "modo": "WebP sin pérdida, resolución original"
+    },
+    {
+      "original": "images/sprites/expresiones_kael/enojado.png",
+      "archivo": "images/sprites/expresiones_kael/enojado.webp",
+      "bytes_original": 1740569,
+      "bytes_demo": 1078172,
+      "modo": "WebP sin pérdida, resolución original"
+    },
+    {
+      "original": "images/sprites/expresiones_kael/feliz.png",
+      "archivo": "images/sprites/expresiones_kael/feliz.webp",
+      "bytes_original": 1735754,
+      "bytes_demo": 1087034,
+      "modo": "WebP sin pérdida, resolución original"
+    },
+    {
+      "original": "images/sprites/expresiones_kael/sorprendido.png",
+      "archivo": "images/sprites/expresiones_kael/sorprendido.webp",
+      "bytes_original": 1753294,
+      "bytes_demo": 1092836,
+      "modo": "WebP sin pérdida, resolución original"
+    },
+    {
+      "original": "images/sprites/expresiones_kael/triste.png",
+      "archivo": "images/sprites/expresiones_kael/triste.webp",
+      "bytes_original": 1675573,
+      "bytes_demo": 1029850,
+      "modo": "WebP sin pérdida, resolución original"
+    },
+    {
+      "original": "images/sprites/forastero1.png",
+      "archivo": "images/sprites/forastero1.webp",
+      "bytes_original": 1647356,
+      "bytes_demo": 1014206,
+      "modo": "WebP sin pérdida, resolución original"
+    },
+    {
+      "original": "images/sprites/granjero1.png",
+      "archivo": "images/sprites/granjero1.webp",
+      "bytes_original": 1684993,
+      "bytes_demo": 1036158,
+      "modo": "WebP sin pérdida, resolución original"
+    },
+    {
+      "original": "images/sprites/greta1.png",
+      "archivo": "images/sprites/greta1.webp",
+      "bytes_original": 1983974,
+      "bytes_demo": 1235810,
+      "modo": "WebP sin pérdida, resolución original"
+    },
+    {
+      "original": "images/sprites/hector_medieval.png",
+      "archivo": "images/sprites/hector_medieval.webp",
+      "bytes_original": 1997127,
+      "bytes_demo": 1233842,
+      "modo": "WebP sin pérdida, resolución original"
+    },
+    {
+      "original": "images/sprites/irene1.png",
+      "archivo": "images/sprites/irene1.webp",
+      "bytes_original": 1655548,
+      "bytes_demo": 1049248,
+      "modo": "WebP sin pérdida, resolución original"
+    },
+    {
+      "original": "images/sprites/karmilla_civil.png",
+      "archivo": "images/sprites/karmilla_civil.webp",
+      "bytes_original": 2094868,
+      "bytes_demo": 1307532,
+      "modo": "WebP sin pérdida, resolución original"
+    },
+    {
+      "original": "images/sprites/lia1.png",
+      "archivo": "images/sprites/lia1.webp",
+      "bytes_original": 1748722,
+      "bytes_demo": 1085890,
+      "modo": "WebP sin pérdida, resolución original"
+    },
+    {
+      "original": "images/sprites/lyanwe1.png",
+      "archivo": "images/sprites/lyanwe1.webp",
+      "bytes_original": 1833538,
+      "bytes_demo": 1160006,
+      "modo": "WebP sin pérdida, resolución original"
+    },
+    {
+      "original": "images/sprites/marek1.png",
+      "archivo": "images/sprites/marek1.webp",
+      "bytes_original": 1873864,
+      "bytes_demo": 1163288,
+      "modo": "WebP sin pérdida, resolución original"
+    },
+    {
+      "original": "images/sprites/marta1.png",
+      "archivo": "images/sprites/marta1.webp",
+      "bytes_original": 1825714,
+      "bytes_demo": 1118848,
+      "modo": "WebP sin pérdida, resolución original"
+    },
+    {
+      "original": "images/sprites/milo-orfanato-v1.png",
+      "archivo": "images/sprites/milo-orfanato-v1.webp",
+      "bytes_original": 2098590,
+      "bytes_demo": 1318088,
+      "modo": "WebP sin pérdida, resolución original"
+    },
+    {
+      "original": "images/sprites/miranda1.png",
+      "archivo": "images/sprites/miranda1.webp",
+      "bytes_original": 1825000,
+      "bytes_demo": 1147188,
+      "modo": "WebP sin pérdida, resolución original"
+    },
+    {
+      "original": "images/sprites/miro1.png",
+      "archivo": "images/sprites/miro1.webp",
+      "bytes_original": 1703387,
+      "bytes_demo": 1048464,
+      "modo": "WebP sin pérdida, resolución original"
+    },
+    {
+      "original": "images/sprites/nadia1.png",
+      "archivo": "images/sprites/nadia1.webp",
+      "bytes_original": 1873443,
+      "bytes_demo": 1164802,
+      "modo": "WebP sin pérdida, resolución original"
+    },
+    {
+      "original": "images/sprites/nerea-v1.png",
+      "archivo": "images/sprites/nerea-v1.webp",
+      "bytes_original": 1573499,
+      "bytes_demo": 958888,
+      "modo": "WebP sin pérdida, resolución original"
+    },
+    {
+      "original": "images/sprites/nico-orfanato-v1.png",
+      "archivo": "images/sprites/nico-orfanato-v1.webp",
+      "bytes_original": 1510543,
+      "bytes_demo": 911248,
+      "modo": "WebP sin pérdida, resolución original"
+    },
+    {
+      "original": "images/sprites/old_nessa1.png",
+      "archivo": "images/sprites/old_nessa1.webp",
+      "bytes_original": 1892018,
+      "bytes_demo": 1166120,
+      "modo": "WebP sin pérdida, resolución original"
+    },
+    {
+      "original": "images/sprites/perrin1.png",
+      "archivo": "images/sprites/perrin1.webp",
+      "bytes_original": 1628531,
+      "bytes_demo": 1000996,
+      "modo": "WebP sin pérdida, resolución original"
+    },
+    {
+      "original": "images/sprites/prota1.png",
+      "archivo": "images/sprites/prota1.webp",
+      "bytes_original": 1700911,
+      "bytes_demo": 1057186,
+      "modo": "WebP sin pérdida, resolución original"
+    },
+    {
+      "original": "images/sprites/rebeca-v1.png",
+      "archivo": "images/sprites/rebeca-v1.webp",
+      "bytes_original": 1701289,
+      "bytes_demo": 1041908,
+      "modo": "WebP sin pérdida, resolución original"
+    },
+    {
+      "original": "images/sprites/ren_disfraz-v1.png",
+      "archivo": "images/sprites/ren_disfraz-v1.webp",
+      "bytes_original": 1855936,
+      "bytes_demo": 1134546,
+      "modo": "WebP sin pérdida, resolución original"
+    },
+    {
+      "original": "images/sprites/ren_revelado-v1.png",
+      "archivo": "images/sprites/ren_revelado-v1.webp",
+      "bytes_original": 1788354,
+      "bytes_demo": 1089846,
+      "modo": "WebP sin pérdida, resolución original"
+    },
+    {
+      "original": "images/sprites/sacerdote_ciudadela-v1.png",
+      "archivo": "images/sprites/sacerdote_ciudadela-v1.webp",
+      "bytes_original": 1762595,
+      "bytes_demo": 1093150,
+      "modo": "WebP sin pérdida, resolución original"
+    },
+    {
+      "original": "images/sprites/silvan-v1.png",
+      "archivo": "images/sprites/silvan-v1.webp",
+      "bytes_original": 1582407,
+      "bytes_demo": 963722,
+      "modo": "WebP sin pérdida, resolución original"
+    },
+    {
+      "original": "images/sprites/soldado1.png",
+      "archivo": "images/sprites/soldado1.webp",
+      "bytes_original": 1528787,
+      "bytes_demo": 933212,
+      "modo": "WebP sin pérdida, resolución original"
+    },
+    {
+      "original": "images/sprites/thrain1.png",
+      "archivo": "images/sprites/thrain1.webp",
+      "bytes_original": 2188896,
+      "bytes_demo": 1386680,
+      "modo": "WebP sin pérdida, resolución original"
+    },
+    {
+      "original": "images/sprites/tobbin1.png",
+      "archivo": "images/sprites/tobbin1.webp",
+      "bytes_original": 1680607,
+      "bytes_demo": 1032808,
+      "modo": "WebP sin pérdida, resolución original"
+    },
+    {
+      "original": "images/sprites/tomas1.png",
+      "archivo": "images/sprites/tomas1.webp",
+      "bytes_original": 1504944,
+      "bytes_demo": 921606,
+      "modo": "WebP sin pérdida, resolución original"
+    },
+    {
+      "original": "images/sprites/ysolda1.png",
+      "archivo": "images/sprites/ysolda1.webp",
+      "bytes_original": 1590054,
+      "bytes_demo": 996000,
+      "modo": "WebP sin pérdida, resolución original"
+    },
+    {
+      "original": "images/ui/flecha_e.png",
+      "archivo": "images/ui/flecha_e.webp",
+      "bytes_original": 774181,
+      "bytes_demo": 582536,
+      "modo": "WebP sin pérdida, resolución original"
+    },
+    {
+      "original": "images/ui/flecha_n.png",
+      "archivo": "images/ui/flecha_n.webp",
+      "bytes_original": 816384,
+      "bytes_demo": 581530,
+      "modo": "WebP sin pérdida, resolución original"
+    },
+    {
+      "original": "images/ui/flecha_o.png",
+      "archivo": "images/ui/flecha_o.webp",
+      "bytes_original": 774882,
+      "bytes_demo": 583568,
+      "modo": "WebP sin pérdida, resolución original"
+    },
+    {
+      "original": "images/ui/flecha_s.png",
+      "archivo": "images/ui/flecha_s.webp",
+      "bytes_original": 795062,
+      "bytes_demo": 579152,
+      "modo": "WebP sin pérdida, resolución original"
+    }
+  ]
+}

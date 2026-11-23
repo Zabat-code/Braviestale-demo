@@ -1,19 +1,25 @@
 {
-  "version": "0.1.8",
-  "release": "v0.1.8",
-  "date": "2026-10-17",
+  "version": "1.8.5",
+  "release": "v1.8.5",
+  "date": "2026-11-22",
   "web": "jugar/",
   "assets": {
-    "windows": "Braviestale-demo-20261017-v018-win.zip",
-    "linux": "Braviestale-demo-20261017-v018-linux64.tar.bz2",
-    "android": "Braviestale-demo-20261017-v018-android.apk",
-    "web": "Braviestale-demo-20261017-v018-web.zip"
+    "windows": "Braviestale-demo-1.8.5-win.zip",
+    "linux": "Braviestale-demo-1.8.5-linux.tar.bz2",
+    "android": "com.braviestale.demo185-1.8.5-1794672384-release.apk",
+    "web": "Braviestale-demo-1.8.5-web.zip"
   },
-  "web_archive": "Braviestale-demo-20261017-v018-web.zip",
+  "web_archive": "Braviestale-demo-1.8.5-web.zip",
   "sizes_mb": {
-    "windows": 437.8,
-    "linux": 431.1,
-    "android": 461.7,
-    "web": 454.4
+    "windows": 256.2,
+    "linux": 248.1,
+    "android": 281.7,
+    "web": 245.2
+  },
+  "sha256": {
+    "windows": "b5a674280599e3c10266931d242fc4f5f33e1deb7f8ca2b339ea373baafba64f",
+    "linux": "332310cd863cd28acef368488c124e3c2d486cd0fd6281ae0f35e4cdfe919dde",
+    "android": "9a4237c793633a899b08df1c1272ff588ad403c1e9da6b4d8bef6bd9d6df537d",
+    "web": "5109bbfb9d08f072d8a9f5ee606c6919cf01ebc2484ad134ae7be152071803cb"
   }
 }

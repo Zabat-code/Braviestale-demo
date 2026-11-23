@@ -1,4 +1,4 @@
-# Braviestale — Public Demo v0.1.8 / Demo pública v0.1.8
+# Braviestale — Public Demo v1.8.5 / Demo pública v1.8.5
 
 **[English](#english)** · **[Español](#español)** · [Play in browser / Jugar en el navegador](https://zabat-code.github.io/Braviestale-demo/)
 
@@ -17,22 +17,22 @@ Braviestale is a story-driven RPG built with Ren’Py. Explore Aldenbrock, meet 
 - Explore Aldenbrock and its surroundings, take on missions, meet people and make conversation choices.
 - Form a party, fight turn-based encounters, consult the journal and map, and save your game.
 
-### Download v0.1.8
+### Download v1.8.5
 
 | Platform | File | Size | SHA-256 |
 | --- | --- | ---: | --- |
-| Windows | [ZIP](https://github.com/Zabat-code/Braviestale-demo/releases/download/v0.1.8/Braviestale-demo-20261017-v018-win.zip) | 437.8 MiB | `bcde638eaf76171e6a9d7694f87cb32934232a70ce81407a5af22426e3bb0bba` |
-| Linux 64-bit | [TAR.BZ2](https://github.com/Zabat-code/Braviestale-demo/releases/download/v0.1.8/Braviestale-demo-20261017-v018-linux64.tar.bz2) | 431.1 MiB | `3939410a66e99d4b3393962cefee5beaf56bf9a27ee29bd3ed2e19b1278ea5f8` |
-| Android | [APK](https://github.com/Zabat-code/Braviestale-demo/releases/download/v0.1.8/Braviestale-demo-20261017-v018-android.apk) | 461.7 MiB | `90d1586c048a31b3cb736f7dd04a3ae55af2595842096a8945b4d781c59f691f` |
-| Web hosting | [ZIP](https://github.com/Zabat-code/Braviestale-demo/releases/download/v0.1.8/Braviestale-demo-20261017-v018-web.zip) | 454.4 MiB | `9e4390879aa23cf65f1f72caac6420f9c57419a75ae79d581691967905e4a476` |
+| Windows | [ZIP](https://github.com/Zabat-code/Braviestale-demo/releases/download/v1.8.5/Braviestale-demo-1.8.5-win.zip) | 256.2 MiB | `b5a674280599e3c10266931d242fc4f5f33e1deb7f8ca2b339ea373baafba64f` |
+| Linux 64-bit | [TAR.BZ2](https://github.com/Zabat-code/Braviestale-demo/releases/download/v1.8.5/Braviestale-demo-1.8.5-linux.tar.bz2) | 248.1 MiB | `332310cd863cd28acef368488c124e3c2d486cd0fd6281ae0f35e4cdfe919dde` |
+| Android | [APK](https://github.com/Zabat-code/Braviestale-demo/releases/download/v1.8.5/com.braviestale.demo185-1.8.5-1794672384-release.apk) | 281.7 MiB | `9a4237c793633a899b08df1c1272ff588ad403c1e9da6b4d8bef6bd9d6df537d` |
+| Web hosting | [ZIP](https://github.com/Zabat-code/Braviestale-demo/releases/download/v1.8.5/Braviestale-demo-1.8.5-web.zip) | 245.2 MiB | `5109bbfb9d08f072d8a9f5ee606c6919cf01ebc2484ad134ae7be152071803cb` |
 
-Extract the Windows ZIP and launch `Braviestale.exe`; extract the Linux archive and launch `Braviestale.sh`. Install the APK on Android (same signing certificate as v0.1.7). Or [play in your browser](https://zabat-code.github.io/Braviestale-demo/) without installation. The web ZIP is for hosting, not a desktop installer. Check your download against [SHA256SUMS.txt](https://github.com/Zabat-code/Braviestale-demo/releases/download/v0.1.8/SHA256SUMS.txt).
+Extract the Windows ZIP and launch `Braviestale.exe`; extract the Linux archive and launch `Braviestale.sh`. Install the APK on Android. Or [play in your browser](https://zabat-code.github.io/Braviestale-demo/) without installation. The web ZIP is for hosting, not a desktop installer. Check your download against the SHA-256 values in the [v1.8.5 release](https://github.com/Zabat-code/Braviestale-demo/releases/tag/v1.8.5).
 
-**Controls:** click or Enter advances dialogue; Esc opens the menu. The in-game manual covers attributes and your first steps. Start a new save for v0.1.8; earlier saves may be incompatible.
+**Controls:** click or Enter advances dialogue; Esc opens the menu. The in-game manual covers attributes and your first steps. Start a new save for v1.8.5; earlier saves may be incompatible.
 
-**Changes:** updated scripts and game assets on the optimized 0.1.7 base, a story cutoff and functioning final save, and four platform packages without development or QA utilities. Earlier releases remain available in the [release history](https://github.com/Zabat-code/Braviestale-demo/releases).
+**Changes:** v1.8.5 is a rebuild of the demo published on 2026-11-22 with updated content. It keeps the same platforms, languages and three difficulty levels. Earlier releases remain available in the [release history](https://github.com/Zabat-code/Braviestale-demo/releases); the documentation of the retired 0.1.4 demo is preserved in [`docs/historial/0.1.4/`](docs/historial/0.1.4/).
 
-**Testing:** Ren’Py lint and automated Light/Shadow ending-and-reload tests passed with combat abbreviated; package archives passed integrity checks; APK signature and version were verified; Linux reached the main interface under Xvfb. A full combat playthrough, Windows execution, Android on a physical device and interactive browser play have **not** been verified.
+**Verification:** the v1.8.5 release publishes SHA-256 checksums for all four downloadable files. Earlier validation notes for v0.1.8 are kept in its [release notes](https://github.com/Zabat-code/Braviestale-demo/releases/tag/v0.1.8).
 
 **Feedback:** [send your comments without a GitHub account](https://docs.google.com/forms/d/1zlJ3Kmif0oL7CGwoQfYrqyVuAhP5IyDl5G7-eD8bMSU/viewform). Include your platform, version, location in the game and what happened. Read the [manual](https://zabat-code.github.io/Braviestale-demo/manual.html) or the optional [spoiler walkthrough](https://zabat-code.github.io/Braviestale-demo/guia.html).
 
@@ -55,22 +55,22 @@ Braviestale es un RPG narrativo creado con Ren’Py. Explora Aldenbrock, conoce 
 - Explora Aldenbrock y sus caminos, acepta misiones, conoce a sus habitantes y toma decisiones en las conversaciones.
 - Forma un equipo, combate por turnos, consulta el diario y el mapa, y guarda tu partida.
 
-### Descargar v0.1.8
+### Descargar v1.8.5
 
 | Plataforma | Archivo | Tamaño | SHA-256 |
 | --- | --- | ---: | --- |
-| Windows | [ZIP](https://github.com/Zabat-code/Braviestale-demo/releases/download/v0.1.8/Braviestale-demo-20261017-v018-win.zip) | 437.8 MiB | `bcde638eaf76171e6a9d7694f87cb32934232a70ce81407a5af22426e3bb0bba` |
-| Linux 64 bits | [TAR.BZ2](https://github.com/Zabat-code/Braviestale-demo/releases/download/v0.1.8/Braviestale-demo-20261017-v018-linux64.tar.bz2) | 431.1 MiB | `3939410a66e99d4b3393962cefee5beaf56bf9a27ee29bd3ed2e19b1278ea5f8` |
-| Android | [APK](https://github.com/Zabat-code/Braviestale-demo/releases/download/v0.1.8/Braviestale-demo-20261017-v018-android.apk) | 461.7 MiB | `90d1586c048a31b3cb736f7dd04a3ae55af2595842096a8945b4d781c59f691f` |
-| Alojamiento web | [ZIP](https://github.com/Zabat-code/Braviestale-demo/releases/download/v0.1.8/Braviestale-demo-20261017-v018-web.zip) | 454.4 MiB | `9e4390879aa23cf65f1f72caac6420f9c57419a75ae79d581691967905e4a476` |
+| Windows | [ZIP](https://github.com/Zabat-code/Braviestale-demo/releases/download/v1.8.5/Braviestale-demo-1.8.5-win.zip) | 256.2 MiB | `b5a674280599e3c10266931d242fc4f5f33e1deb7f8ca2b339ea373baafba64f` |
+| Linux 64 bits | [TAR.BZ2](https://github.com/Zabat-code/Braviestale-demo/releases/download/v1.8.5/Braviestale-demo-1.8.5-linux.tar.bz2) | 248.1 MiB | `332310cd863cd28acef368488c124e3c2d486cd0fd6281ae0f35e4cdfe919dde` |
+| Android | [APK](https://github.com/Zabat-code/Braviestale-demo/releases/download/v1.8.5/com.braviestale.demo185-1.8.5-1794672384-release.apk) | 281.7 MiB | `9a4237c793633a899b08df1c1272ff588ad403c1e9da6b4d8bef6bd9d6df537d` |
+| Alojamiento web | [ZIP](https://github.com/Zabat-code/Braviestale-demo/releases/download/v1.8.5/Braviestale-demo-1.8.5-web.zip) | 245.2 MiB | `5109bbfb9d08f072d8a9f5ee606c6919cf01ebc2484ad134ae7be152071803cb` |
 
-Extrae el ZIP de Windows y abre `Braviestale.exe`; extrae el archivo de Linux y ejecuta `Braviestale.sh`. Instala el APK en Android (con el mismo certificado de firma que v0.1.7). O [juega desde el navegador](https://zabat-code.github.io/Braviestale-demo/) sin instalar nada. El ZIP web sirve para alojar el juego, no para instalarlo en PC. Comprueba la descarga con [SHA256SUMS.txt](https://github.com/Zabat-code/Braviestale-demo/releases/download/v0.1.8/SHA256SUMS.txt).
+Extrae el ZIP de Windows y abre `Braviestale.exe`; extrae el archivo de Linux y ejecuta `Braviestale.sh`. Instala el APK en Android. O [juega desde el navegador](https://zabat-code.github.io/Braviestale-demo/) sin instalar nada. El ZIP web sirve para alojar el juego, no para instalarlo en PC. Comprueba la descarga con los valores SHA-256 de la [release v1.8.5](https://github.com/Zabat-code/Braviestale-demo/releases/tag/v1.8.5).
 
-**Controles:** clic o Enter avanza los diálogos; Esc abre el menú. El manual del juego explica atributos y primeros pasos. Inicia una partida nueva en v0.1.8; los guardados anteriores podrían no ser compatibles.
+**Controles:** clic o Enter avanza los diálogos; Esc abre el menú. El manual del juego explica atributos y primeros pasos. Inicia una partida nueva en v1.8.5; los guardados anteriores podrían no ser compatibles.
 
-**Cambios:** scripts y recursos actualizados sobre la base optimizada 0.1.7, cierre de la historia con guardado final funcional y cuatro paquetes sin utilidades de desarrollo o QA. Las versiones anteriores siguen en el [historial de releases](https://github.com/Zabat-code/Braviestale-demo/releases).
+**Cambios:** v1.8.5 es una reconstrucción de la demo publicada el 22/11/2026 con contenido actualizado. Mantiene las mismas plataformas, idiomas y tres niveles de dificultad. Las versiones anteriores siguen en el [historial de releases](https://github.com/Zabat-code/Braviestale-demo/releases); la documentación de la demo 0.1.4, retirada, se conserva en [`docs/historial/0.1.4/`](docs/historial/0.1.4/).
 
-**Pruebas:** pasaron el lint de Ren’Py y las pruebas automáticas de las rutas Luz/Sombra y carga del final con combates abreviados. Se verificaron la integridad de los archivos, la firma y versión del APK y el arranque de Linux bajo Xvfb. **No** se verificó un recorrido completo de combate ni la ejecución en Windows, un Android físico o una partida interactiva en el navegador.
+**Verificación:** la release v1.8.5 publica sumas SHA-256 para los cuatro archivos descargables. Las notas de validación de v0.1.8 se conservan en su [release](https://github.com/Zabat-code/Braviestale-demo/releases/tag/v0.1.8).
 
 **Opiniones:** [envía tus comentarios sin cuenta de GitHub](https://docs.google.com/forms/d/1zlJ3Kmif0oL7CGwoQfYrqyVuAhP5IyDl5G7-eD8bMSU/viewform). Indica plataforma, versión, lugar del juego y lo ocurrido. Consulta el [manual](https://zabat-code.github.io/Braviestale-demo/manual.html) o la [guía opcional con spoilers](https://zabat-code.github.io/Braviestale-demo/guia.html).
 

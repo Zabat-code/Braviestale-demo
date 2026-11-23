@@ -1,0 +1,16 @@
+BRAVIESTALE DEMO 0.1.4 — 10 octubre 2026
+
+Recorrido: desde el inicio hasta despertar en el hospital/refugio después del asalto de Ciudadela. Allí termina la demostración.
+Incluye la nueva secuencia ilustrada del puente, diálogos grandes y combos aprobados.
+
+WINDOWS: extrae el ZIP completo y ejecuta Braviestale.exe dentro de la carpeta.
+LINUX: extrae el TAR.BZ2 completo y ejecuta Braviestale.sh dentro de la carpeta.
+ANDROID: instala el APK firmado. Requiere Android 5.0 o superior; incluye arm64-v8a, armeabi-v7a y x86_64. El teléfono puede pedir permiso para instalar desde la aplicación que abre el APK.
+
+Las partidas de esta edición se guardan por separado (Braviestale-demo-014).
+Los archivos .sha256 permiten comprobar la integridad de cada descarga.
+
+Preparación y optimización realizadas en una copia independiente de JH. Sprites sin pérdida y sin cambiar resolución; fondos en WebP de calidad alta y resolución original; audio original. Se excluyeron recursos posteriores al final de la demo y herramientas de desarrollo.
+
+Comprobaciones: inicio real con el ejecutable Linux, referencias de personajes, recursos idénticos en las tres plataformas, integridad de paquetes y firma del APK. Las dos variantes del hospital y cargar el guardado final pasaron en copia de prueba con combates abreviados. No es una prueba de balance completa.
+Pendiente: ejecución nativa en Windows y prueba en teléfono Android.
