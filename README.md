@@ -24,7 +24,7 @@ Braviestale is a story-driven RPG built with Ren’Py. Explore Aldenbrock, meet 
 | Windows | [ZIP](https://github.com/Zabat-code/Braviestale-demo/releases/download/v1.8.5/Braviestale-demo-1.8.5-win.zip) | 256.2 MiB | `b5a674280599e3c10266931d242fc4f5f33e1deb7f8ca2b339ea373baafba64f` |
 | Linux 64-bit | [TAR.BZ2](https://github.com/Zabat-code/Braviestale-demo/releases/download/v1.8.5/Braviestale-demo-1.8.5-linux.tar.bz2) | 248.1 MiB | `332310cd863cd28acef368488c124e3c2d486cd0fd6281ae0f35e4cdfe919dde` |
 | Android | [APK](https://github.com/Zabat-code/Braviestale-demo/releases/download/v1.8.5/com.braviestale.demo185-1.8.5-1794672384-release.apk) | 281.7 MiB | `9a4237c793633a899b08df1c1272ff588ad403c1e9da6b4d8bef6bd9d6df537d` |
-| Web hosting | [ZIP](https://github.com/Zabat-code/Braviestale-demo/releases/download/v1.8.5/Braviestale-demo-1.8.5-web.zip) | 244.5 MiB | `f56aae492b2a89e70d2e83d711cde24fdb0a4f8e2aa15864bbf4ab8d7e00d69e` |
+| Web hosting | [ZIP](https://github.com/Zabat-code/Braviestale-demo/releases/download/v1.8.5/Braviestale-demo-1.8.5-web.zip) | 244.5 MiB | `b668c25f7edf56f1bd7187ee433bdbbbf95e1f35ea40503cf2e10a0d4c491ffa` |
 
 Extract the Windows ZIP and launch `Braviestale.exe`; extract the Linux archive and launch `Braviestale.sh`. Install the APK on Android. Or [play in your browser](https://zabat-code.github.io/Braviestale-demo/) without installation. The web ZIP is for hosting, not a desktop installer. Check your download against the SHA-256 values in the [v1.8.5 release](https://github.com/Zabat-code/Braviestale-demo/releases/tag/v1.8.5).
 
@@ -32,7 +32,7 @@ Extract the Windows ZIP and launch `Braviestale.exe`; extract the Linux archive 
 
 **Changes:** v1.8.5 is a rebuild of the demo published on 2026-11-22 with updated content. It keeps the same platforms, languages and three difficulty levels. Earlier releases remain available in the [release history](https://github.com/Zabat-code/Braviestale-demo/releases); the documentation of the retired 0.1.4 demo is preserved in [`docs/historial/0.1.4/`](docs/historial/0.1.4/).
 
-**Web fix (v1.8.5b):** the web build now includes the `gameshark_bypass_locks` default, so the guard check no longer raises `NameError` when reaching the Aldenbrock gate. Only the web archive and the browser deployment changed; the Windows, Linux and Android files are unchanged.
+**Web fix (v1.8.5c):** the web build now includes the `gameshark_bypass_locks` default (no more `NameError` at the Aldenbrock gate), restores the node sprite scale for the 720x1080 art, uses the flat Kael battle sprites instead of out-of-bounds crops, animates the group retreat after a victory, and translates `Poción`/`Antídoto` in the Aldric exam reward. Only the web archive and the browser deployment changed; the Windows, Linux and Android files are unchanged.
 
 **Verification:** the v1.8.5 release publishes SHA-256 checksums for all four downloadable files. Earlier validation notes for v0.1.8 are kept in its [release notes](https://github.com/Zabat-code/Braviestale-demo/releases/tag/v0.1.8).
 
@@ -64,7 +64,7 @@ Braviestale es un RPG narrativo creado con Ren’Py. Explora Aldenbrock, conoce 
 | Windows | [ZIP](https://github.com/Zabat-code/Braviestale-demo/releases/download/v1.8.5/Braviestale-demo-1.8.5-win.zip) | 256.2 MiB | `b5a674280599e3c10266931d242fc4f5f33e1deb7f8ca2b339ea373baafba64f` |
 | Linux 64 bits | [TAR.BZ2](https://github.com/Zabat-code/Braviestale-demo/releases/download/v1.8.5/Braviestale-demo-1.8.5-linux.tar.bz2) | 248.1 MiB | `332310cd863cd28acef368488c124e3c2d486cd0fd6281ae0f35e4cdfe919dde` |
 | Android | [APK](https://github.com/Zabat-code/Braviestale-demo/releases/download/v1.8.5/com.braviestale.demo185-1.8.5-1794672384-release.apk) | 281.7 MiB | `9a4237c793633a899b08df1c1272ff588ad403c1e9da6b4d8bef6bd9d6df537d` |
-| Alojamiento web | [ZIP](https://github.com/Zabat-code/Braviestale-demo/releases/download/v1.8.5/Braviestale-demo-1.8.5-web.zip) | 244.5 MiB | `f56aae492b2a89e70d2e83d711cde24fdb0a4f8e2aa15864bbf4ab8d7e00d69e` |
+| Alojamiento web | [ZIP](https://github.com/Zabat-code/Braviestale-demo/releases/download/v1.8.5/Braviestale-demo-1.8.5-web.zip) | 244.5 MiB | `b668c25f7edf56f1bd7187ee433bdbbbf95e1f35ea40503cf2e10a0d4c491ffa` |
 
 Extrae el ZIP de Windows y abre `Braviestale.exe`; extrae el archivo de Linux y ejecuta `Braviestale.sh`. Instala el APK en Android. O [juega desde el navegador](https://zabat-code.github.io/Braviestale-demo/) sin instalar nada. El ZIP web sirve para alojar el juego, no para instalarlo en PC. Comprueba la descarga con los valores SHA-256 de la [release v1.8.5](https://github.com/Zabat-code/Braviestale-demo/releases/tag/v1.8.5).
 
@@ -72,7 +72,7 @@ Extrae el ZIP de Windows y abre `Braviestale.exe`; extrae el archivo de Linux y 
 
 **Cambios:** v1.8.5 es una reconstrucción de la demo publicada el 22/11/2026 con contenido actualizado. Mantiene las mismas plataformas, idiomas y tres niveles de dificultad. Las versiones anteriores siguen en el [historial de releases](https://github.com/Zabat-code/Braviestale-demo/releases); la documentación de la demo 0.1.4, retirada, se conserva en [`docs/historial/0.1.4/`](docs/historial/0.1.4/).
 
-**Corrección web (v1.8.5b):** la build web ya incluye el valor por defecto `gameshark_bypass_locks`, así que el control de guardia ya no lanza `NameError` al llegar a la puerta de Aldenbrock. Solo cambiaron el archivo web y el despliegue del navegador; los archivos de Windows, Linux y Android no se modificaron.
+**Corrección web (v1.8.5c):** la build web ya incluye el valor por defecto `gameshark_bypass_locks` (adiós `NameError` en la puerta de Aldenbrock), restaura la escala de los sprites de nodo para el arte de 720x1080, usa los sprites planos de Kael en combate en lugar de recortes fuera de límites, anima la retirada del grupo tras la victoria y traduce `Poción`/`Antídoto` en el premio del examen de Aldric. Solo cambiaron el archivo web y el despliegue del navegador; los archivos de Windows, Linux y Android no se modificaron.
 
 **Verificación:** la release v1.8.5 publica sumas SHA-256 para los cuatro archivos descargables. Las notas de validación de v0.1.8 se conservan en su [release](https://github.com/Zabat-code/Braviestale-demo/releases/tag/v0.1.8).
 

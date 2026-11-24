@@ -1,6 +1,6 @@
 {
   "version": "1.8.5",
-  "release": "v1.8.5b",
+  "release": "v1.8.5c",
   "date": "2026-11-22",
   "web": "jugar/",
   "assets": {
@@ -20,6 +20,6 @@
     "windows": "b5a674280599e3c10266931d242fc4f5f33e1deb7f8ca2b339ea373baafba64f",
     "linux": "332310cd863cd28acef368488c124e3c2d486cd0fd6281ae0f35e4cdfe919dde",
     "android": "9a4237c793633a899b08df1c1272ff588ad403c1e9da6b4d8bef6bd9d6df537d",
-    "web": "f56aae492b2a89e70d2e83d711cde24fdb0a4f8e2aa15864bbf4ab8d7e00d69e"
+    "web": "b668c25f7edf56f1bd7187ee433bdbbbf95e1f35ea40503cf2e10a0d4c491ffa"
   }
 }
