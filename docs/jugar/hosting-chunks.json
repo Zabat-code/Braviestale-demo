@@ -1,157 +1,152 @@
 {
   "version": "1.8.5",
-  "game_zip_sha256": "9a227b821d2ccaaf98fe728c0737f47be4ca64b73db3102e57ff1773aa25ff4c",
-  "bytes": 243716330,
+  "game_zip_sha256": "be3c902e75a427b73443f4cd89a357ad1fe90655f45d16bf684ae2896763cda9",
+  "bytes": 242920570,
   "parts": [
     {
-      "url": "game.zip.v1.8.5.8m.part000",
+      "url": "game.zip.v1.8.5b.8m.part000",
       "bytes": 8388608,
-      "sha256": "6ba951aa76e587e7c58daf44d328940070af076749ab4c831e97dc798106ea83"
+      "sha256": "8910e11d30f68ccc93e19f1b892e4336cce9adc36021f7e293bec319ea08898a"
     },
     {
-      "url": "game.zip.v1.8.5.8m.part001",
+      "url": "game.zip.v1.8.5b.8m.part001",
       "bytes": 8388608,
-      "sha256": "89ae28ec962774a53c540487d5c2abd01906104f85691a426646a29274083441"
+      "sha256": "dc21412575fb84dae9bb105f84eef1fdfc7b79337e4b1ad1dbed890ba6dda2ee"
     },
     {
-      "url": "game.zip.v1.8.5.8m.part002",
+      "url": "game.zip.v1.8.5b.8m.part002",
       "bytes": 8388608,
-      "sha256": "2c052051c3c65d59a3b2df233314c381377ab2694a524ef2062e576e416e0fc7"
+      "sha256": "275f7d51876ea14fbba5142a81a64acb7803b83f36d3effb36ca151f97f20db4"
     },
     {
-      "url": "game.zip.v1.8.5.8m.part003",
+      "url": "game.zip.v1.8.5b.8m.part003",
       "bytes": 8388608,
-      "sha256": "7e837de852223858ce1276215f25da2e31ab3568a196f8d477457c06d380e112"
+      "sha256": "d4a29cd5152e785191bd39814c5c1c1936c30f4defa54c96df22c22f690ef657"
     },
     {
-      "url": "game.zip.v1.8.5.8m.part004",
+      "url": "game.zip.v1.8.5b.8m.part004",
       "bytes": 8388608,
-      "sha256": "05c51eeef09f4bf01b66c6e600aebc64d79b07c61a24aed0f3d4f8cda78d4582"
+      "sha256": "6359671a1c486a7d192f384581918050021011c114ba7b6d590c5f02a9869c01"
     },
     {
-      "url": "game.zip.v1.8.5.8m.part005",
+      "url": "game.zip.v1.8.5b.8m.part005",
       "bytes": 8388608,
-      "sha256": "d4aff79bbe29121c0f443c60db9b6713b42958788f98fdf4024f4cc2cc55988b"
+      "sha256": "c320e7be1e49e65113f662dce39fedfc063e7542c6d4428de421fa937e126a57"
     },
     {
-      "url": "game.zip.v1.8.5.8m.part006",
+      "url": "game.zip.v1.8.5b.8m.part006",
       "bytes": 8388608,
-      "sha256": "8bae6b08336e230b22e6f84107e02e36ab4eb71926c7988f398472bad67ee285"
+      "sha256": "2f59ad2aec1e632989da4df7ebdb630ee9d1fe6e4ed6d8085ae44f6ca5b61216"
     },
     {
-      "url": "game.zip.v1.8.5.8m.part007",
+      "url": "game.zip.v1.8.5b.8m.part007",
       "bytes": 8388608,
-      "sha256": "b44488122f97793819be8b201497ea58aa5b147d8e837990f2175a76cd43e67b"
+      "sha256": "8b76f99b4a708a9475c28b46708bdbd4b758ee127b017e7c6e0869bcf356611d"
     },
     {
-      "url": "game.zip.v1.8.5.8m.part008",
+      "url": "game.zip.v1.8.5b.8m.part008",
       "bytes": 8388608,
-      "sha256": "ea8acea1b3e460f0d333c3c1fc16667701395ffe91a61934f8dbc2554f45e716"
+      "sha256": "f62c1bfe7d426fa1c1333c2bab6872e8fe968f226fed9a89fbb6efa7a89e2e9c"
     },
     {
-      "url": "game.zip.v1.8.5.8m.part009",
+      "url": "game.zip.v1.8.5b.8m.part009",
       "bytes": 8388608,
-      "sha256": "0cca0447fed7fde9e6e3f0b08655101416d9c986b30518bea1742ebc5d85e54a"
+      "sha256": "903371c91c618e6f76a2cafee0430f7ce09b8559dc33993883dfbecf578dc02e"
     },
     {
-      "url": "game.zip.v1.8.5.8m.part010",
+      "url": "game.zip.v1.8.5b.8m.part010",
       "bytes": 8388608,
-      "sha256": "9129e080b0ac92a1c1027ace53fea5367a82bdb6e19f7821ebaf2775e152c408"
+      "sha256": "7d737816f5795435170865589548ba68bf54f60fbe81bb369f42f948bad4a43a"
     },
     {
-      "url": "game.zip.v1.8.5.8m.part011",
+      "url": "game.zip.v1.8.5b.8m.part011",
       "bytes": 8388608,
-      "sha256": "11b2cd5be61ff2761cdf0019b0b5bc1f3e2cdcd052d3bd3c97d77142ddd04611"
+      "sha256": "8c677519050f4e089fa0a74a08ad0978125aee8deaf8427c5c3b0c507a701ba8"
     },
     {
-      "url": "game.zip.v1.8.5.8m.part012",
+      "url": "game.zip.v1.8.5b.8m.part012",
       "bytes": 8388608,
-      "sha256": "cae13f43c32b1013578957083181d02ce4bad74e6753fd668592403b097ac2fb"
+      "sha256": "e38c9830cb7cec0ba8e1bb6e0e4df5333b7617eb42bde77f216700dc580d6dd4"
     },
     {
-      "url": "game.zip.v1.8.5.8m.part013",
+      "url": "game.zip.v1.8.5b.8m.part013",
       "bytes": 8388608,
-      "sha256": "dc1e391c808ece6a8ed6884d5cdb453e4781744be4fc646c721118e6bacac5b1"
+      "sha256": "d1d6d151aed669768701b06f3b6fe427f92d88fbc9b3bd127d35bb50b8853388"
     },
     {
-      "url": "game.zip.v1.8.5.8m.part014",
+      "url": "game.zip.v1.8.5b.8m.part014",
       "bytes": 8388608,
-      "sha256": "f3b8372a6935a0de265eace2b21f2913bf63ebd3537f4027707045d9506e9f22"
+      "sha256": "ce2211356efe3c0564b2ce88b51514005a73f0783ac84c9cb805651112946ab6"
     },
     {
-      "url": "game.zip.v1.8.5.8m.part015",
+      "url": "game.zip.v1.8.5b.8m.part015",
       "bytes": 8388608,
-      "sha256": "17af16d433248f8eaef665b6b74110766ab3c8917441027f7764eeeb91648ee9"
+      "sha256": "14293f3472856e6c5da99d4a87c64a4f31283e4bcd1f6fe172ef461e62898308"
     },
     {
-      "url": "game.zip.v1.8.5.8m.part016",
+      "url": "game.zip.v1.8.5b.8m.part016",
       "bytes": 8388608,
-      "sha256": "4ee5f0f8a8d33adffa600779538e0dc5ccfbab96bddd0ad0a3b3ca4be5da439d"
+      "sha256": "c0b496f4140d3b796d9a7239752c0712396fa81ce077158bffcb722292630c1d"
     },
     {
-      "url": "game.zip.v1.8.5.8m.part017",
+      "url": "game.zip.v1.8.5b.8m.part017",
       "bytes": 8388608,
-      "sha256": "be289935680c9493c02cd6ae2bac4f16ee380d7571760e5141f038e645ef319e"
+      "sha256": "d507595ecd54c25418d6365a5d0ab5740f735102f4b34f54d866947357eb4192"
     },
     {
-      "url": "game.zip.v1.8.5.8m.part018",
+      "url": "game.zip.v1.8.5b.8m.part018",
       "bytes": 8388608,
-      "sha256": "339a548a7f8bb32e44503ce3b34ec826db1c7a40c771b7b510d63064f4b9fceb"
+      "sha256": "680c4a1a4b1d73607f6aa86fc499bce43badbf90f6ebb1df95d625174ac13d74"
     },
     {
-      "url": "game.zip.v1.8.5.8m.part019",
+      "url": "game.zip.v1.8.5b.8m.part019",
       "bytes": 8388608,
-      "sha256": "deaf1276b3ec29eedd810c147053aa4038a8cbb3749dbb6bd9e76493241a480f"
+      "sha256": "e0c0f88de79e640bfeb1bc065d0ae70948b5734ad9ca276d99e2c47564688452"
     },
     {
-      "url": "game.zip.v1.8.5.8m.part020",
+      "url": "game.zip.v1.8.5b.8m.part020",
       "bytes": 8388608,
-      "sha256": "9885fdf2ee14d1b8b1ca4e303bdbe4248b942a004acba6612c50634d333572e5"
+      "sha256": "06af6324d1c531755ae67558532e75c91e31424a9da29e7294e10df5cc473f59"
     },
     {
-      "url": "game.zip.v1.8.5.8m.part021",
+      "url": "game.zip.v1.8.5b.8m.part021",
       "bytes": 8388608,
-      "sha256": "5dbca11141f8da354123ffed7d82d6794af0324e2fb814fe98802f050705d0db"
+      "sha256": "02ba21df62abb145e07cf6edc26283ee7546daf0b23e312c045f1f634938bf2b"
     },
     {
-      "url": "game.zip.v1.8.5.8m.part022",
+      "url": "game.zip.v1.8.5b.8m.part022",
       "bytes": 8388608,
-      "sha256": "a2800868e8c13d1a17e5f09af2de6307f8cb5a83143c4fbc08cc41fe831faa24"
+      "sha256": "1e16e899b44958c2c639ddabe97a9fc9b4b486fa8dc22e3ca0c056b1dd88a8fe"
     },
     {
-      "url": "game.zip.v1.8.5.8m.part023",
+      "url": "game.zip.v1.8.5b.8m.part023",
       "bytes": 8388608,
-      "sha256": "4dac2a25efabbc577da830c330a52b0dc78d949fc4a37a0cf4a9aa93075a8b31"
+      "sha256": "9e45ad132a66c60346f6fd543e48a80f7de9e8cfbfe8c61c56cdac3ed06125e6"
     },
     {
-      "url": "game.zip.v1.8.5.8m.part024",
+      "url": "game.zip.v1.8.5b.8m.part024",
       "bytes": 8388608,
-      "sha256": "7e99bdae14bce8fdf86a062bbacc399fee21e77fa31ec002edf7c38b5932f17b"
+      "sha256": "f06564ff4ea2645b48fe9896b0d982d95e81832c621603e6b3fd9afaa69629ac"
     },
     {
-      "url": "game.zip.v1.8.5.8m.part025",
+      "url": "game.zip.v1.8.5b.8m.part025",
       "bytes": 8388608,
-      "sha256": "52a14606e414e9977a038fc5170989de6f58957e001a8a742f31262542538440"
+      "sha256": "ad1e6da086c71ac7e2ca3371c2048b1edf8d83b34ab889c366e25bc74b7a9d2f"
     },
     {
-      "url": "game.zip.v1.8.5.8m.part026",
+      "url": "game.zip.v1.8.5b.8m.part026",
       "bytes": 8388608,
-      "sha256": "63c85922fffce6453bcac84396c46caa5fe663585ca43be676a59f22bff0d0d9"
+      "sha256": "7bb77ac4c997b1c42dc9644c1e2ab87b3fd23498dc3521b8f1b19bcc35d97699"
     },
     {
-      "url": "game.zip.v1.8.5.8m.part027",
+      "url": "game.zip.v1.8.5b.8m.part027",
       "bytes": 8388608,
-      "sha256": "231f7a8433a2ced6a03f03689b5ef6df90e2d933677a6912201473f61ed97022"
+      "sha256": "20d7557cbc756d985a9858cf5afdd4cd1f63ca3c75c7f791f6137cce35ae3372"
     },
     {
-      "url": "game.zip.v1.8.5.8m.part028",
-      "bytes": 8388608,
-      "sha256": "bb8d8f8420a7d45d7ef7f22eeb52f772772a8d15e2381ca7961539e8a4568064"
-    },
-    {
-      "url": "game.zip.v1.8.5.8m.part029",
-      "bytes": 446698,
-      "sha256": "e7bec05627473f2a81e6cad4ba8f331e7ca9cfb7a89ce0fecad0862fef1a9ca9"
+      "url": "game.zip.v1.8.5b.8m.part028",
+      "bytes": 8039546,
+      "sha256": "14ce92a2b22071b216f508401c40884f578f2002eb699996e9f1b09b59f7aa2c"
     }
   ]
 }
