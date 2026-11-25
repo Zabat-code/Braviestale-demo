@@ -1,4 +1,9 @@
 'use strict';
+// Compatibilidad con enlaces antiguos: #play apunta a la sección #jugar.
+if (location.hash === '#play') {
+  try { history.replaceState(null, '', location.pathname + location.search + '#jugar'); }
+  catch { location.hash = 'jugar'; }
+}
 const audio=document.getElementById('ambient-audio');
 const audioToggle=document.getElementById('audio-toggle');
 const audioLabel=document.getElementById('audio-label');
@@ -13,7 +18,7 @@ audio.addEventListener('pause',()=>audioState(false));
 document.getElementById('pause-audio').addEventListener('click',()=>audio.pause());
 // Al volver a la pestaña, el usuario decide si quiere reanudar la música.
 document.addEventListener('visibilitychange',()=>{if(document.hidden&&!audio.paused)audio.pause();});
-const shots=[{id:'coliseo',title:'Combate · interfaz 0.1.7',note:'Captura preparada con el motor del juego, sin acontecimientos de la historia.',alt:'Kael, Mira y Dorian frente a goblins.'},{id:'forja',title:'Aldenbrock · armas para el grupo',note:'Exploración · captura del juego',alt:'Catálogo de armas de la forja de Aldenbrock, con precios y bonificaciones.'},{id:'bestiario',title:'Diario de campo · Goblin Ratero',note:'Bestiario real · demo 0.1.7',alt:'Boceto y observaciones del Goblin Ratero.'},{id:'mapa',title:'Mapa continental · Aldenbrock',note:'Exploración · captura del juego',alt:'Mapa continental centrado en la plaza, con los caminos visitados de Aldenbrock.'}];
+const shots=[{id:'coliseo',title:'Combate · interfaz 1.8.5',note:'Captura preparada con el motor del juego, sin acontecimientos de la historia.',alt:'Kael, Mira y Dorian frente a goblins.'},{id:'forja',title:'Aldenbrock · armas para el grupo',note:'Exploración · captura del juego',alt:'Catálogo de armas de la forja de Aldenbrock, con precios y bonificaciones.'},{id:'bestiario',title:'Diario de campo · Goblin Ratero',note:'Bestiario real · demo 1.8.5',alt:'Boceto y observaciones del Goblin Ratero.'},{id:'mapa',title:'Mapa continental · Aldenbrock',note:'Exploración · captura del juego',alt:'Mapa continental centrado en la plaza, con los caminos visitados de Aldenbrock.'}];
 let currentShot=0;
 const dialog=document.getElementById('lightbox');
 const dialogImg=document.getElementById('lightbox-image');
@@ -63,7 +68,7 @@ startGame.addEventListener('click',()=>{
  audio.pause();
  const frame=document.createElement('iframe');frame.id='game-frame';frame.title='Braviestale · demo 1.8.5';frame.src='jugar/';frame.allow='fullscreen; autoplay';frame.setAttribute('allowfullscreen','');
  gameShell.replaceChildren(frame);fullscreenGame.disabled=false;startGame.disabled=true;startGame.textContent=tr('Juego iniciado');
- document.getElementById('web-status').textContent=tr('Cargando el juego. Espera al menú Nueva partida; el progreso aparece dentro del reproductor.');
+ document.getElementById('web-status').textContent=tr('Cargando el juego. Descarga 242,9 MB (231,7 MiB) en 29 partes verificadas; espera al menú Nueva partida. El progreso aparece dentro del reproductor.');
 });
 fullscreenGame.addEventListener('click',async()=>{try{if(document.fullscreenElement)await document.exitFullscreen();else if(gameShell.requestFullscreen)await gameShell.requestFullscreen();else window.open('jugar/','_blank','noopener');}catch{document.getElementById('web-status').textContent=tr('Usa Abrir en una pestaña aparte si tu navegador no permite pantalla completa.');}});
-document.addEventListener('languagechange',()=>{showCharacters();if(startGame.disabled){startGame.textContent=tr('Juego iniciado');document.getElementById('web-status').textContent=tr('Cargando el juego. Espera al menú Nueva partida; el progreso aparece dentro del reproductor.');}});
+document.addEventListener('languagechange',()=>{showCharacters();if(startGame.disabled){startGame.textContent=tr('Juego iniciado');document.getElementById('web-status').textContent=tr('Cargando el juego. Descarga 242,9 MB (231,7 MiB) en 29 partes verificadas; espera al menú Nueva partida. El progreso aparece dentro del reproductor.');}});
